@@ -1,5 +1,5 @@
 {
-  "module": "colorsync",
+  "id": "colorsync",
   "displayName": "ColorSync Utility",
   "description": "Launch macOS ColorSync Utility for color profile management.",
   "version": "1.0.0",

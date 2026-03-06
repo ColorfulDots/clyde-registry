@@ -1,5 +1,5 @@
 {
-  "module": "mimestream",
+  "id": "mimestream",
   "displayName": "Mimestream",
   "description": "Deep link into Mimestream Gmail client.",
   "version": "1.0.0",

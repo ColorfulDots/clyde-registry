@@ -1,5 +1,5 @@
 {
-  "module": "doordash",
+  "id": "doordash",
   "displayName": "DoorDash",
   "description": "Order food delivery from DoorDash.",
   "version": "1.0.0",

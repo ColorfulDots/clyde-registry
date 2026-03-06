@@ -1,5 +1,5 @@
 {
-  "module": "fork",
+  "id": "fork",
   "displayName": "Fork",
   "description": "Launch Fork Git client.",
   "version": "1.0.0",

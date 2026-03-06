@@ -1,5 +1,5 @@
 {
-  "module": "network-tools",
+  "id": "network-tools",
   "displayName": "Network Tools",
   "description": "Handy network diagnostics and utilities.",
   "version": "1.0.0",

@@ -1,5 +1,5 @@
 {
-  "module": "omnifocus",
+  "id": "omnifocus",
   "displayName": "OmniFocus",
   "description": "Deep link into OmniFocus for advanced task management.",
   "version": "1.0.0",

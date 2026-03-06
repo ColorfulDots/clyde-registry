@@ -1,5 +1,5 @@
 {
-  "module": "vlc",
+  "id": "vlc",
   "displayName": "VLC",
   "description": "Launch VLC media player.",
   "version": "1.0.0",

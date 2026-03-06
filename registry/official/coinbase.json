@@ -1,5 +1,5 @@
 {
-  "module": "coinbase",
+  "id": "coinbase",
   "displayName": "Coinbase",
   "description": "Buy, sell, and manage crypto on Coinbase.",
   "version": "1.0.0",

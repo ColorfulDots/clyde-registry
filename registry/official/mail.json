@@ -1,5 +1,5 @@
 {
-  "module": "mail",
+  "id": "mail",
   "displayName": "Apple Mail",
   "description": "Deep link into Apple Mail.",
   "version": "1.0.0",

@@ -1,5 +1,5 @@
 {
-  "module": "bear",
+  "id": "bear",
   "displayName": "Bear",
   "description": "Deep link into Bear notes app.",
   "version": "1.0.0",

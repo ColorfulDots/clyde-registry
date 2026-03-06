@@ -1,5 +1,5 @@
 {
-  "module": "ubereats",
+  "id": "ubereats",
   "displayName": "Uber Eats",
   "description": "Order food delivery from Uber Eats.",
   "version": "1.0.0",

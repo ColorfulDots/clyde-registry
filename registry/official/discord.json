@@ -1,5 +1,5 @@
 {
-  "module": "discord",
+  "id": "discord",
   "displayName": "Discord",
   "description": "Deep link into Discord servers and channels.",
   "version": "1.0.0",

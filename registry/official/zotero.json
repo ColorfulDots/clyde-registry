@@ -1,5 +1,5 @@
 {
-  "module": "zotero",
+  "id": "zotero",
   "displayName": "Zotero",
   "description": "Deep link into Zotero for research and citations.",
   "version": "1.0.0",

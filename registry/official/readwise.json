@@ -1,5 +1,5 @@
 {
-  "module": "readwise",
+  "id": "readwise",
   "displayName": "Readwise Reader",
   "description": "Deep link into Readwise Reader for highlights and articles.",
   "version": "1.0.0",

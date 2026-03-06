@@ -1,5 +1,5 @@
 {
-  "module": "system-preferences",
+  "id": "system-preferences",
   "displayName": "System Settings",
   "description": "Deep link into macOS System Settings panels.",
   "version": "1.0.0",

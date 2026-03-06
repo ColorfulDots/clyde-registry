@@ -1,5 +1,5 @@
 {
-  "module": "jira",
+  "id": "jira",
   "displayName": "Jira",
   "description": "Deep link into Jira issues and boards.",
   "version": "1.0.0",

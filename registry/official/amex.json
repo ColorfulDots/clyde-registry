@@ -1,5 +1,5 @@
 {
-  "module": "amex",
+  "id": "amex",
   "displayName": "American Express",
   "description": "Manage your American Express credit card.",
   "version": "1.0.0",

@@ -1,5 +1,5 @@
 {
-  "module": "iina",
+  "id": "iina",
   "displayName": "IINA",
   "description": "Launch IINA video player.",
   "version": "1.0.0",

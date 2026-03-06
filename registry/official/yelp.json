@@ -1,5 +1,5 @@
 {
-  "module": "yelp",
+  "id": "yelp",
   "displayName": "Yelp",
   "description": "Find and review local restaurants.",
   "version": "1.0.0",

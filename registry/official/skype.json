@@ -1,5 +1,5 @@
 {
-  "module": "skype",
+  "id": "skype",
   "displayName": "Skype",
   "description": "Deep link into Skype for calls and messaging.",
   "version": "1.0.0",

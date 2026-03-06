@@ -1,5 +1,5 @@
 {
-  "module": "drafts",
+  "id": "drafts",
   "displayName": "Drafts",
   "description": "Deep link into Drafts for quick capture and actions.",
   "version": "1.0.0",

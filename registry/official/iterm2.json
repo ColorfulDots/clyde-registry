@@ -1,5 +1,5 @@
 {
-  "module": "iterm2",
+  "id": "iterm2",
   "displayName": "iTerm2",
   "description": "Launch iTerm2 and open terminal sessions.",
   "version": "1.0.0",

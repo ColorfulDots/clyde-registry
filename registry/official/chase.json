@@ -1,5 +1,5 @@
 {
-  "module": "chase",
+  "id": "chase",
   "displayName": "Chase",
   "description": "Access your Chase bank account.",
   "version": "1.0.0",

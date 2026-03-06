@@ -1,5 +1,5 @@
 {
-  "module": "disk-utility",
+  "id": "disk-utility",
   "displayName": "Disk Utility",
   "description": "Launch macOS Disk Utility for disk management.",
   "version": "1.0.0",

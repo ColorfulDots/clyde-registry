@@ -1,5 +1,5 @@
 {
-  "module": "terminal",
+  "id": "terminal",
   "displayName": "Terminal",
   "description": "Launch the macOS Terminal app.",
   "version": "1.0.0",

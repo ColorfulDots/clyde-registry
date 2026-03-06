@@ -1,5 +1,5 @@
 {
-  "module": "jetbrains",
+  "id": "jetbrains",
   "displayName": "JetBrains",
   "description": "Launch JetBrains IDEs.",
   "version": "1.0.0",

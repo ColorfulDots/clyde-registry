@@ -1,5 +1,5 @@
 {
-  "module": "craft",
+  "id": "craft",
   "displayName": "Craft",
   "description": "Deep link into Craft docs and notes.",
   "version": "1.0.0",

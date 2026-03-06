@@ -1,5 +1,5 @@
 {
-  "module": "signal",
+  "id": "signal",
   "displayName": "Signal",
   "description": "Deep link into Signal for private messaging.",
   "version": "1.0.0",

@@ -1,5 +1,5 @@
 {
-  "module": "npm-scripts",
+  "id": "npm-scripts",
   "displayName": "NPM Scripts",
   "description": "Run common npm commands in your project.",
   "version": "1.0.0",

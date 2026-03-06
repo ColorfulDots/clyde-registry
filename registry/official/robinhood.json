@@ -1,5 +1,5 @@
 {
-  "module": "robinhood",
+  "id": "robinhood",
   "displayName": "Robinhood",
   "description": "Check your Robinhood investment portfolio.",
   "version": "1.0.0",

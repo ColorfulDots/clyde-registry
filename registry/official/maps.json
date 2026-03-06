@@ -1,5 +1,5 @@
 {
-  "module": "maps",
+  "id": "maps",
   "displayName": "Apple Maps",
   "description": "Deep link into Apple Maps for navigation.",
   "version": "1.0.0",

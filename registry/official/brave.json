@@ -1,5 +1,5 @@
 {
-  "module": "brave",
+  "id": "brave",
   "displayName": "Brave Browser",
   "description": "Deep link into Brave browser.",
   "version": "1.0.0",

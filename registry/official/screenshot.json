@@ -1,5 +1,5 @@
 {
-  "module": "screenshot",
+  "id": "screenshot",
   "displayName": "Screenshot",
   "description": "Take a screenshot and save to desktop.",
   "version": "1.0.0",

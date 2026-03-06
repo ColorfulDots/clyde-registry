@@ -1,5 +1,5 @@
 {
-  "module": "show-desktop",
+  "id": "show-desktop",
   "displayName": "Show Desktop",
   "description": "Hide all windows and reveal the desktop.",
   "version": "1.0.0",

@@ -1,5 +1,5 @@
 {
-  "module": "localhost-8080",
+  "id": "localhost-8080",
   "displayName": "Localhost 8080",
   "description": "Open your local dev server on port 8080.",
   "version": "1.0.0",

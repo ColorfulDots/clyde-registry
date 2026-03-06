@@ -1,5 +1,5 @@
 {
-  "module": "shortcuts",
+  "id": "shortcuts",
   "displayName": "Shortcuts",
   "description": "Deep link into Apple Shortcuts to run automations.",
   "version": "1.0.0",

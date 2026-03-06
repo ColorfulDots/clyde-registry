@@ -1,5 +1,5 @@
 {
-  "module": "calendar",
+  "id": "calendar",
   "displayName": "Calendar",
   "description": "Deep link into Apple Calendar.",
   "version": "1.0.0",

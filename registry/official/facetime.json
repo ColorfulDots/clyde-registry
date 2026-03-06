@@ -1,5 +1,5 @@
 {
-  "module": "facetime",
+  "id": "facetime",
   "displayName": "FaceTime",
   "description": "Start FaceTime audio and video calls.",
   "version": "1.0.0",

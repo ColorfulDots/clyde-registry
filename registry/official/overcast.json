@@ -1,5 +1,5 @@
 {
-  "module": "overcast",
+  "id": "overcast",
   "displayName": "Overcast",
   "description": "Deep link into Overcast podcast player.",
   "version": "1.0.0",

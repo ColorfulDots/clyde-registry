@@ -1,5 +1,5 @@
 {
-  "module": "clipboard-tools",
+  "id": "clipboard-tools",
   "displayName": "Clipboard Tools",
   "description": "Utilities for managing your clipboard.",
   "version": "1.0.0",

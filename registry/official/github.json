@@ -1,5 +1,5 @@
 {
-  "module": "github",
+  "id": "github",
   "displayName": "GitHub",
   "description": "Open GitHub to browse repos and code.",
   "version": "1.0.0",

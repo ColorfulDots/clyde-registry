@@ -1,5 +1,5 @@
 {
-  "module": "app-store",
+  "id": "app-store",
   "displayName": "App Store",
   "description": "Deep link into the macOS App Store.",
   "version": "1.0.0",

@@ -1,7 +1,7 @@
 {
-  "module": "my-service",
+  "id": "my-service",
   "displayName": "My Service",
-  "description": "A short description of what this module does.",
+  "description": "A short description of what this user-command does.",
   "version": "1.0.0",
   "author": "your-github-username",
   "homepage": "https://github.com/ColorfulDots/clyde-registry",

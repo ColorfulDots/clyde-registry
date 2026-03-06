@@ -1,5 +1,5 @@
 {
-  "module": "notion",
+  "id": "notion",
   "displayName": "Notion",
   "description": "Deep link into Notion pages and workspaces.",
   "version": "1.0.0",

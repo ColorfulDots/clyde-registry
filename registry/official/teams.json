@@ -1,5 +1,5 @@
 {
-  "module": "teams",
+  "id": "teams",
   "displayName": "Microsoft Teams",
   "description": "Deep link into Microsoft Teams.",
   "version": "1.0.0",

@@ -1,5 +1,5 @@
 {
-  "module": "agenda",
+  "id": "agenda",
   "displayName": "Agenda",
   "description": "Deep link into Agenda notes and projects.",
   "version": "1.0.0",

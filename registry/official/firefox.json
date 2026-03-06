@@ -1,5 +1,5 @@
 {
-  "module": "firefox",
+  "id": "firefox",
   "displayName": "Firefox",
   "description": "Launch Firefox and open browser features.",
   "version": "1.0.0",

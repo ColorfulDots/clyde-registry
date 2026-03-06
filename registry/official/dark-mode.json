@@ -1,5 +1,5 @@
 {
-  "module": "dark-mode",
+  "id": "dark-mode",
   "displayName": "Dark Mode",
   "description": "Toggle macOS dark and light mode.",
   "version": "1.0.0",

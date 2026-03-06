@@ -1,5 +1,5 @@
 {
-  "module": "opentable",
+  "id": "opentable",
   "displayName": "OpenTable",
   "description": "Book restaurant reservations with OpenTable.",
   "version": "1.0.0",

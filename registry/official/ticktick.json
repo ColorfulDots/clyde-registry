@@ -1,5 +1,5 @@
 {
-  "module": "ticktick",
+  "id": "ticktick",
   "displayName": "TickTick",
   "description": "Deep link into TickTick for task and habit management.",
   "version": "1.0.0",

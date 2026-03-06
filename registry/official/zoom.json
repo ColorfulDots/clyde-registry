@@ -1,5 +1,5 @@
 {
-  "module": "zoom",
+  "id": "zoom",
   "displayName": "Zoom",
   "description": "Quick actions for Zoom meetings.",
   "version": "1.0.0",

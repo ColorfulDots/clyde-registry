@@ -1,5 +1,5 @@
 {
-  "module": "messages",
+  "id": "messages",
   "displayName": "Messages",
   "description": "Deep link into Apple Messages.",
   "version": "1.0.0",

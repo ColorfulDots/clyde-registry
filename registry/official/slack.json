@@ -1,5 +1,5 @@
 {
-  "module": "slack",
+  "id": "slack",
   "displayName": "Slack",
   "description": "Deep link into Slack channels, DMs, and search.",
   "version": "1.0.0",

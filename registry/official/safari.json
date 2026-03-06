@@ -1,5 +1,5 @@
 {
-  "module": "safari",
+  "id": "safari",
   "displayName": "Safari",
   "description": "Launch Safari and open browser features.",
   "version": "1.0.0",

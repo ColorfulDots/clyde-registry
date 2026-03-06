@@ -1,5 +1,5 @@
 {
-  "module": "reminders",
+  "id": "reminders",
   "displayName": "Reminders",
   "description": "Deep link into Apple Reminders.",
   "version": "1.0.0",

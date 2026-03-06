@@ -1,5 +1,5 @@
 {
-  "module": "lock-screen",
+  "id": "lock-screen",
   "displayName": "Lock Screen",
   "description": "Lock your Mac screen immediately.",
   "version": "1.0.0",

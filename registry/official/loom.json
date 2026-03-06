@@ -1,5 +1,5 @@
 {
-  "module": "loom",
+  "id": "loom",
   "displayName": "Loom",
   "description": "Record and share screen recordings with Loom.",
   "version": "1.0.0",

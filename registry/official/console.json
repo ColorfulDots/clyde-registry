@@ -1,5 +1,5 @@
 {
-  "module": "console",
+  "id": "console",
   "displayName": "Console",
   "description": "Launch macOS Console to view system logs.",
   "version": "1.0.0",

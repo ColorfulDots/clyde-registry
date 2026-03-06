@@ -1,5 +1,5 @@
 {
-  "module": "obsidian",
+  "id": "obsidian",
   "displayName": "Obsidian",
   "description": "Deep link into Obsidian vaults and notes.",
   "version": "1.0.0",

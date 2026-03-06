@@ -1,5 +1,5 @@
 {
-  "module": "chrome",
+  "id": "chrome",
   "displayName": "Google Chrome",
   "description": "Deep link into Google Chrome.",
   "version": "1.0.0",

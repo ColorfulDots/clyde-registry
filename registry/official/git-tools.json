@@ -1,5 +1,5 @@
 {
-  "module": "git-tools",
+  "id": "git-tools",
   "displayName": "Git Tools",
   "description": "Common Git operations from the command line.",
   "version": "1.0.0",

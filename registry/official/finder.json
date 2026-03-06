@@ -1,5 +1,5 @@
 {
-  "module": "finder",
+  "id": "finder",
   "displayName": "Finder",
   "description": "Navigate the macOS Finder quickly.",
   "version": "1.0.0",

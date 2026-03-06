@@ -1,5 +1,5 @@
 {
-  "module": "things",
+  "id": "things",
   "displayName": "Things 3",
   "description": "Deep link into Things 3 for task management.",
   "version": "1.0.0",

@@ -1,5 +1,5 @@
 {
-  "module": "figma",
+  "id": "figma",
   "displayName": "Figma",
   "description": "Deep link into Figma files and projects.",
   "version": "1.0.0",

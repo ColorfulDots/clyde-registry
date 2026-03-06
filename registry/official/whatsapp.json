@@ -1,5 +1,5 @@
 {
-  "module": "whatsapp",
+  "id": "whatsapp",
   "displayName": "WhatsApp",
   "description": "Deep link into WhatsApp chats.",
   "version": "1.0.0",

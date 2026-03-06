@@ -1,5 +1,5 @@
 {
-  "module": "hookmark",
+  "id": "hookmark",
   "displayName": "Hookmark",
   "description": "Deep link into Hookmark for contextual linking.",
   "version": "1.0.0",

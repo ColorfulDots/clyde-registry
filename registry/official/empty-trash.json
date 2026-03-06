@@ -1,5 +1,5 @@
 {
-  "module": "empty-trash",
+  "id": "empty-trash",
   "displayName": "Empty Trash",
   "description": "Empty the macOS Trash instantly.",
   "version": "1.0.0",

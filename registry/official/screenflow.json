@@ -1,5 +1,5 @@
 {
-  "module": "screenflow",
+  "id": "screenflow",
   "displayName": "ScreenFlow",
   "description": "Launch ScreenFlow for screen recording and video editing.",
   "version": "1.0.0",

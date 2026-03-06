@@ -1,5 +1,5 @@
 {
-  "module": "keychain",
+  "id": "keychain",
   "displayName": "Keychain Access",
   "description": "Launch macOS Keychain Access for credential management.",
   "version": "1.0.0",

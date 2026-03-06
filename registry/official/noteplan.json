@@ -1,5 +1,5 @@
 {
-  "module": "noteplan",
+  "id": "noteplan",
   "displayName": "NotePlan",
   "description": "Deep link into NotePlan for daily planning and notes.",
   "version": "1.0.0",

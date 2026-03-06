@@ -1,5 +1,5 @@
 {
-  "module": "vscode",
+  "id": "vscode",
   "displayName": "VS Code",
   "description": "Launch Visual Studio Code.",
   "version": "1.0.0",

@@ -1,5 +1,5 @@
 {
-  "module": "system-monitor",
+  "id": "system-monitor",
   "displayName": "System Monitor",
   "description": "Monitor and manage system resources.",
   "version": "1.0.0",

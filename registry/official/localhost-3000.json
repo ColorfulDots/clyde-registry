@@ -1,5 +1,5 @@
 {
-  "module": "localhost-3000",
+  "id": "localhost-3000",
   "displayName": "Localhost 3000",
   "description": "Open your local dev server on port 3000.",
   "version": "1.0.0",

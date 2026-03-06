@@ -1,5 +1,5 @@
 {
-  "module": "xcode",
+  "id": "xcode",
   "displayName": "Xcode",
   "description": "Launch Xcode and open developer tools.",
   "version": "1.0.0",

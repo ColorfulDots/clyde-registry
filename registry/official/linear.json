@@ -1,5 +1,5 @@
 {
-  "module": "linear",
+  "id": "linear",
   "displayName": "Linear",
   "description": "Deep link into Linear issues and teams.",
   "version": "1.0.0",

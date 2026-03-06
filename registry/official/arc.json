@@ -1,5 +1,5 @@
 {
-  "module": "arc",
+  "id": "arc",
   "displayName": "Arc Browser",
   "description": "Deep link into Arc browser features.",
   "version": "1.0.0",

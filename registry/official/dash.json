@@ -1,5 +1,5 @@
 {
-  "module": "dash",
+  "id": "dash",
   "displayName": "Dash",
   "description": "Deep link into Dash for instant documentation lookup.",
   "version": "1.0.0",

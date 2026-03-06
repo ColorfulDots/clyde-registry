@@ -1,5 +1,5 @@
 {
-  "module": "superhuman",
+  "id": "superhuman",
   "displayName": "Superhuman",
   "description": "Deep link into Superhuman email.",
   "version": "1.0.0",

@@ -1,5 +1,5 @@
 {
-  "module": "plex",
+  "id": "plex",
   "displayName": "Plex",
   "description": "Deep link into Plex media server.",
   "version": "1.0.0",

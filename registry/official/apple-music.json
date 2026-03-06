@@ -1,5 +1,5 @@
 {
-  "module": "apple-music",
+  "id": "apple-music",
   "displayName": "Apple Music",
   "description": "Control Apple Music playback via AppleScript.",
   "version": "1.0.0",

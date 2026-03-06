@@ -1,5 +1,5 @@
 {
-  "module": "telegram",
+  "id": "telegram",
   "displayName": "Telegram",
   "description": "Deep link into Telegram chats and contacts.",
   "version": "1.0.0",

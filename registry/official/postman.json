@@ -1,5 +1,5 @@
 {
-  "module": "postman",
+  "id": "postman",
   "displayName": "Postman",
   "description": "Launch Postman for API development and testing.",
   "version": "1.0.0",

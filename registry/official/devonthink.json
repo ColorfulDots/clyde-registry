@@ -1,5 +1,5 @@
 {
-  "module": "devonthink",
+  "id": "devonthink",
   "displayName": "DEVONthink",
   "description": "Deep link into DEVONthink for knowledge management.",
   "version": "1.0.0",
