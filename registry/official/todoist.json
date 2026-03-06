@@ -1,0 +1,41 @@
+{
+  "module": "todoist",
+  "displayName": "Todoist",
+  "description": "Deep link into Todoist for task management.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "red",
+  "icon": "checkmark.circle.fill",
+  "tags": ["productivity", "tasks", "todoist"],
+  "commands": [
+    {
+      "name": "Open Todoist",
+      "keywords": ["todoist", "tasks", "todos", "open"],
+      "executor": "urlScheme",
+      "target": "todoist://",
+      "description": "Launch Todoist"
+    },
+    {
+      "name": "Todoist Today",
+      "keywords": ["todoist", "today", "tasks", "daily"],
+      "executor": "urlScheme",
+      "target": "todoist://today",
+      "description": "Open your Today view in Todoist"
+    },
+    {
+      "name": "Add Todoist Task",
+      "keywords": ["todoist", "add", "new", "task", "create"],
+      "executor": "urlScheme",
+      "target": "todoist://addtask",
+      "description": "Open the quick add task dialog in Todoist"
+    },
+    {
+      "name": "Todoist Inbox",
+      "keywords": ["todoist", "inbox", "tasks", "capture"],
+      "executor": "urlScheme",
+      "target": "todoist://inbox",
+      "description": "Open your Todoist Inbox"
+    }
+  ]
+}

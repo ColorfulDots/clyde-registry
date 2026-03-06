@@ -1,0 +1,41 @@
+{
+  "module": "brave",
+  "displayName": "Brave Browser",
+  "description": "Deep link into Brave browser.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "orange",
+  "icon": "globe",
+  "tags": ["browser", "privacy", "productivity"],
+  "commands": [
+    {
+      "name": "Open Brave",
+      "keywords": ["brave", "browser", "open"],
+      "executor": "shell",
+      "target": "open -a 'Brave Browser'",
+      "description": "Launch the Brave browser"
+    },
+    {
+      "name": "Brave New Window",
+      "keywords": ["brave", "new", "window", "browser"],
+      "executor": "shell",
+      "target": "open -a 'Brave Browser' --args --new-window",
+      "description": "Open a new Brave browser window"
+    },
+    {
+      "name": "Brave Private Window",
+      "keywords": ["brave", "private", "incognito", "tor"],
+      "executor": "shell",
+      "target": "open -a 'Brave Browser' --args --incognito",
+      "description": "Open a new private window in Brave"
+    },
+    {
+      "name": "Brave Rewards",
+      "keywords": ["brave", "rewards", "bat", "crypto"],
+      "executor": "urlScheme",
+      "target": "brave://rewards",
+      "description": "Open Brave Rewards settings"
+    }
+  ]
+}

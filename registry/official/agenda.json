@@ -1,0 +1,34 @@
+{
+  "module": "agenda",
+  "displayName": "Agenda",
+  "description": "Deep link into Agenda notes and projects.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "red",
+  "icon": "calendar.badge.clock",
+  "tags": ["productivity", "notes", "calendar"],
+  "commands": [
+    {
+      "name": "Open Agenda",
+      "keywords": ["agenda", "notes", "open"],
+      "executor": "urlScheme",
+      "target": "agenda://",
+      "description": "Launch the Agenda app"
+    },
+    {
+      "name": "Agenda Today",
+      "keywords": ["agenda", "today", "daily", "notes"],
+      "executor": "urlScheme",
+      "target": "agenda://today",
+      "description": "Open today's notes in Agenda"
+    },
+    {
+      "name": "New Agenda Note",
+      "keywords": ["agenda", "new", "note", "create"],
+      "executor": "urlScheme",
+      "target": "agenda://new",
+      "description": "Create a new note in Agenda"
+    }
+  ]
+}

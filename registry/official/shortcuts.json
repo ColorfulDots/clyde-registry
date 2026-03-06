@@ -1,0 +1,41 @@
+{
+  "module": "shortcuts",
+  "displayName": "Shortcuts",
+  "description": "Deep link into Apple Shortcuts to run automations.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "purple",
+  "icon": "square.stack.3d.up.fill",
+  "tags": ["automation", "productivity", "apple"],
+  "commands": [
+    {
+      "name": "Open Shortcuts",
+      "keywords": ["shortcuts", "automation", "apple", "open"],
+      "executor": "urlScheme",
+      "target": "shortcuts://",
+      "description": "Launch the Apple Shortcuts app"
+    },
+    {
+      "name": "New Shortcut",
+      "keywords": ["shortcuts", "new", "create", "automation"],
+      "executor": "urlScheme",
+      "target": "shortcuts://create-shortcut",
+      "description": "Create a new shortcut in the Shortcuts app"
+    },
+    {
+      "name": "Run Shortcut",
+      "keywords": ["shortcuts", "run", "execute", "automation"],
+      "executor": "urlScheme",
+      "target": "shortcuts://run-shortcut",
+      "description": "Run a shortcut by name via Shortcuts"
+    },
+    {
+      "name": "Shortcuts Gallery",
+      "keywords": ["shortcuts", "gallery", "browse", "discover"],
+      "executor": "urlScheme",
+      "target": "shortcuts://gallery",
+      "description": "Browse the Shortcuts gallery for inspiration"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "module": "colorsync",
+  "displayName": "ColorSync Utility",
+  "description": "Launch macOS ColorSync Utility for color profile management.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "purple",
+  "icon": "eyedropper.halffull",
+  "tags": ["system", "design", "color", "display"],
+  "commands": [
+    {
+      "name": "Open ColorSync Utility",
+      "keywords": ["colorsync", "color", "profile", "display", "calibrate"],
+      "executor": "shell",
+      "target": "open -a 'ColorSync Utility'",
+      "description": "Launch the macOS ColorSync Utility"
+    }
+  ]
+}

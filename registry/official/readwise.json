@@ -1,0 +1,34 @@
+{
+  "module": "readwise",
+  "displayName": "Readwise Reader",
+  "description": "Deep link into Readwise Reader for highlights and articles.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "orange",
+  "icon": "text.book.closed.fill",
+  "tags": ["productivity", "reading", "highlights", "research"],
+  "commands": [
+    {
+      "name": "Open Readwise",
+      "keywords": ["readwise", "reader", "highlights", "open"],
+      "executor": "urlScheme",
+      "target": "readwise://",
+      "description": "Launch Readwise Reader"
+    },
+    {
+      "name": "Readwise Highlights",
+      "keywords": ["readwise", "highlights", "review", "notes"],
+      "executor": "urlScheme",
+      "target": "readwise://highlights",
+      "description": "Open your Readwise highlights for review"
+    },
+    {
+      "name": "Readwise Inbox",
+      "keywords": ["readwise", "inbox", "articles", "queue"],
+      "executor": "urlScheme",
+      "target": "readwise://inbox",
+      "description": "Open your Readwise Reader inbox"
+    }
+  ]
+}

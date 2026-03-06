@@ -1,0 +1,41 @@
+{
+  "module": "drafts",
+  "displayName": "Drafts",
+  "description": "Deep link into Drafts for quick capture and actions.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "gray",
+  "icon": "pencil.and.outline",
+  "tags": ["productivity", "notes", "writing", "capture"],
+  "commands": [
+    {
+      "name": "Open Drafts",
+      "keywords": ["drafts", "notes", "open", "capture"],
+      "executor": "urlScheme",
+      "target": "drafts://",
+      "description": "Launch the Drafts app"
+    },
+    {
+      "name": "New Draft",
+      "keywords": ["drafts", "new", "note", "capture", "write"],
+      "executor": "urlScheme",
+      "target": "drafts://create",
+      "description": "Open a new blank draft in Drafts"
+    },
+    {
+      "name": "Drafts Search",
+      "keywords": ["drafts", "search", "find", "note"],
+      "executor": "urlScheme",
+      "target": "drafts://search",
+      "description": "Open Drafts with the search bar focused"
+    },
+    {
+      "name": "Drafts Inbox",
+      "keywords": ["drafts", "inbox", "list", "all"],
+      "executor": "urlScheme",
+      "target": "drafts://inbox",
+      "description": "Open the Drafts inbox"
+    }
+  ]
+}

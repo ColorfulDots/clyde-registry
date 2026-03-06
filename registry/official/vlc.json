@@ -1,0 +1,27 @@
+{
+  "module": "vlc",
+  "displayName": "VLC",
+  "description": "Launch VLC media player.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "orange",
+  "icon": "play.fill",
+  "tags": ["media", "video", "player"],
+  "commands": [
+    {
+      "name": "Open VLC",
+      "keywords": ["vlc", "video", "player", "open", "media"],
+      "executor": "shell",
+      "target": "open -a VLC",
+      "description": "Launch VLC media player"
+    },
+    {
+      "name": "VLC Open Network Stream",
+      "keywords": ["vlc", "stream", "network", "url", "play"],
+      "executor": "urlScheme",
+      "target": "vlc://",
+      "description": "Open a network stream in VLC"
+    }
+  ]
+}

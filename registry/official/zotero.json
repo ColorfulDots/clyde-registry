@@ -1,0 +1,34 @@
+{
+  "module": "zotero",
+  "displayName": "Zotero",
+  "description": "Deep link into Zotero for research and citations.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "red",
+  "icon": "books.vertical.fill",
+  "tags": ["research", "productivity", "citations", "academic"],
+  "commands": [
+    {
+      "name": "Open Zotero",
+      "keywords": ["zotero", "research", "citations", "open"],
+      "executor": "urlScheme",
+      "target": "zotero://",
+      "description": "Launch Zotero reference manager"
+    },
+    {
+      "name": "Zotero Search",
+      "keywords": ["zotero", "search", "find", "reference", "paper"],
+      "executor": "urlScheme",
+      "target": "zotero://search",
+      "description": "Open Zotero with search focused"
+    },
+    {
+      "name": "New Zotero Item",
+      "keywords": ["zotero", "new", "item", "add", "reference"],
+      "executor": "urlScheme",
+      "target": "zotero://new",
+      "description": "Add a new item to your Zotero library"
+    }
+  ]
+}

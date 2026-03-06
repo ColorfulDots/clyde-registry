@@ -1,0 +1,34 @@
+{
+  "module": "firefox",
+  "displayName": "Firefox",
+  "description": "Launch Firefox and open browser features.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "orange",
+  "icon": "globe",
+  "tags": ["browser", "productivity"],
+  "commands": [
+    {
+      "name": "Open Firefox",
+      "keywords": ["firefox", "browser", "mozilla", "open"],
+      "executor": "shell",
+      "target": "open -a Firefox",
+      "description": "Launch Firefox"
+    },
+    {
+      "name": "Firefox New Window",
+      "keywords": ["firefox", "new", "window", "browser"],
+      "executor": "shell",
+      "target": "open -a Firefox --args --new-window",
+      "description": "Open a new Firefox window"
+    },
+    {
+      "name": "Firefox Private Window",
+      "keywords": ["firefox", "private", "incognito", "browser"],
+      "executor": "shell",
+      "target": "open -a Firefox --args --private-window",
+      "description": "Open a new private browsing window in Firefox"
+    }
+  ]
+}

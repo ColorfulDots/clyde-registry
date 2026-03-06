@@ -1,0 +1,27 @@
+{
+  "module": "signal",
+  "displayName": "Signal",
+  "description": "Deep link into Signal for private messaging.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "blue",
+  "icon": "lock.message.fill",
+  "tags": ["communication", "messaging", "privacy", "signal"],
+  "commands": [
+    {
+      "name": "Open Signal",
+      "keywords": ["signal", "messages", "private", "open"],
+      "executor": "urlScheme",
+      "target": "sgnl://",
+      "description": "Launch Signal private messenger"
+    },
+    {
+      "name": "New Signal Message",
+      "keywords": ["signal", "new", "message", "compose"],
+      "executor": "urlScheme",
+      "target": "sgnl://compose",
+      "description": "Start a new message in Signal"
+    }
+  ]
+}

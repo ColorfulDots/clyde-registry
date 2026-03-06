@@ -1,0 +1,34 @@
+{
+  "module": "teams",
+  "displayName": "Microsoft Teams",
+  "description": "Deep link into Microsoft Teams.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "purple",
+  "icon": "person.3.fill",
+  "tags": ["communication", "productivity", "microsoft", "teams"],
+  "commands": [
+    {
+      "name": "Open Teams",
+      "keywords": ["teams", "microsoft", "chat", "meetings", "open"],
+      "executor": "urlScheme",
+      "target": "msteams://",
+      "description": "Launch Microsoft Teams"
+    },
+    {
+      "name": "New Teams Meeting",
+      "keywords": ["teams", "new", "meeting", "call", "video"],
+      "executor": "urlScheme",
+      "target": "msteams://teams.microsoft.com/l/meeting/new",
+      "description": "Start a new meeting in Microsoft Teams"
+    },
+    {
+      "name": "Teams Chat",
+      "keywords": ["teams", "chat", "message", "dm"],
+      "executor": "urlScheme",
+      "target": "msteams://teams.microsoft.com/l/chat/new",
+      "description": "Open a new chat in Microsoft Teams"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "module": "logseq",
+  "displayName": "Logseq",
+  "description": "Deep link into Logseq for knowledge graphs and daily notes.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "purple",
+  "icon": "point.3.connected.trianglepath.dotted",
+  "tags": ["productivity", "notes", "knowledge", "graph"],
+  "commands": [
+    {
+      "name": "Open Logseq",
+      "keywords": ["logseq", "notes", "graph", "open"],
+      "executor": "urlScheme",
+      "target": "logseq://",
+      "description": "Launch Logseq"
+    },
+    {
+      "name": "Logseq Daily Note",
+      "keywords": ["logseq", "daily", "note", "journal", "today"],
+      "executor": "urlScheme",
+      "target": "logseq://today",
+      "description": "Open today's daily note in Logseq"
+    },
+    {
+      "name": "Logseq Search",
+      "keywords": ["logseq", "search", "find", "page"],
+      "executor": "urlScheme",
+      "target": "logseq://search",
+      "description": "Open Logseq with search focused"
+    }
+  ]
+}

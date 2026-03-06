@@ -1,0 +1,34 @@
+{
+  "module": "ticktick",
+  "displayName": "TickTick",
+  "description": "Deep link into TickTick for task and habit management.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "blue",
+  "icon": "checkmark.seal.fill",
+  "tags": ["productivity", "tasks", "habits", "ticktick"],
+  "commands": [
+    {
+      "name": "Open TickTick",
+      "keywords": ["ticktick", "tasks", "todos", "open"],
+      "executor": "urlScheme",
+      "target": "ticktick://",
+      "description": "Launch TickTick"
+    },
+    {
+      "name": "TickTick Today",
+      "keywords": ["ticktick", "today", "tasks", "daily"],
+      "executor": "urlScheme",
+      "target": "ticktick://today",
+      "description": "Open your Today view in TickTick"
+    },
+    {
+      "name": "Quick Add TickTick Task",
+      "keywords": ["ticktick", "add", "new", "task", "quick"],
+      "executor": "urlScheme",
+      "target": "ticktick://addtask",
+      "description": "Open the quick add dialog in TickTick"
+    }
+  ]
+}

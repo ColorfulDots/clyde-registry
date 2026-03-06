@@ -1,0 +1,48 @@
+{
+  "module": "omnifocus",
+  "displayName": "OmniFocus",
+  "description": "Deep link into OmniFocus for advanced task management.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "purple",
+  "icon": "checkmark.circle.fill",
+  "tags": ["productivity", "tasks", "omnifocus"],
+  "commands": [
+    {
+      "name": "Open OmniFocus",
+      "keywords": ["omnifocus", "tasks", "gtd", "open"],
+      "executor": "urlScheme",
+      "target": "omnifocus://",
+      "description": "Launch OmniFocus"
+    },
+    {
+      "name": "OmniFocus Inbox",
+      "keywords": ["omnifocus", "inbox", "capture", "tasks"],
+      "executor": "urlScheme",
+      "target": "omnifocus:///inbox",
+      "description": "Open your OmniFocus Inbox"
+    },
+    {
+      "name": "OmniFocus Today",
+      "keywords": ["omnifocus", "today", "forecast", "tasks"],
+      "executor": "urlScheme",
+      "target": "omnifocus:///forecast",
+      "description": "Open the OmniFocus Forecast view for today"
+    },
+    {
+      "name": "New OmniFocus Task",
+      "keywords": ["omnifocus", "new", "task", "add", "create"],
+      "executor": "urlScheme",
+      "target": "omnifocus:///add",
+      "description": "Open the quick entry dialog in OmniFocus"
+    },
+    {
+      "name": "OmniFocus Projects",
+      "keywords": ["omnifocus", "projects", "browse"],
+      "executor": "urlScheme",
+      "target": "omnifocus:///projects",
+      "description": "Open the Projects view in OmniFocus"
+    }
+  ]
+}

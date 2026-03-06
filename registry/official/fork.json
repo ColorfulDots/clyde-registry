@@ -1,0 +1,27 @@
+{
+  "module": "fork",
+  "displayName": "Fork",
+  "description": "Launch Fork Git client.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "blue",
+  "icon": "arrow.triangle.branch",
+  "tags": ["developer", "git", "fork"],
+  "commands": [
+    {
+      "name": "Open Fork",
+      "keywords": ["fork", "git", "open", "repos"],
+      "executor": "shell",
+      "target": "open -a Fork",
+      "description": "Launch the Fork Git client"
+    },
+    {
+      "name": "Fork New Repository",
+      "keywords": ["fork", "git", "new", "repo", "clone"],
+      "executor": "urlScheme",
+      "target": "fork://clone",
+      "description": "Open the clone/new repository dialog in Fork"
+    }
+  ]
+}
