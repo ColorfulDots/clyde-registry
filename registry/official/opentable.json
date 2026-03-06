@@ -1,12 +1,16 @@
 {
   "module": "opentable",
+  "displayName": "OpenTable",
+  "description": "Book restaurant reservations with OpenTable.",
+  "color": "orange",
+  "icon": "fork.knife",
   "commands": [
     {
       "name": "Open OpenTable",
       "keywords": ["opentable", "reservation", "restaurant", "book"],
       "executor": "urlScheme",
       "target": "https://opentable.com",
-      "description": "Open OpenTable"
+      "description": "Open OpenTable in your browser to book a restaurant reservation"
     }
   ]
 }

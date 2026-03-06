@@ -1,12 +1,16 @@
 {
   "module": "robinhood",
+  "displayName": "Robinhood",
+  "description": "Check your Robinhood investment portfolio.",
+  "color": "green",
+  "icon": "chart.line.uptrend.xyaxis",
   "commands": [
     {
       "name": "Open Robinhood",
       "keywords": ["robinhood", "stocks", "investing", "portfolio"],
       "executor": "urlScheme",
       "target": "https://robinhood.com",
-      "description": "Open Robinhood"
+      "description": "Open Robinhood in your browser to check your investment portfolio"
     }
   ]
 }

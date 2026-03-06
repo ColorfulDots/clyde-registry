@@ -1,12 +1,16 @@
 {
   "module": "coinbase",
+  "displayName": "Coinbase",
+  "description": "Buy, sell, and manage crypto on Coinbase.",
+  "color": "blue",
+  "icon": "bitcoinsign.circle.fill",
   "commands": [
     {
       "name": "Open Coinbase",
       "keywords": ["coinbase", "crypto", "bitcoin", "ethereum"],
       "executor": "urlScheme",
       "target": "https://coinbase.com",
-      "description": "Open Coinbase"
+      "description": "Open Coinbase in your browser to buy, sell, and manage crypto"
     }
   ]
 }

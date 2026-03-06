@@ -1,12 +1,16 @@
 {
   "module": "ubereats",
+  "displayName": "Uber Eats",
+  "description": "Order food delivery from Uber Eats.",
+  "color": "green",
+  "icon": "bag.fill",
   "commands": [
     {
       "name": "Open Uber Eats",
       "keywords": ["uber eats", "ubereats", "delivery", "food"],
       "executor": "urlScheme",
       "target": "https://ubereats.com",
-      "description": "Open Uber Eats"
+      "description": "Open Uber Eats in your browser to order food delivery"
     }
   ]
 }

@@ -1,12 +1,16 @@
 {
   "module": "lock-screen",
+  "displayName": "Lock Screen",
+  "description": "Lock your Mac screen immediately.",
+  "color": "gray",
+  "icon": "lock.fill",
   "commands": [
     {
       "name": "Lock Screen",
       "keywords": ["lock", "screen", "sleep display"],
       "executor": "shell",
       "target": "pmset displaysleepnow",
-      "description": "Lock the screen immediately"
+      "description": "Turn off the display and lock your Mac immediately"
     }
   ]
 }

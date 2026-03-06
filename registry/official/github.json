@@ -1,12 +1,16 @@
 {
   "module": "github",
+  "displayName": "GitHub",
+  "description": "Open GitHub to browse repos and code.",
+  "color": "gray",
+  "icon": "chevron.left.forwardslash.chevron.right",
   "commands": [
     {
       "name": "Open GitHub",
       "keywords": ["github", "git", "repo"],
       "executor": "urlScheme",
       "target": "https://github.com",
-      "description": "Open GitHub"
+      "description": "Open GitHub in your browser to browse repos and code"
     }
   ]
 }

@@ -1,12 +1,16 @@
 {
   "module": "amex",
+  "displayName": "American Express",
+  "description": "Manage your American Express credit card.",
+  "color": "blue",
+  "icon": "creditcard.fill",
   "commands": [
     {
       "name": "Open American Express",
       "keywords": ["amex", "american express", "credit card", "visa", "mastercard"],
       "executor": "urlScheme",
       "target": "https://www.americanexpress.com",
-      "description": "Open American Express"
+      "description": "Open American Express in your browser to manage your credit card"
     }
   ]
 }

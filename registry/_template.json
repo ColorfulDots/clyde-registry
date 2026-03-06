@@ -1,5 +1,9 @@
 {
   "module": "my-service",
+  "displayName": "My Service",
+  "description": "A short description of what this module does.",
+  "color": "blue",
+  "icon": "star",
   "commands": [
     {
       "name": "Open My Service",

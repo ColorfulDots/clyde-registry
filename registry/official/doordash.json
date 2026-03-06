@@ -1,12 +1,16 @@
 {
   "module": "doordash",
+  "displayName": "DoorDash",
+  "description": "Order food delivery from DoorDash.",
+  "color": "red",
+  "icon": "bag.fill",
   "commands": [
     {
       "name": "Open DoorDash",
       "keywords": ["doordash", "food", "delivery", "order"],
       "executor": "urlScheme",
       "target": "https://doordash.com",
-      "description": "Open DoorDash"
+      "description": "Open DoorDash in your browser to order food delivery"
     }
   ]
 }

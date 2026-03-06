@@ -1,12 +1,16 @@
 {
   "module": "yelp",
+  "displayName": "Yelp",
+  "description": "Find and review local restaurants.",
+  "color": "red",
+  "icon": "fork.knife",
   "commands": [
     {
       "name": "Open Yelp",
       "keywords": ["yelp", "restaurants", "food", "reviews"],
       "executor": "urlScheme",
       "target": "https://yelp.com",
-      "description": "Open Yelp"
+      "description": "Open Yelp in your browser to find and review local restaurants"
     }
   ]
 }

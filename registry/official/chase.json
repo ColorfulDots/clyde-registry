@@ -1,12 +1,16 @@
 {
   "module": "chase",
+  "displayName": "Chase",
+  "description": "Access your Chase bank account.",
+  "color": "blue",
+  "icon": "building.columns.fill",
   "commands": [
     {
       "name": "Open Chase",
       "keywords": ["chase", "bank", "banking", "checking", "savings"],
       "executor": "urlScheme",
       "target": "https://www.chase.com",
-      "description": "Open Chase Bank"
+      "description": "Open Chase in your browser to manage your bank account"
     }
   ]
 }

@@ -1,12 +1,16 @@
 {
   "module": "localhost-8080",
+  "displayName": "Localhost 8080",
+  "description": "Open your local dev server on port 8080.",
+  "color": "blue",
+  "icon": "network",
   "commands": [
     {
       "name": "Localhost 8080",
       "keywords": ["localhost", "local", "8080"],
       "executor": "urlScheme",
       "target": "http://localhost:8080",
-      "description": "Open localhost:8080"
+      "description": "Open localhost:8080 in your browser to preview your dev server"
     }
   ]
 }

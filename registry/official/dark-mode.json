@@ -1,12 +1,16 @@
 {
   "module": "dark-mode",
+  "displayName": "Dark Mode",
+  "description": "Toggle macOS dark and light mode.",
+  "color": "gray",
+  "icon": "moon.fill",
   "commands": [
     {
       "name": "Toggle Dark Mode",
       "keywords": ["dark mode", "light mode", "appearance", "theme"],
       "executor": "applescript",
       "target": "tell application \"System Events\" to tell appearance preferences to set dark mode to not dark mode",
-      "description": "Toggle macOS dark/light mode"
+      "description": "Switch between macOS dark and light appearance"
     }
   ]
 }

@@ -1,12 +1,16 @@
 {
   "module": "vscode",
+  "displayName": "VS Code",
+  "description": "Launch Visual Studio Code.",
+  "color": "blue",
+  "icon": "chevron.left.forwardslash.chevron.right",
   "commands": [
     {
       "name": "Open VS Code",
       "keywords": ["vscode", "code", "editor"],
       "executor": "shell",
       "target": "open -a 'Visual Studio Code'",
-      "description": "Launch Visual Studio Code"
+      "description": "Launch Visual Studio Code to start editing your project"
     }
   ]
 }

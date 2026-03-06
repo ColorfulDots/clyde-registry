@@ -1,12 +1,16 @@
 {
   "module": "screenshot",
+  "displayName": "Screenshot",
+  "description": "Take an interactive screenshot to your Desktop.",
+  "color": "gray",
+  "icon": "camera.fill",
   "commands": [
     {
       "name": "Screenshot",
       "keywords": ["screenshot", "capture", "screen"],
       "executor": "shell",
       "target": "screencapture -i ~/Desktop/screenshot.png",
-      "description": "Take an interactive screenshot to Desktop"
+      "description": "Take an interactive screenshot and save it to your Desktop"
     }
   ]
 }

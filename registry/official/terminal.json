@@ -1,12 +1,16 @@
 {
   "module": "terminal",
+  "displayName": "Terminal",
+  "description": "Launch the macOS Terminal app.",
+  "color": "gray",
+  "icon": "terminal.fill",
   "commands": [
     {
       "name": "Open Terminal",
       "keywords": ["terminal", "shell", "bash", "zsh"],
       "executor": "shell",
       "target": "open -a Terminal",
-      "description": "Launch Terminal.app"
+      "description": "Launch Terminal.app to open a new shell session"
     }
   ]
 }
