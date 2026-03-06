@@ -1,0 +1,27 @@
+{
+  "module": "screenflow",
+  "displayName": "ScreenFlow",
+  "description": "Launch ScreenFlow for screen recording and video editing.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "blue",
+  "icon": "record.circle",
+  "tags": ["productivity", "screen recording", "video", "editing"],
+  "commands": [
+    {
+      "name": "Open ScreenFlow",
+      "keywords": ["screenflow", "record", "screen", "video"],
+      "executor": "shell",
+      "target": "open -a ScreenFlow",
+      "description": "Launch ScreenFlow screen recorder and editor"
+    },
+    {
+      "name": "New ScreenFlow Recording",
+      "keywords": ["screenflow", "new", "record", "capture"],
+      "executor": "applescript",
+      "target": "tell application \"ScreenFlow\" to activate",
+      "description": "Open ScreenFlow ready to start a new recording"
+    }
+  ]
+}

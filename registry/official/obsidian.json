@@ -1,0 +1,41 @@
+{
+  "module": "obsidian",
+  "displayName": "Obsidian",
+  "description": "Deep link into Obsidian vaults and notes.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "purple",
+  "icon": "diamond.fill",
+  "tags": ["productivity", "notes", "writing", "knowledge"],
+  "commands": [
+    {
+      "name": "Open Obsidian",
+      "keywords": ["obsidian", "notes", "vault", "open"],
+      "executor": "urlScheme",
+      "target": "obsidian://open",
+      "description": "Launch Obsidian and open your vault"
+    },
+    {
+      "name": "New Obsidian Note",
+      "keywords": ["obsidian", "new", "note", "create"],
+      "executor": "urlScheme",
+      "target": "obsidian://new",
+      "description": "Create a new note in Obsidian"
+    },
+    {
+      "name": "Obsidian Search",
+      "keywords": ["obsidian", "search", "find", "note"],
+      "executor": "urlScheme",
+      "target": "obsidian://search",
+      "description": "Open Obsidian with the search panel focused"
+    },
+    {
+      "name": "Obsidian Daily Note",
+      "keywords": ["obsidian", "daily", "note", "journal", "today"],
+      "executor": "urlScheme",
+      "target": "obsidian://daily",
+      "description": "Open or create today's daily note in Obsidian"
+    }
+  ]
+}

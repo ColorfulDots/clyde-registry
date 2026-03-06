@@ -1,0 +1,34 @@
+{
+  "module": "iterm2",
+  "displayName": "iTerm2",
+  "description": "Launch iTerm2 and open terminal sessions.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "green",
+  "icon": "terminal.fill",
+  "tags": ["developer", "terminal", "iterm"],
+  "commands": [
+    {
+      "name": "Open iTerm2",
+      "keywords": ["iterm", "iterm2", "terminal", "shell"],
+      "executor": "shell",
+      "target": "open -a iTerm",
+      "description": "Launch iTerm2 terminal emulator"
+    },
+    {
+      "name": "New iTerm2 Window",
+      "keywords": ["iterm", "new", "window", "terminal"],
+      "executor": "applescript",
+      "target": "tell application \"iTerm\"\nactivate\ncreate window with default profile\nend tell",
+      "description": "Open a new iTerm2 window with the default profile"
+    },
+    {
+      "name": "New iTerm2 Tab",
+      "keywords": ["iterm", "new", "tab", "terminal"],
+      "executor": "applescript",
+      "target": "tell application \"iTerm\"\nactivate\ntell current window to create tab with default profile\nend tell",
+      "description": "Open a new tab in the current iTerm2 window"
+    }
+  ]
+}

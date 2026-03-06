@@ -1,0 +1,34 @@
+{
+  "module": "telegram",
+  "displayName": "Telegram",
+  "description": "Deep link into Telegram chats and contacts.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "blue",
+  "icon": "paperplane.fill",
+  "tags": ["communication", "messaging", "telegram"],
+  "commands": [
+    {
+      "name": "Open Telegram",
+      "keywords": ["telegram", "open", "chat", "messages"],
+      "executor": "urlScheme",
+      "target": "tg://",
+      "description": "Launch the Telegram app"
+    },
+    {
+      "name": "Telegram Settings",
+      "keywords": ["telegram", "settings", "preferences"],
+      "executor": "urlScheme",
+      "target": "tg://settings",
+      "description": "Open Telegram settings"
+    },
+    {
+      "name": "New Telegram Message",
+      "keywords": ["telegram", "new", "message", "compose"],
+      "executor": "urlScheme",
+      "target": "tg://msg",
+      "description": "Start a new message in Telegram"
+    }
+  ]
+}

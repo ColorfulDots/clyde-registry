@@ -1,0 +1,41 @@
+{
+  "module": "jetbrains",
+  "displayName": "JetBrains",
+  "description": "Launch JetBrains IDEs.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "orange",
+  "icon": "hammer.fill",
+  "tags": ["developer", "ide", "jetbrains"],
+  "commands": [
+    {
+      "name": "Open WebStorm",
+      "keywords": ["webstorm", "jetbrains", "javascript", "ide"],
+      "executor": "shell",
+      "target": "open -a WebStorm",
+      "description": "Launch JetBrains WebStorm"
+    },
+    {
+      "name": "Open IntelliJ IDEA",
+      "keywords": ["intellij", "idea", "jetbrains", "java", "ide"],
+      "executor": "shell",
+      "target": "open -a 'IntelliJ IDEA'",
+      "description": "Launch JetBrains IntelliJ IDEA"
+    },
+    {
+      "name": "Open PyCharm",
+      "keywords": ["pycharm", "jetbrains", "python", "ide"],
+      "executor": "shell",
+      "target": "open -a PyCharm",
+      "description": "Launch JetBrains PyCharm"
+    },
+    {
+      "name": "Open DataGrip",
+      "keywords": ["datagrip", "jetbrains", "database", "sql", "ide"],
+      "executor": "shell",
+      "target": "open -a DataGrip",
+      "description": "Launch JetBrains DataGrip database IDE"
+    }
+  ]
+}

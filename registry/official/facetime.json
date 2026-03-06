@@ -1,0 +1,34 @@
+{
+  "module": "facetime",
+  "displayName": "FaceTime",
+  "description": "Start FaceTime audio and video calls.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "green",
+  "icon": "video.fill",
+  "tags": ["communication", "calls", "apple"],
+  "commands": [
+    {
+      "name": "Open FaceTime",
+      "keywords": ["facetime", "video", "call", "open"],
+      "executor": "shell",
+      "target": "open -a FaceTime",
+      "description": "Launch the FaceTime app"
+    },
+    {
+      "name": "FaceTime Audio Call",
+      "keywords": ["facetime", "audio", "call", "phone"],
+      "executor": "urlScheme",
+      "target": "facetime-audio://",
+      "description": "Start a FaceTime audio call"
+    },
+    {
+      "name": "FaceTime Video Call",
+      "keywords": ["facetime", "video", "call"],
+      "executor": "urlScheme",
+      "target": "facetime://",
+      "description": "Start a FaceTime video call"
+    }
+  ]
+}

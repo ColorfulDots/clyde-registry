@@ -1,0 +1,27 @@
+{
+  "module": "warp",
+  "displayName": "Warp",
+  "description": "Launch Warp terminal.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "blue",
+  "icon": "terminal.fill",
+  "tags": ["developer", "terminal", "warp"],
+  "commands": [
+    {
+      "name": "Open Warp",
+      "keywords": ["warp", "terminal", "shell", "open"],
+      "executor": "shell",
+      "target": "open -a Warp",
+      "description": "Launch the Warp terminal"
+    },
+    {
+      "name": "New Warp Window",
+      "keywords": ["warp", "new", "window", "terminal"],
+      "executor": "urlScheme",
+      "target": "warp://new-window",
+      "description": "Open a new Warp terminal window"
+    }
+  ]
+}

@@ -24,14 +24,14 @@
       "description": "Toggle play/pause in Spotify"
     },
     {
-      "name": "Next Track",
+      "name": "Spotify Next Track",
       "keywords": ["spotify", "next", "skip", "track"],
       "executor": "applescript",
       "target": "tell application \"Spotify\" to next track",
       "description": "Skip to the next track in Spotify"
     },
     {
-      "name": "Previous Track",
+      "name": "Spotify Previous Track",
       "keywords": ["spotify", "previous", "back", "track"],
       "executor": "applescript",
       "target": "tell application \"Spotify\" to previous track",

@@ -1,0 +1,27 @@
+{
+  "module": "reminders",
+  "displayName": "Reminders",
+  "description": "Deep link into Apple Reminders.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "red",
+  "icon": "checklist",
+  "tags": ["productivity", "tasks", "apple"],
+  "commands": [
+    {
+      "name": "Open Reminders",
+      "keywords": ["reminders", "tasks", "todos", "open"],
+      "executor": "shell",
+      "target": "open -a Reminders",
+      "description": "Launch the Apple Reminders app"
+    },
+    {
+      "name": "New Reminder",
+      "keywords": ["reminders", "new", "add", "create", "task"],
+      "executor": "applescript",
+      "target": "tell application \"Reminders\"\nactivate\nmake new reminder\nend tell",
+      "description": "Create a new reminder in Apple Reminders"
+    }
+  ]
+}

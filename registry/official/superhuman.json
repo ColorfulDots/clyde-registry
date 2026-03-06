@@ -1,0 +1,27 @@
+{
+  "module": "superhuman",
+  "displayName": "Superhuman",
+  "description": "Deep link into Superhuman email.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "blue",
+  "icon": "envelope.fill",
+  "tags": ["productivity", "email", "superhuman"],
+  "commands": [
+    {
+      "name": "Open Superhuman",
+      "keywords": ["superhuman", "email", "inbox", "open"],
+      "executor": "urlScheme",
+      "target": "superhuman://",
+      "description": "Launch Superhuman email client"
+    },
+    {
+      "name": "Compose Superhuman Email",
+      "keywords": ["superhuman", "compose", "new", "email", "write"],
+      "executor": "urlScheme",
+      "target": "superhuman://compose",
+      "description": "Open a new compose window in Superhuman"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "module": "cursor",
+  "displayName": "Cursor",
+  "description": "Launch Cursor AI code editor.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "blue",
+  "icon": "chevron.left.forwardslash.chevron.right",
+  "tags": ["developer", "editor", "ai", "cursor"],
+  "commands": [
+    {
+      "name": "Open Cursor",
+      "keywords": ["cursor", "editor", "ai", "code"],
+      "executor": "shell",
+      "target": "open -a Cursor",
+      "description": "Launch the Cursor AI code editor"
+    },
+    {
+      "name": "Open Cursor in Current Directory",
+      "keywords": ["cursor", "open", "directory", "folder", "project"],
+      "executor": "shell",
+      "target": "osascript -e 'tell app \"Terminal\" to do script \"cursor .\"'",
+      "description": "Open Cursor in the current working directory"
+    }
+  ]
+}

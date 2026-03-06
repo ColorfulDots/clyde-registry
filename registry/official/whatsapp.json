@@ -1,0 +1,27 @@
+{
+  "module": "whatsapp",
+  "displayName": "WhatsApp",
+  "description": "Deep link into WhatsApp chats.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "green",
+  "icon": "message.fill",
+  "tags": ["communication", "messaging", "whatsapp"],
+  "commands": [
+    {
+      "name": "Open WhatsApp",
+      "keywords": ["whatsapp", "open", "chat", "messages"],
+      "executor": "urlScheme",
+      "target": "whatsapp://",
+      "description": "Launch the WhatsApp desktop app"
+    },
+    {
+      "name": "New WhatsApp Message",
+      "keywords": ["whatsapp", "new", "message", "compose", "send"],
+      "executor": "urlScheme",
+      "target": "whatsapp://send",
+      "description": "Open a new message dialog in WhatsApp"
+    }
+  ]
+}
