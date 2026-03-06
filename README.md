@@ -1,8 +1,8 @@
-# Clyde Command Registry
+# Clyde User Command Registry
 
-The official command registry for [Clyde](https://clydecommands.com), a macOS command launcher that acts as an intent dispatcher. It's an app that opens everything.
+The official user command registry for [Clyde](https://clydecommands.com), a macOS command launcher that acts as an intent dispatcher. It's an app that opens everything.
 
-This repo is the source of truth for all User Commands available at **clydecommands.com/commands**. Every merged PR automatically appears on the site. No deployment needed.
+This repo is the source of truth for all User Commands available at **clydecommands.com/user-commands**. Every merged PR automatically appears on the site. No deployment needed.
 
 ---
 
@@ -206,14 +206,14 @@ Not sure how to write the JSON? Describe what you want at [clydecommands.com/gen
 
 ```bash
 # Download a user-command
-curl -o ~/.clyde/user-commands/finance.json \
-  https://raw.githubusercontent.com/ColorfulDots/clyde-registry/main/registry/official/finance.json
+curl -o ~/.clyde/user-commands/spotify.json \
+  https://raw.githubusercontent.com/ColorfulDots/clyde-registry/main/registry/official/spotify.json
 
 # Then in Clyde
 reload user-commands
 ```
 
-Or browse and download at [clydecommands.com/commands](https://clydecommands.com/commands).
+Or browse and download at [clydecommands.com/user-commands](https://clydecommands.com/user-commands).
 
 ---
 
