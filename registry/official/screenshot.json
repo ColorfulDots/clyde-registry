@@ -4,14 +4,22 @@
   "description": "Take a screenshot and save to desktop.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://support.apple.com/en-us/102646",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "purple",
   "icon": "camera",
-  "tags": ["productivity", "system"],
+  "tags": [
+    "productivity",
+    "system"
+  ],
   "commands": [
     {
       "name": "Screenshot",
-      "keywords": ["screenshot", "capture", "screen"],
+      "keywords": [
+        "screenshot",
+        "capture",
+        "screen"
+      ],
       "executor": "shell",
       "target": "screencapture -i ~/Desktop/screenshot.png",
       "description": "Take an interactive screenshot and save it to your Desktop"

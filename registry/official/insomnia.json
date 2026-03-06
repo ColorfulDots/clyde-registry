@@ -4,21 +4,39 @@
   "description": "Launch Insomnia API client.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://insomnia.rest",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "purple",
   "icon": "arrow.left.arrow.right",
-  "tags": ["developer", "api", "testing", "rest"],
+  "tags": [
+    "developer",
+    "api",
+    "testing",
+    "rest"
+  ],
   "commands": [
     {
       "name": "Open Insomnia",
-      "keywords": ["insomnia", "api", "rest", "http", "open"],
+      "keywords": [
+        "insomnia",
+        "api",
+        "rest",
+        "http",
+        "open"
+      ],
       "executor": "shell",
       "target": "open -a Insomnia",
       "description": "Launch the Insomnia API client"
     },
     {
       "name": "New Insomnia Request",
-      "keywords": ["insomnia", "new", "request", "api", "http"],
+      "keywords": [
+        "insomnia",
+        "new",
+        "request",
+        "api",
+        "http"
+      ],
       "executor": "urlScheme",
       "target": "insomnia://new/request",
       "description": "Open a new request in Insomnia"

@@ -4,21 +4,37 @@
   "description": "Launch IINA video player.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://iina.io",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "gray",
   "icon": "play.fill",
-  "tags": ["media", "video", "player"],
+  "tags": [
+    "media",
+    "video",
+    "player"
+  ],
   "commands": [
     {
       "name": "Open IINA",
-      "keywords": ["iina", "video", "player", "open"],
+      "keywords": [
+        "iina",
+        "video",
+        "player",
+        "open"
+      ],
       "executor": "shell",
       "target": "open -a IINA",
       "description": "Launch the IINA video player"
     },
     {
       "name": "IINA Open URL",
-      "keywords": ["iina", "url", "stream", "video", "play"],
+      "keywords": [
+        "iina",
+        "url",
+        "stream",
+        "video",
+        "play"
+      ],
       "executor": "urlScheme",
       "target": "iina://open",
       "description": "Open a URL or stream in IINA"

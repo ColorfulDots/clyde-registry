@@ -4,28 +4,49 @@
   "description": "Deep link into Apple Calendar.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://apps.apple.com/app/calendar/id1108185179",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "red",
   "icon": "calendar",
-  "tags": ["productivity", "calendar", "apple"],
+  "tags": [
+    "productivity",
+    "calendar",
+    "apple"
+  ],
   "commands": [
     {
       "name": "Open Calendar",
-      "keywords": ["calendar", "events", "schedule", "open"],
+      "keywords": [
+        "calendar",
+        "events",
+        "schedule",
+        "open"
+      ],
       "executor": "shell",
       "target": "open -a Calendar",
       "description": "Launch the Apple Calendar app"
     },
     {
       "name": "New Calendar Event",
-      "keywords": ["calendar", "new", "event", "create", "meeting"],
+      "keywords": [
+        "calendar",
+        "new",
+        "event",
+        "create",
+        "meeting"
+      ],
       "executor": "applescript",
       "target": "tell application \"Calendar\"\nactivate\ntell front document to make new event\nend tell",
       "description": "Create a new event in Apple Calendar"
     },
     {
       "name": "Today's Events",
-      "keywords": ["calendar", "today", "events", "schedule"],
+      "keywords": [
+        "calendar",
+        "today",
+        "events",
+        "schedule"
+      ],
       "executor": "applescript",
       "target": "tell application \"Calendar\" to activate",
       "description": "Open Calendar to view today's events"

@@ -4,14 +4,23 @@
   "description": "Launch the macOS Terminal app.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://support.apple.com/guide/terminal/welcome/mac",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "gray",
   "icon": "terminal.fill",
-  "tags": ["developer", "system"],
+  "tags": [
+    "developer",
+    "system"
+  ],
   "commands": [
     {
       "name": "Open Terminal",
-      "keywords": ["terminal", "shell", "bash", "zsh"],
+      "keywords": [
+        "terminal",
+        "shell",
+        "bash",
+        "zsh"
+      ],
       "executor": "shell",
       "target": "open -a Terminal",
       "description": "Launch Terminal.app to open a new shell session"

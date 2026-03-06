@@ -4,21 +4,37 @@
   "description": "Deep link into Apple Mail.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://apps.apple.com/app/mail/id1108187098",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "blue",
   "icon": "envelope.fill",
-  "tags": ["productivity", "email", "apple"],
+  "tags": [
+    "productivity",
+    "email",
+    "apple"
+  ],
   "commands": [
     {
       "name": "Open Mail",
-      "keywords": ["mail", "email", "inbox", "apple"],
+      "keywords": [
+        "mail",
+        "email",
+        "inbox",
+        "apple"
+      ],
       "executor": "shell",
       "target": "open -a Mail",
       "description": "Launch Apple Mail"
     },
     {
       "name": "Compose New Email",
-      "keywords": ["mail", "compose", "new", "email", "write"],
+      "keywords": [
+        "mail",
+        "compose",
+        "new",
+        "email",
+        "write"
+      ],
       "executor": "urlScheme",
       "target": "mailto:",
       "description": "Open a new compose window in Apple Mail"

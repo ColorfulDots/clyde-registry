@@ -4,21 +4,36 @@
   "description": "Deep link into Overcast podcast player.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://overcast.fm",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "orange",
   "icon": "headphones",
-  "tags": ["media", "podcasts", "audio"],
+  "tags": [
+    "media",
+    "podcasts",
+    "audio"
+  ],
   "commands": [
     {
       "name": "Open Overcast",
-      "keywords": ["overcast", "podcasts", "audio", "open"],
+      "keywords": [
+        "overcast",
+        "podcasts",
+        "audio",
+        "open"
+      ],
       "executor": "urlScheme",
       "target": "overcast://",
       "description": "Launch Overcast podcast player"
     },
     {
       "name": "Overcast Now Playing",
-      "keywords": ["overcast", "now playing", "podcast", "listen"],
+      "keywords": [
+        "overcast",
+        "now playing",
+        "podcast",
+        "listen"
+      ],
       "executor": "urlScheme",
       "target": "overcast://now-playing",
       "description": "Jump to the now playing episode in Overcast"

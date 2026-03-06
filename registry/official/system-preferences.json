@@ -4,49 +4,83 @@
   "description": "Deep link into macOS System Settings panels.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://support.apple.com/guide/mac-help/system-settings-mh15217",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "gray",
   "icon": "gearshape.fill",
-  "tags": ["system", "settings", "macos"],
+  "tags": [
+    "system",
+    "settings",
+    "macos"
+  ],
   "commands": [
     {
       "name": "Open System Settings",
-      "keywords": ["system settings", "preferences", "macos", "settings"],
+      "keywords": [
+        "system settings",
+        "preferences",
+        "macos",
+        "settings"
+      ],
       "executor": "shell",
       "target": "open -a 'System Settings'",
       "description": "Open macOS System Settings"
     },
     {
       "name": "Wi-Fi Settings",
-      "keywords": ["wifi", "network", "settings", "wireless"],
+      "keywords": [
+        "wifi",
+        "network",
+        "settings",
+        "wireless"
+      ],
       "executor": "urlScheme",
       "target": "x-apple.systempreferences:com.apple.wifi-settings-extension",
       "description": "Jump directly to Wi-Fi settings"
     },
     {
       "name": "Bluetooth Settings",
-      "keywords": ["bluetooth", "settings", "devices"],
+      "keywords": [
+        "bluetooth",
+        "settings",
+        "devices"
+      ],
       "executor": "urlScheme",
       "target": "x-apple.systempreferences:com.apple.BluetoothSettings",
       "description": "Jump directly to Bluetooth settings"
     },
     {
       "name": "Display Settings",
-      "keywords": ["display", "screen", "resolution", "settings"],
+      "keywords": [
+        "display",
+        "screen",
+        "resolution",
+        "settings"
+      ],
       "executor": "urlScheme",
       "target": "x-apple.systempreferences:com.apple.Displays-Settings.extension",
       "description": "Jump directly to Display settings"
     },
     {
       "name": "Sound Settings",
-      "keywords": ["sound", "audio", "volume", "settings"],
+      "keywords": [
+        "sound",
+        "audio",
+        "volume",
+        "settings"
+      ],
       "executor": "urlScheme",
       "target": "x-apple.systempreferences:com.apple.Sound-Settings.extension",
       "description": "Jump directly to Sound settings"
     },
     {
       "name": "Privacy & Security Settings",
-      "keywords": ["privacy", "security", "permissions", "settings"],
+      "keywords": [
+        "privacy",
+        "security",
+        "permissions",
+        "settings"
+      ],
       "executor": "urlScheme",
       "target": "x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension",
       "description": "Jump directly to Privacy & Security settings"

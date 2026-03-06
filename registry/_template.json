@@ -5,13 +5,19 @@
   "version": "1.0.0",
   "author": "your-github-username",
   "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "blue",
   "icon": "star",
-  "tags": ["productivity"],
+  "tags": [
+    "productivity"
+  ],
   "commands": [
     {
       "name": "Open My Service",
-      "keywords": ["my service", "keyword"],
+      "keywords": [
+        "my service",
+        "keyword"
+      ],
       "executor": "urlScheme",
       "target": "https://example.com",
       "description": "Open My Service"

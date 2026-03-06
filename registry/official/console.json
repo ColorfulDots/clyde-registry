@@ -4,21 +4,38 @@
   "description": "Launch macOS Console to view system logs.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://support.apple.com/guide/console/welcome/mac",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "gray",
   "icon": "doc.text.magnifyingglass",
-  "tags": ["system", "logs", "developer", "debugging"],
+  "tags": [
+    "system",
+    "logs",
+    "developer",
+    "debugging"
+  ],
   "commands": [
     {
       "name": "Open Console",
-      "keywords": ["console", "logs", "system", "debug"],
+      "keywords": [
+        "console",
+        "logs",
+        "system",
+        "debug"
+      ],
       "executor": "shell",
       "target": "open -a Console",
       "description": "Launch the macOS Console log viewer"
     },
     {
       "name": "Stream System Logs",
-      "keywords": ["console", "logs", "stream", "live", "debug"],
+      "keywords": [
+        "console",
+        "logs",
+        "stream",
+        "live",
+        "debug"
+      ],
       "executor": "shell",
       "target": "osascript -e 'tell app \"Terminal\" to do script \"log stream --level debug\"'",
       "description": "Stream live system logs in Terminal"

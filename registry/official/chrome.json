@@ -4,42 +4,70 @@
   "description": "Deep link into Google Chrome.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://www.google.com/chrome",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "blue",
   "icon": "globe",
-  "tags": ["browser", "productivity"],
+  "tags": [
+    "browser",
+    "productivity"
+  ],
   "commands": [
     {
       "name": "Open Chrome",
-      "keywords": ["chrome", "browser", "google", "open"],
+      "keywords": [
+        "chrome",
+        "browser",
+        "google",
+        "open"
+      ],
       "executor": "shell",
       "target": "open -a 'Google Chrome'",
       "description": "Launch Google Chrome"
     },
     {
       "name": "Chrome New Tab",
-      "keywords": ["chrome", "new", "tab", "browser"],
+      "keywords": [
+        "chrome",
+        "new",
+        "tab",
+        "browser"
+      ],
       "executor": "urlScheme",
       "target": "googlechrome://newtab",
       "description": "Open a new tab in Google Chrome"
     },
     {
       "name": "Chrome Incognito",
-      "keywords": ["chrome", "incognito", "private", "browser"],
+      "keywords": [
+        "chrome",
+        "incognito",
+        "private",
+        "browser"
+      ],
       "executor": "shell",
       "target": "open -a 'Google Chrome' --args --incognito",
       "description": "Open a new incognito window in Chrome"
     },
     {
       "name": "Chrome Extensions",
-      "keywords": ["chrome", "extensions", "plugins", "addons"],
+      "keywords": [
+        "chrome",
+        "extensions",
+        "plugins",
+        "addons"
+      ],
       "executor": "urlScheme",
       "target": "googlechrome://extensions",
       "description": "Open the Chrome extensions page"
     },
     {
       "name": "Chrome Settings",
-      "keywords": ["chrome", "settings", "preferences"],
+      "keywords": [
+        "chrome",
+        "settings",
+        "preferences"
+      ],
       "executor": "urlScheme",
       "target": "googlechrome://settings",
       "description": "Open Chrome settings"

@@ -4,14 +4,23 @@
   "description": "Toggle macOS dark and light mode.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://support.apple.com/en-us/102191",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "gray",
   "icon": "moon.fill",
-  "tags": ["system", "appearance"],
+  "tags": [
+    "system",
+    "appearance"
+  ],
   "commands": [
     {
       "name": "Toggle Dark Mode",
-      "keywords": ["dark mode", "light mode", "appearance", "theme"],
+      "keywords": [
+        "dark mode",
+        "light mode",
+        "appearance",
+        "theme"
+      ],
       "executor": "applescript",
       "target": "tell application \"System Events\" to tell appearance preferences to set dark mode to not dark mode",
       "description": "Switch between macOS dark and light appearance"

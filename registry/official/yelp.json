@@ -4,14 +4,23 @@
   "description": "Find and review local restaurants.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://www.yelp.com",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "red",
   "icon": "fork.knife",
-  "tags": ["food", "reviews"],
+  "tags": [
+    "food",
+    "reviews"
+  ],
   "commands": [
     {
       "name": "Open Yelp",
-      "keywords": ["yelp", "restaurants", "food", "reviews"],
+      "keywords": [
+        "yelp",
+        "restaurants",
+        "food",
+        "reviews"
+      ],
       "executor": "urlScheme",
       "target": "https://yelp.com",
       "description": "Open Yelp in your browser to find and review local restaurants"

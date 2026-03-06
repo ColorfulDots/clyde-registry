@@ -4,28 +4,48 @@
   "description": "Deep link into Discord servers and channels.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://discord.com",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "purple",
   "icon": "bubble.left.and.bubble.right.fill",
-  "tags": ["communication", "community", "discord"],
+  "tags": [
+    "communication",
+    "community",
+    "discord"
+  ],
   "commands": [
     {
       "name": "Open Discord",
-      "keywords": ["discord", "open", "chat", "server"],
+      "keywords": [
+        "discord",
+        "open",
+        "chat",
+        "server"
+      ],
       "executor": "urlScheme",
       "target": "discord://",
       "description": "Launch the Discord desktop app"
     },
     {
       "name": "Discord Friends",
-      "keywords": ["discord", "friends", "dm", "direct message"],
+      "keywords": [
+        "discord",
+        "friends",
+        "dm",
+        "direct message"
+      ],
       "executor": "urlScheme",
       "target": "discord://friends",
       "description": "Open your Discord friends list"
     },
     {
       "name": "Discord Settings",
-      "keywords": ["discord", "settings", "preferences", "account"],
+      "keywords": [
+        "discord",
+        "settings",
+        "preferences",
+        "account"
+      ],
       "executor": "urlScheme",
       "target": "discord://settings",
       "description": "Open Discord user settings"

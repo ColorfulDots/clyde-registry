@@ -4,42 +4,70 @@
   "description": "Navigate the macOS Finder quickly.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://support.apple.com/en-us/100414",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "blue",
   "icon": "folder.fill",
-  "tags": ["system", "productivity", "files"],
+  "tags": [
+    "system",
+    "productivity",
+    "files"
+  ],
   "commands": [
     {
       "name": "Open Finder",
-      "keywords": ["finder", "files", "open", "browse"],
+      "keywords": [
+        "finder",
+        "files",
+        "open",
+        "browse"
+      ],
       "executor": "shell",
       "target": "open -a Finder",
       "description": "Launch the macOS Finder"
     },
     {
       "name": "Open Home Folder",
-      "keywords": ["finder", "home", "folder", "files"],
+      "keywords": [
+        "finder",
+        "home",
+        "folder",
+        "files"
+      ],
       "executor": "shell",
       "target": "open ~",
       "description": "Open your home folder in Finder"
     },
     {
       "name": "Open Downloads",
-      "keywords": ["finder", "downloads", "folder"],
+      "keywords": [
+        "finder",
+        "downloads",
+        "folder"
+      ],
       "executor": "shell",
       "target": "open ~/Downloads",
       "description": "Open the Downloads folder in Finder"
     },
     {
       "name": "Open Desktop",
-      "keywords": ["finder", "desktop", "folder"],
+      "keywords": [
+        "finder",
+        "desktop",
+        "folder"
+      ],
       "executor": "shell",
       "target": "open ~/Desktop",
       "description": "Open the Desktop folder in Finder"
     },
     {
       "name": "Open Applications",
-      "keywords": ["finder", "applications", "apps", "folder"],
+      "keywords": [
+        "finder",
+        "applications",
+        "apps",
+        "folder"
+      ],
       "executor": "shell",
       "target": "open /Applications",
       "description": "Open the Applications folder in Finder"

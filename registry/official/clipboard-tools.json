@@ -5,34 +5,58 @@
   "version": "1.0.0",
   "author": "colorfulDots",
   "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "yellow",
   "icon": "doc.on.clipboard.fill",
-  "tags": ["productivity", "clipboard"],
+  "tags": [
+    "productivity",
+    "clipboard"
+  ],
   "commands": [
     {
       "name": "Clear Clipboard",
-      "keywords": ["clipboard", "clear", "empty", "reset"],
+      "keywords": [
+        "clipboard",
+        "clear",
+        "empty",
+        "reset"
+      ],
       "executor": "shell",
       "target": "echo -n '' | pbcopy",
       "description": "Wipe the current clipboard contents"
     },
     {
       "name": "Paste as Plain Text",
-      "keywords": ["clipboard", "paste", "plain text", "strip formatting"],
+      "keywords": [
+        "clipboard",
+        "paste",
+        "plain text",
+        "strip formatting"
+      ],
       "executor": "shell",
       "target": "pbpaste | pbcopy",
       "description": "Strip formatting from clipboard contents, leaving plain text"
     },
     {
       "name": "Copy Current Date",
-      "keywords": ["clipboard", "date", "copy", "timestamp"],
+      "keywords": [
+        "clipboard",
+        "date",
+        "copy",
+        "timestamp"
+      ],
       "executor": "shell",
       "target": "date '+%Y-%m-%d' | tr -d '\\n' | pbcopy",
       "description": "Copy today's date (YYYY-MM-DD) to the clipboard"
     },
     {
       "name": "Copy Current Timestamp",
-      "keywords": ["clipboard", "timestamp", "datetime", "iso"],
+      "keywords": [
+        "clipboard",
+        "timestamp",
+        "datetime",
+        "iso"
+      ],
       "executor": "shell",
       "target": "date -u '+%Y-%m-%dT%H:%M:%SZ' | tr -d '\\n' | pbcopy",
       "description": "Copy the current UTC timestamp in ISO 8601 format to the clipboard"

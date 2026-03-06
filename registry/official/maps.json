@@ -4,35 +4,62 @@
   "description": "Deep link into Apple Maps for navigation.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://maps.apple.com",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "green",
   "icon": "map.fill",
-  "tags": ["navigation", "maps", "productivity"],
+  "tags": [
+    "navigation",
+    "maps",
+    "productivity"
+  ],
   "commands": [
     {
       "name": "Open Maps",
-      "keywords": ["maps", "navigation", "directions", "open"],
+      "keywords": [
+        "maps",
+        "navigation",
+        "directions",
+        "open"
+      ],
       "executor": "shell",
       "target": "open -a Maps",
       "description": "Launch Apple Maps"
     },
     {
       "name": "Get Directions Home",
-      "keywords": ["maps", "home", "directions", "navigate"],
+      "keywords": [
+        "maps",
+        "home",
+        "directions",
+        "navigate"
+      ],
       "executor": "urlScheme",
       "target": "maps://?daddr=Home&dirflg=d",
       "description": "Get driving directions to your saved Home address"
     },
     {
       "name": "Get Directions to Work",
-      "keywords": ["maps", "work", "directions", "navigate", "office"],
+      "keywords": [
+        "maps",
+        "work",
+        "directions",
+        "navigate",
+        "office"
+      ],
       "executor": "urlScheme",
       "target": "maps://?daddr=Work&dirflg=d",
       "description": "Get driving directions to your saved Work address"
     },
     {
       "name": "Search Nearby",
-      "keywords": ["maps", "nearby", "search", "find", "local"],
+      "keywords": [
+        "maps",
+        "nearby",
+        "search",
+        "find",
+        "local"
+      ],
       "executor": "urlScheme",
       "target": "maps://?near=me",
       "description": "Search for places near your current location in Maps"

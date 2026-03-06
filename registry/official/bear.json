@@ -4,35 +4,61 @@
   "description": "Deep link into Bear notes app.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://bear.app",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "red",
   "icon": "note.text",
-  "tags": ["productivity", "notes", "writing"],
+  "tags": [
+    "productivity",
+    "notes",
+    "writing"
+  ],
   "commands": [
     {
       "name": "Open Bear",
-      "keywords": ["bear", "notes", "open", "writing"],
+      "keywords": [
+        "bear",
+        "notes",
+        "open",
+        "writing"
+      ],
       "executor": "urlScheme",
       "target": "bear://",
       "description": "Launch the Bear notes app"
     },
     {
       "name": "New Bear Note",
-      "keywords": ["bear", "new", "note", "create", "write"],
+      "keywords": [
+        "bear",
+        "new",
+        "note",
+        "create",
+        "write"
+      ],
       "executor": "urlScheme",
       "target": "bear://x-callback-url/create",
       "description": "Create a new blank note in Bear"
     },
     {
       "name": "Bear Search",
-      "keywords": ["bear", "search", "find", "note"],
+      "keywords": [
+        "bear",
+        "search",
+        "find",
+        "note"
+      ],
       "executor": "urlScheme",
       "target": "bear://x-callback-url/search",
       "description": "Open Bear with the search dialog"
     },
     {
       "name": "Bear Today",
-      "keywords": ["bear", "today", "daily", "note"],
+      "keywords": [
+        "bear",
+        "today",
+        "daily",
+        "note"
+      ],
       "executor": "urlScheme",
       "target": "bear://x-callback-url/today",
       "description": "Open or create today's daily note in Bear"

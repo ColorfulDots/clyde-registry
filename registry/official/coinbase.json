@@ -4,14 +4,23 @@
   "description": "Buy, sell, and manage crypto on Coinbase.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://www.coinbase.com",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "blue",
   "icon": "bitcoinsign.circle.fill",
-  "tags": ["finance", "crypto"],
+  "tags": [
+    "finance",
+    "crypto"
+  ],
   "commands": [
     {
       "name": "Open Coinbase",
-      "keywords": ["coinbase", "crypto", "bitcoin", "ethereum"],
+      "keywords": [
+        "coinbase",
+        "crypto",
+        "bitcoin",
+        "ethereum"
+      ],
       "executor": "urlScheme",
       "target": "https://coinbase.com",
       "description": "Open Coinbase in your browser to buy, sell, and manage crypto"

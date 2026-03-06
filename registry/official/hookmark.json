@@ -4,28 +4,48 @@
   "description": "Deep link into Hookmark for contextual linking.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://hookproductivity.com",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "orange",
   "icon": "link",
-  "tags": ["productivity", "linking", "research"],
+  "tags": [
+    "productivity",
+    "linking",
+    "research"
+  ],
   "commands": [
     {
       "name": "Open Hookmark",
-      "keywords": ["hookmark", "hook", "links", "open"],
+      "keywords": [
+        "hookmark",
+        "hook",
+        "links",
+        "open"
+      ],
       "executor": "urlScheme",
       "target": "hook://",
       "description": "Launch Hookmark"
     },
     {
       "name": "Hookmark Search",
-      "keywords": ["hookmark", "search", "find", "link"],
+      "keywords": [
+        "hookmark",
+        "search",
+        "find",
+        "link"
+      ],
       "executor": "urlScheme",
       "target": "hook://search",
       "description": "Open Hookmark search to find linked items"
     },
     {
       "name": "Copy Hookmark Link",
-      "keywords": ["hookmark", "copy", "link", "url"],
+      "keywords": [
+        "hookmark",
+        "copy",
+        "link",
+        "url"
+      ],
       "executor": "urlScheme",
       "target": "hook://copy-link",
       "description": "Copy a Hookmark deep link for the current item"

@@ -4,14 +4,22 @@
   "description": "Launch Visual Studio Code.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://code.visualstudio.com",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "blue",
   "icon": "chevron.left.forwardslash.chevron.right",
-  "tags": ["developer", "editor"],
+  "tags": [
+    "developer",
+    "editor"
+  ],
   "commands": [
     {
       "name": "Open VS Code",
-      "keywords": ["vscode", "code", "editor"],
+      "keywords": [
+        "vscode",
+        "code",
+        "editor"
+      ],
       "executor": "shell",
       "target": "open -a 'Visual Studio Code'",
       "description": "Launch Visual Studio Code to start editing your project"

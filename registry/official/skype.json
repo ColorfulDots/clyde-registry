@@ -4,21 +4,37 @@
   "description": "Deep link into Skype for calls and messaging.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://www.skype.com",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "blue",
   "icon": "video.fill",
-  "tags": ["communication", "calls", "messaging", "skype"],
+  "tags": [
+    "communication",
+    "calls",
+    "messaging",
+    "skype"
+  ],
   "commands": [
     {
       "name": "Open Skype",
-      "keywords": ["skype", "call", "video", "open"],
+      "keywords": [
+        "skype",
+        "call",
+        "video",
+        "open"
+      ],
       "executor": "urlScheme",
       "target": "skype://",
       "description": "Launch Skype"
     },
     {
       "name": "Skype Call",
-      "keywords": ["skype", "call", "video", "audio"],
+      "keywords": [
+        "skype",
+        "call",
+        "video",
+        "audio"
+      ],
       "executor": "urlScheme",
       "target": "skype://call",
       "description": "Start a new Skype call"

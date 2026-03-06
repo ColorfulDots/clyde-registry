@@ -4,28 +4,48 @@
   "description": "Deep link into the macOS App Store.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://www.apple.com/app-store",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "blue",
   "icon": "app.badge.fill",
-  "tags": ["system", "apps", "apple"],
+  "tags": [
+    "system",
+    "apps",
+    "apple"
+  ],
   "commands": [
     {
       "name": "Open App Store",
-      "keywords": ["app store", "apps", "download", "open"],
+      "keywords": [
+        "app store",
+        "apps",
+        "download",
+        "open"
+      ],
       "executor": "urlScheme",
       "target": "macappstore://",
       "description": "Launch the macOS App Store"
     },
     {
       "name": "App Store Updates",
-      "keywords": ["app store", "updates", "upgrade", "apps"],
+      "keywords": [
+        "app store",
+        "updates",
+        "upgrade",
+        "apps"
+      ],
       "executor": "urlScheme",
       "target": "macappstore://updates",
       "description": "Open the Updates tab in the App Store"
     },
     {
       "name": "App Store Featured",
-      "keywords": ["app store", "featured", "discover", "apps"],
+      "keywords": [
+        "app store",
+        "featured",
+        "discover",
+        "apps"
+      ],
       "executor": "urlScheme",
       "target": "macappstore://featured",
       "description": "Browse featured apps in the App Store"

@@ -4,21 +4,36 @@
   "description": "Deep link into TablePlus database connections.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://tableplus.com",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "orange",
   "icon": "tablecells.fill",
-  "tags": ["developer", "database", "sql"],
+  "tags": [
+    "developer",
+    "database",
+    "sql"
+  ],
   "commands": [
     {
       "name": "Open TablePlus",
-      "keywords": ["tableplus", "database", "sql", "db"],
+      "keywords": [
+        "tableplus",
+        "database",
+        "sql",
+        "db"
+      ],
       "executor": "shell",
       "target": "open -a TablePlus",
       "description": "Launch TablePlus database manager"
     },
     {
       "name": "New TablePlus Connection",
-      "keywords": ["tableplus", "new", "connection", "database"],
+      "keywords": [
+        "tableplus",
+        "new",
+        "connection",
+        "database"
+      ],
       "executor": "urlScheme",
       "target": "tableplus://new",
       "description": "Open the new connection dialog in TablePlus"

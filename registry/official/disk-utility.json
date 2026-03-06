@@ -4,21 +4,38 @@
   "description": "Launch macOS Disk Utility for disk management.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://support.apple.com/guide/disk-utility/welcome/mac",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "gray",
   "icon": "externaldrive.fill",
-  "tags": ["system", "disk", "storage", "macos"],
+  "tags": [
+    "system",
+    "disk",
+    "storage",
+    "macos"
+  ],
   "commands": [
     {
       "name": "Open Disk Utility",
-      "keywords": ["disk utility", "disk", "storage", "format", "repair"],
+      "keywords": [
+        "disk utility",
+        "disk",
+        "storage",
+        "format",
+        "repair"
+      ],
       "executor": "shell",
       "target": "open -a 'Disk Utility'",
       "description": "Launch macOS Disk Utility"
     },
     {
       "name": "Check Disk Space",
-      "keywords": ["disk", "space", "storage", "free"],
+      "keywords": [
+        "disk",
+        "space",
+        "storage",
+        "free"
+      ],
       "executor": "shell",
       "target": "osascript -e 'tell app \"Terminal\" to do script \"df -h / | tail -1\"'",
       "description": "Show available disk space on the main volume"

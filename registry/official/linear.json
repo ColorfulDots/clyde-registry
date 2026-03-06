@@ -4,28 +4,50 @@
   "description": "Deep link into Linear issues and teams.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://linear.app",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "purple",
   "icon": "checklist",
-  "tags": ["productivity", "developer", "linear", "issues"],
+  "tags": [
+    "productivity",
+    "developer",
+    "linear",
+    "issues"
+  ],
   "commands": [
     {
       "name": "Open Linear",
-      "keywords": ["linear", "open", "issues", "tasks"],
+      "keywords": [
+        "linear",
+        "open",
+        "issues",
+        "tasks"
+      ],
       "executor": "urlScheme",
       "target": "linear://",
       "description": "Launch Linear and open your workspace"
     },
     {
       "name": "My Linear Issues",
-      "keywords": ["linear", "my issues", "assigned", "tasks"],
+      "keywords": [
+        "linear",
+        "my issues",
+        "assigned",
+        "tasks"
+      ],
       "executor": "urlScheme",
       "target": "linear://my-issues",
       "description": "Jump to issues assigned to you in Linear"
     },
     {
       "name": "New Linear Issue",
-      "keywords": ["linear", "new", "issue", "create", "task"],
+      "keywords": [
+        "linear",
+        "new",
+        "issue",
+        "create",
+        "task"
+      ],
       "executor": "urlScheme",
       "target": "linear://new-issue",
       "description": "Open the new issue dialog in Linear"

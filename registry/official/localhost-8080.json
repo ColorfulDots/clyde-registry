@@ -5,13 +5,21 @@
   "version": "1.0.0",
   "author": "colorfulDots",
   "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "blue",
   "icon": "network",
-  "tags": ["developer", "localhost"],
+  "tags": [
+    "developer",
+    "localhost"
+  ],
   "commands": [
     {
       "name": "Localhost 8080",
-      "keywords": ["localhost", "local", "8080"],
+      "keywords": [
+        "localhost",
+        "local",
+        "8080"
+      ],
       "executor": "urlScheme",
       "target": "http://localhost:8080",
       "description": "Open localhost:8080 in your browser to preview your dev server"

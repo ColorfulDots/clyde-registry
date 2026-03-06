@@ -4,28 +4,49 @@
   "description": "Deep link into NotePlan for daily planning and notes.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://noteplan.co",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "blue",
   "icon": "calendar.badge.plus",
-  "tags": ["productivity", "notes", "planning", "calendar"],
+  "tags": [
+    "productivity",
+    "notes",
+    "planning",
+    "calendar"
+  ],
   "commands": [
     {
       "name": "Open NotePlan",
-      "keywords": ["noteplan", "notes", "planning", "open"],
+      "keywords": [
+        "noteplan",
+        "notes",
+        "planning",
+        "open"
+      ],
       "executor": "urlScheme",
       "target": "noteplan://",
       "description": "Launch NotePlan"
     },
     {
       "name": "NotePlan Today",
-      "keywords": ["noteplan", "today", "daily", "note"],
+      "keywords": [
+        "noteplan",
+        "today",
+        "daily",
+        "note"
+      ],
       "executor": "urlScheme",
       "target": "noteplan://today",
       "description": "Open today's daily note in NotePlan"
     },
     {
       "name": "New NotePlan Note",
-      "keywords": ["noteplan", "new", "note", "create"],
+      "keywords": [
+        "noteplan",
+        "new",
+        "note",
+        "create"
+      ],
       "executor": "urlScheme",
       "target": "noteplan://new",
       "description": "Create a new note in NotePlan"

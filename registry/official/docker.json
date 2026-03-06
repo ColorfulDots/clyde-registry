@@ -4,49 +4,88 @@
   "description": "Manage Docker containers and images.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://www.docker.com",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "blue",
   "icon": "shippingbox",
-  "tags": ["developer", "docker", "devops"],
+  "tags": [
+    "developer",
+    "docker",
+    "devops"
+  ],
   "commands": [
     {
       "name": "Docker PS",
-      "keywords": ["docker", "containers", "running", "ps"],
+      "keywords": [
+        "docker",
+        "containers",
+        "running",
+        "ps"
+      ],
       "executor": "shell",
       "target": "osascript -e 'tell app \"Terminal\" to do script \"docker ps\"'",
       "description": "List all currently running Docker containers"
     },
     {
       "name": "Docker Stop All Containers",
-      "keywords": ["docker", "stop", "containers", "halt"],
+      "keywords": [
+        "docker",
+        "stop",
+        "containers",
+        "halt"
+      ],
       "executor": "shell",
       "target": "osascript -e 'tell app \"Terminal\" to do script \"docker stop $(docker ps -q)\"'",
       "description": "Stop all running Docker containers at once"
     },
     {
       "name": "Docker Prune Images",
-      "keywords": ["docker", "prune", "images", "cleanup", "dangling"],
+      "keywords": [
+        "docker",
+        "prune",
+        "images",
+        "cleanup",
+        "dangling"
+      ],
       "executor": "shell",
       "target": "osascript -e 'tell app \"Terminal\" to do script \"docker image prune -f\"'",
       "description": "Remove all dangling (unused) Docker images to free up disk space"
     },
     {
       "name": "Docker Prune All",
-      "keywords": ["docker", "prune", "system", "cleanup", "all"],
+      "keywords": [
+        "docker",
+        "prune",
+        "system",
+        "cleanup",
+        "all"
+      ],
       "executor": "shell",
       "target": "osascript -e 'tell app \"Terminal\" to do script \"docker system prune -af\"'",
       "description": "Remove all stopped containers, unused networks, images, and build cache"
     },
     {
       "name": "Docker Compose Up",
-      "keywords": ["docker", "compose", "up", "start", "services"],
+      "keywords": [
+        "docker",
+        "compose",
+        "up",
+        "start",
+        "services"
+      ],
       "executor": "shell",
       "target": "osascript -e 'tell app \"Terminal\" to do script \"docker compose up -d\"'",
       "description": "Start all services defined in docker-compose.yml in detached mode"
     },
     {
       "name": "Docker Compose Down",
-      "keywords": ["docker", "compose", "down", "stop", "services"],
+      "keywords": [
+        "docker",
+        "compose",
+        "down",
+        "stop",
+        "services"
+      ],
       "executor": "shell",
       "target": "osascript -e 'tell app \"Terminal\" to do script \"docker compose down\"'",
       "description": "Stop and remove all containers defined in docker-compose.yml"

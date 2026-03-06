@@ -4,28 +4,51 @@
   "description": "Deep link into Plex media server.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://www.plex.tv",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "yellow",
   "icon": "play.tv.fill",
-  "tags": ["media", "movies", "tv", "plex"],
+  "tags": [
+    "media",
+    "movies",
+    "tv",
+    "plex"
+  ],
   "commands": [
     {
       "name": "Open Plex",
-      "keywords": ["plex", "media", "movies", "tv", "open"],
+      "keywords": [
+        "plex",
+        "media",
+        "movies",
+        "tv",
+        "open"
+      ],
       "executor": "urlScheme",
       "target": "plex://",
       "description": "Launch the Plex media player"
     },
     {
       "name": "Plex Now Playing",
-      "keywords": ["plex", "now playing", "watch", "media"],
+      "keywords": [
+        "plex",
+        "now playing",
+        "watch",
+        "media"
+      ],
       "executor": "urlScheme",
       "target": "plex://now-playing",
       "description": "Open the Plex now playing screen"
     },
     {
       "name": "Plex Library",
-      "keywords": ["plex", "library", "browse", "movies", "tv"],
+      "keywords": [
+        "plex",
+        "library",
+        "browse",
+        "movies",
+        "tv"
+      ],
       "executor": "urlScheme",
       "target": "plex://library",
       "description": "Browse your Plex media library"

@@ -4,14 +4,23 @@
   "description": "Book restaurant reservations with OpenTable.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://www.opentable.com",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "orange",
   "icon": "fork.knife",
-  "tags": ["food", "reservations"],
+  "tags": [
+    "food",
+    "reservations"
+  ],
   "commands": [
     {
       "name": "Open OpenTable",
-      "keywords": ["opentable", "reservation", "restaurant", "book"],
+      "keywords": [
+        "opentable",
+        "reservation",
+        "restaurant",
+        "book"
+      ],
       "executor": "urlScheme",
       "target": "https://opentable.com",
       "description": "Open OpenTable in your browser to book a restaurant reservation"

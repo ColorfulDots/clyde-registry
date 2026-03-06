@@ -4,49 +4,87 @@
   "description": "Deep link into Dash for instant documentation lookup.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://kapeli.com/dash",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "blue",
   "icon": "book.fill",
-  "tags": ["developer", "documentation", "reference", "dash"],
+  "tags": [
+    "developer",
+    "documentation",
+    "reference",
+    "dash"
+  ],
   "commands": [
     {
       "name": "Open Dash",
-      "keywords": ["dash", "docs", "documentation", "open"],
+      "keywords": [
+        "dash",
+        "docs",
+        "documentation",
+        "open"
+      ],
       "executor": "urlScheme",
       "target": "dash://",
       "description": "Launch Dash documentation browser"
     },
     {
       "name": "Dash Search",
-      "keywords": ["dash", "search", "docs", "lookup"],
+      "keywords": [
+        "dash",
+        "search",
+        "docs",
+        "lookup"
+      ],
       "executor": "urlScheme",
       "target": "dash://search:",
       "description": "Open Dash with search focused"
     },
     {
       "name": "Dash Swift Docs",
-      "keywords": ["dash", "swift", "docs", "apple", "ios"],
+      "keywords": [
+        "dash",
+        "swift",
+        "docs",
+        "apple",
+        "ios"
+      ],
       "executor": "urlScheme",
       "target": "dash://swift:",
       "description": "Search Swift documentation in Dash"
     },
     {
       "name": "Dash React Docs",
-      "keywords": ["dash", "react", "docs", "javascript"],
+      "keywords": [
+        "dash",
+        "react",
+        "docs",
+        "javascript"
+      ],
       "executor": "urlScheme",
       "target": "dash://react:",
       "description": "Search React documentation in Dash"
     },
     {
       "name": "Dash Node.js Docs",
-      "keywords": ["dash", "node", "nodejs", "docs", "javascript"],
+      "keywords": [
+        "dash",
+        "node",
+        "nodejs",
+        "docs",
+        "javascript"
+      ],
       "executor": "urlScheme",
       "target": "dash://nodejs:",
       "description": "Search Node.js documentation in Dash"
     },
     {
       "name": "Dash Python Docs",
-      "keywords": ["dash", "python", "docs", "py"],
+      "keywords": [
+        "dash",
+        "python",
+        "docs",
+        "py"
+      ],
       "executor": "urlScheme",
       "target": "dash://python:",
       "description": "Search Python documentation in Dash"

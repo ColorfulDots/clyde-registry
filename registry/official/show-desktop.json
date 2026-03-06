@@ -5,13 +5,21 @@
   "version": "1.0.0",
   "author": "colorfulDots",
   "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "gray",
   "icon": "rectangle.on.rectangle",
-  "tags": ["system", "productivity"],
+  "tags": [
+    "system",
+    "productivity"
+  ],
   "commands": [
     {
       "name": "Show Desktop",
-      "keywords": ["desktop", "show", "hide windows"],
+      "keywords": [
+        "desktop",
+        "show",
+        "hide windows"
+      ],
       "executor": "applescript",
       "target": "tell application \"System Events\" to key code 103 using {command down, mission control key}",
       "description": "Hide all open windows to reveal the desktop"

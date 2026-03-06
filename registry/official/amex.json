@@ -4,14 +4,24 @@
   "description": "Manage your American Express credit card.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://www.americanexpress.com",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "blue",
   "icon": "creditcard.fill",
-  "tags": ["finance", "banking"],
+  "tags": [
+    "finance",
+    "banking"
+  ],
   "commands": [
     {
       "name": "Open American Express",
-      "keywords": ["amex", "american express", "credit card", "visa", "mastercard"],
+      "keywords": [
+        "amex",
+        "american express",
+        "credit card",
+        "visa",
+        "mastercard"
+      ],
       "executor": "urlScheme",
       "target": "https://www.americanexpress.com",
       "description": "Open American Express in your browser to manage your credit card"

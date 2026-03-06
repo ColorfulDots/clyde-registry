@@ -4,28 +4,46 @@
   "description": "Deep link into Slack channels, DMs, and search.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://slack.com",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "purple",
   "icon": "message.fill",
-  "tags": ["productivity", "communication", "slack"],
+  "tags": [
+    "productivity",
+    "communication",
+    "slack"
+  ],
   "commands": [
     {
       "name": "Open Slack",
-      "keywords": ["slack", "open", "chat"],
+      "keywords": [
+        "slack",
+        "open",
+        "chat"
+      ],
       "executor": "urlScheme",
       "target": "slack://open",
       "description": "Launch Slack and open your workspace"
     },
     {
       "name": "Slack Search",
-      "keywords": ["slack", "search", "find", "messages"],
+      "keywords": [
+        "slack",
+        "search",
+        "find",
+        "messages"
+      ],
       "executor": "urlScheme",
       "target": "slack://search",
       "description": "Open Slack with the search bar focused"
     },
     {
       "name": "Slack Direct Messages",
-      "keywords": ["slack", "dm", "direct message"],
+      "keywords": [
+        "slack",
+        "dm",
+        "direct message"
+      ],
       "executor": "urlScheme",
       "target": "slack://dm",
       "description": "Jump to your Slack direct messages"

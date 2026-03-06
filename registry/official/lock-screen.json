@@ -5,13 +5,21 @@
   "version": "1.0.0",
   "author": "colorfulDots",
   "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "gray",
   "icon": "lock.fill",
-  "tags": ["system", "security"],
+  "tags": [
+    "system",
+    "security"
+  ],
   "commands": [
     {
       "name": "Lock Screen",
-      "keywords": ["lock", "screen", "sleep display"],
+      "keywords": [
+        "lock",
+        "screen",
+        "sleep display"
+      ],
       "executor": "shell",
       "target": "pmset displaysleepnow",
       "description": "Turn off the display and lock your Mac immediately"

@@ -4,21 +4,37 @@
   "description": "Deep link into Apple Messages.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://apps.apple.com/app/messages/id1146560473",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "green",
   "icon": "message.fill",
-  "tags": ["communication", "messaging", "apple"],
+  "tags": [
+    "communication",
+    "messaging",
+    "apple"
+  ],
   "commands": [
     {
       "name": "Open Messages",
-      "keywords": ["messages", "imessage", "sms", "open"],
+      "keywords": [
+        "messages",
+        "imessage",
+        "sms",
+        "open"
+      ],
       "executor": "shell",
       "target": "open -a Messages",
       "description": "Launch Apple Messages"
     },
     {
       "name": "New Message",
-      "keywords": ["messages", "new", "sms", "imessage", "compose"],
+      "keywords": [
+        "messages",
+        "new",
+        "sms",
+        "imessage",
+        "compose"
+      ],
       "executor": "urlScheme",
       "target": "sms:",
       "description": "Open a new message compose window"

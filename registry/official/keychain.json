@@ -4,21 +4,36 @@
   "description": "Launch macOS Keychain Access for credential management.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://support.apple.com/guide/keychain-access/welcome/mac",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "gray",
   "icon": "key.fill",
-  "tags": ["system", "security", "passwords", "macos"],
+  "tags": [
+    "system",
+    "security",
+    "passwords",
+    "macos"
+  ],
   "commands": [
     {
       "name": "Open Keychain Access",
-      "keywords": ["keychain", "passwords", "certificates", "security"],
+      "keywords": [
+        "keychain",
+        "passwords",
+        "certificates",
+        "security"
+      ],
       "executor": "shell",
       "target": "open -a 'Keychain Access'",
       "description": "Launch macOS Keychain Access"
     },
     {
       "name": "Lock Keychain",
-      "keywords": ["keychain", "lock", "security"],
+      "keywords": [
+        "keychain",
+        "lock",
+        "security"
+      ],
       "executor": "shell",
       "target": "security lock-keychain ~/Library/Keychains/login.keychain-db",
       "description": "Lock the login keychain immediately"

@@ -4,28 +4,50 @@
   "description": "Deep link into Craft docs and notes.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://www.craft.do",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "blue",
   "icon": "doc.richtext.fill",
-  "tags": ["productivity", "notes", "writing", "docs"],
+  "tags": [
+    "productivity",
+    "notes",
+    "writing",
+    "docs"
+  ],
   "commands": [
     {
       "name": "Open Craft",
-      "keywords": ["craft", "notes", "docs", "open"],
+      "keywords": [
+        "craft",
+        "notes",
+        "docs",
+        "open"
+      ],
       "executor": "urlScheme",
       "target": "craftdocs://",
       "description": "Launch the Craft docs app"
     },
     {
       "name": "New Craft Document",
-      "keywords": ["craft", "new", "document", "create", "note"],
+      "keywords": [
+        "craft",
+        "new",
+        "document",
+        "create",
+        "note"
+      ],
       "executor": "urlScheme",
       "target": "craftdocs://createdocument",
       "description": "Create a new document in Craft"
     },
     {
       "name": "Craft Search",
-      "keywords": ["craft", "search", "find", "document"],
+      "keywords": [
+        "craft",
+        "search",
+        "find",
+        "document"
+      ],
       "executor": "urlScheme",
       "target": "craftdocs://search",
       "description": "Open Craft with the search panel focused"

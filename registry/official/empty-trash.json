@@ -5,13 +5,22 @@
   "version": "1.0.0",
   "author": "colorfulDots",
   "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "gray",
   "icon": "trash.fill",
-  "tags": ["system", "productivity"],
+  "tags": [
+    "system",
+    "productivity"
+  ],
   "commands": [
     {
       "name": "Empty Trash",
-      "keywords": ["trash", "empty", "delete", "clean"],
+      "keywords": [
+        "trash",
+        "empty",
+        "delete",
+        "clean"
+      ],
       "executor": "applescript",
       "target": "tell application \"Finder\" to empty trash",
       "description": "Permanently delete all files in the macOS Trash"

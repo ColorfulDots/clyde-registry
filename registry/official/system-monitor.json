@@ -5,41 +5,72 @@
   "version": "1.0.0",
   "author": "colorfulDots",
   "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "green",
   "icon": "cpu",
-  "tags": ["system", "productivity", "developer"],
+  "tags": [
+    "system",
+    "productivity",
+    "developer"
+  ],
   "commands": [
     {
       "name": "Open Activity Monitor",
-      "keywords": ["activity monitor", "cpu", "memory", "processes"],
+      "keywords": [
+        "activity monitor",
+        "cpu",
+        "memory",
+        "processes"
+      ],
       "executor": "shell",
       "target": "open -a 'Activity Monitor'",
       "description": "Launch Activity Monitor to inspect CPU, memory, and process usage"
     },
     {
       "name": "Check Disk Usage",
-      "keywords": ["disk", "storage", "space", "df"],
+      "keywords": [
+        "disk",
+        "storage",
+        "space",
+        "df"
+      ],
       "executor": "shell",
       "target": "osascript -e 'tell app \"Terminal\" to do script \"df -h\"'",
       "description": "Show disk usage for all mounted volumes in Terminal"
     },
     {
       "name": "Kill Port 3000",
-      "keywords": ["kill", "port", "3000", "process"],
+      "keywords": [
+        "kill",
+        "port",
+        "3000",
+        "process"
+      ],
       "executor": "shell",
       "target": "osascript -e 'tell app \"Terminal\" to do script \"lsof -ti:3000 | xargs kill -9\"'",
       "description": "Force kill any process running on port 3000"
     },
     {
       "name": "Kill Port 8080",
-      "keywords": ["kill", "port", "8080", "process"],
+      "keywords": [
+        "kill",
+        "port",
+        "8080",
+        "process"
+      ],
       "executor": "shell",
       "target": "osascript -e 'tell app \"Terminal\" to do script \"lsof -ti:8080 | xargs kill -9\"'",
       "description": "Force kill any process running on port 8080"
     },
     {
       "name": "Top Processes",
-      "keywords": ["top", "processes", "cpu", "memory", "usage"],
+      "keywords": [
+        "top",
+        "processes",
+        "cpu",
+        "memory",
+        "usage"
+      ],
       "executor": "shell",
       "target": "osascript -e 'tell app \"Terminal\" to do script \"top -o cpu -n 10\"'",
       "description": "Show the top 10 CPU-consuming processes in Terminal"

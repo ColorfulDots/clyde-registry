@@ -4,28 +4,50 @@
   "description": "Deep link into DEVONthink for knowledge management.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://www.devontechnologies.com/apps/devonthink",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "blue",
   "icon": "archivebox.fill",
-  "tags": ["productivity", "knowledge", "research", "notes"],
+  "tags": [
+    "productivity",
+    "knowledge",
+    "research",
+    "notes"
+  ],
   "commands": [
     {
       "name": "Open DEVONthink",
-      "keywords": ["devonthink", "devon", "knowledge", "open"],
+      "keywords": [
+        "devonthink",
+        "devon",
+        "knowledge",
+        "open"
+      ],
       "executor": "shell",
       "target": "open -a DEVONthink",
       "description": "Launch DEVONthink"
     },
     {
       "name": "DEVONthink Search",
-      "keywords": ["devonthink", "search", "find", "document"],
+      "keywords": [
+        "devonthink",
+        "search",
+        "find",
+        "document"
+      ],
       "executor": "urlScheme",
       "target": "x-devonthink-item://search",
       "description": "Open DEVONthink with search focused"
     },
     {
       "name": "New DEVONthink Document",
-      "keywords": ["devonthink", "new", "document", "create", "note"],
+      "keywords": [
+        "devonthink",
+        "new",
+        "document",
+        "create",
+        "note"
+      ],
       "executor": "applescript",
       "target": "tell application \"DEVONthink 3\"\nactivate\ncreate record with {name:\"New Document\", type:markdown}\nend tell",
       "description": "Create a new markdown document in DEVONthink"

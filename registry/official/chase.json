@@ -4,14 +4,24 @@
   "description": "Access your Chase bank account.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://www.chase.com",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "blue",
   "icon": "building.columns.fill",
-  "tags": ["finance", "banking"],
+  "tags": [
+    "finance",
+    "banking"
+  ],
   "commands": [
     {
       "name": "Open Chase",
-      "keywords": ["chase", "bank", "banking", "checking", "savings"],
+      "keywords": [
+        "chase",
+        "bank",
+        "banking",
+        "checking",
+        "savings"
+      ],
       "executor": "urlScheme",
       "target": "https://www.chase.com",
       "description": "Open Chase in your browser to manage your bank account"

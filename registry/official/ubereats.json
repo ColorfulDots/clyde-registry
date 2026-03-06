@@ -4,14 +4,23 @@
   "description": "Order food delivery from Uber Eats.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://www.ubereats.com",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "green",
   "icon": "bag.fill",
-  "tags": ["food", "delivery"],
+  "tags": [
+    "food",
+    "delivery"
+  ],
   "commands": [
     {
       "name": "Open Uber Eats",
-      "keywords": ["uber eats", "ubereats", "delivery", "food"],
+      "keywords": [
+        "uber eats",
+        "ubereats",
+        "delivery",
+        "food"
+      ],
       "executor": "urlScheme",
       "target": "https://ubereats.com",
       "description": "Open Uber Eats in your browser to order food delivery"

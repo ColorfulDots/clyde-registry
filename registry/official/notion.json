@@ -4,28 +4,48 @@
   "description": "Deep link into Notion pages and workspaces.",
   "version": "1.0.0",
   "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://www.notion.so",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "gray",
   "icon": "doc.text.fill",
-  "tags": ["productivity", "notes", "notion"],
+  "tags": [
+    "productivity",
+    "notes",
+    "notion"
+  ],
   "commands": [
     {
       "name": "Open Notion",
-      "keywords": ["notion", "open", "notes", "workspace"],
+      "keywords": [
+        "notion",
+        "open",
+        "notes",
+        "workspace"
+      ],
       "executor": "urlScheme",
       "target": "notion://",
       "description": "Launch Notion and open your workspace"
     },
     {
       "name": "New Notion Page",
-      "keywords": ["notion", "new", "page", "create"],
+      "keywords": [
+        "notion",
+        "new",
+        "page",
+        "create"
+      ],
       "executor": "urlScheme",
       "target": "notion://new",
       "description": "Create a new page in Notion"
     },
     {
       "name": "Notion Search",
-      "keywords": ["notion", "search", "find", "page"],
+      "keywords": [
+        "notion",
+        "search",
+        "find",
+        "page"
+      ],
       "executor": "urlScheme",
       "target": "notion://search",
       "description": "Open Notion with quick search focused"
