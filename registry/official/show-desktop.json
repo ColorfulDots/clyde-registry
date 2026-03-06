@@ -1,0 +1,12 @@
+{
+  "module": "show-desktop",
+  "commands": [
+    {
+      "name": "Show Desktop",
+      "keywords": ["desktop", "show", "hide windows"],
+      "executor": "applescript",
+      "target": "tell application \"System Events\" to key code 103 using {command down, mission control key}",
+      "description": "Show the desktop (hide all windows)"
+    }
+  ]
+}

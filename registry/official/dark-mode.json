@@ -1,0 +1,12 @@
+{
+  "module": "dark-mode",
+  "commands": [
+    {
+      "name": "Toggle Dark Mode",
+      "keywords": ["dark mode", "light mode", "appearance", "theme"],
+      "executor": "applescript",
+      "target": "tell application \"System Events\" to tell appearance preferences to set dark mode to not dark mode",
+      "description": "Toggle macOS dark/light mode"
+    }
+  ]
+}

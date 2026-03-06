@@ -1,0 +1,12 @@
+{
+  "module": "amex",
+  "commands": [
+    {
+      "name": "Open American Express",
+      "keywords": ["amex", "american express", "credit card", "visa", "mastercard"],
+      "executor": "urlScheme",
+      "target": "https://www.americanexpress.com",
+      "description": "Open American Express"
+    }
+  ]
+}

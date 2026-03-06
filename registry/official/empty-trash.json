@@ -1,0 +1,12 @@
+{
+  "module": "empty-trash",
+  "commands": [
+    {
+      "name": "Empty Trash",
+      "keywords": ["trash", "empty", "delete", "clean"],
+      "executor": "applescript",
+      "target": "tell application \"Finder\" to empty trash",
+      "description": "Empty the macOS Trash"
+    }
+  ]
+}

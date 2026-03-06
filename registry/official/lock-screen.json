@@ -1,0 +1,12 @@
+{
+  "module": "lock-screen",
+  "commands": [
+    {
+      "name": "Lock Screen",
+      "keywords": ["lock", "screen", "sleep display"],
+      "executor": "shell",
+      "target": "pmset displaysleepnow",
+      "description": "Lock the screen immediately"
+    }
+  ]
+}

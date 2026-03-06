@@ -1,0 +1,12 @@
+{
+  "module": "doordash",
+  "commands": [
+    {
+      "name": "Open DoorDash",
+      "keywords": ["doordash", "food", "delivery", "order"],
+      "executor": "urlScheme",
+      "target": "https://doordash.com",
+      "description": "Open DoorDash"
+    }
+  ]
+}

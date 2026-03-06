@@ -1,0 +1,12 @@
+{
+  "module": "localhost-8080",
+  "commands": [
+    {
+      "name": "Localhost 8080",
+      "keywords": ["localhost", "local", "8080"],
+      "executor": "urlScheme",
+      "target": "http://localhost:8080",
+      "description": "Open localhost:8080"
+    }
+  ]
+}

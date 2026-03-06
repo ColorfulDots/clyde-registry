@@ -1,0 +1,12 @@
+{
+  "module": "vscode",
+  "commands": [
+    {
+      "name": "Open VS Code",
+      "keywords": ["vscode", "code", "editor"],
+      "executor": "shell",
+      "target": "open -a 'Visual Studio Code'",
+      "description": "Launch Visual Studio Code"
+    }
+  ]
+}

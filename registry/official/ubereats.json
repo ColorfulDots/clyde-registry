@@ -1,0 +1,12 @@
+{
+  "module": "ubereats",
+  "commands": [
+    {
+      "name": "Open Uber Eats",
+      "keywords": ["uber eats", "ubereats", "delivery", "food"],
+      "executor": "urlScheme",
+      "target": "https://ubereats.com",
+      "description": "Open Uber Eats"
+    }
+  ]
+}

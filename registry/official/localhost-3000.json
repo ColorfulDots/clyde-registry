@@ -1,0 +1,12 @@
+{
+  "module": "localhost-3000",
+  "commands": [
+    {
+      "name": "Localhost 3000",
+      "keywords": ["localhost", "local", "dev server", "3000"],
+      "executor": "urlScheme",
+      "target": "http://localhost:3000",
+      "description": "Open localhost:3000"
+    }
+  ]
+}

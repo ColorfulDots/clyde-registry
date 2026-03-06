@@ -1,0 +1,12 @@
+{
+  "module": "yelp",
+  "commands": [
+    {
+      "name": "Open Yelp",
+      "keywords": ["yelp", "restaurants", "food", "reviews"],
+      "executor": "urlScheme",
+      "target": "https://yelp.com",
+      "description": "Open Yelp"
+    }
+  ]
+}

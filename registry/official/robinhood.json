@@ -1,0 +1,12 @@
+{
+  "module": "robinhood",
+  "commands": [
+    {
+      "name": "Open Robinhood",
+      "keywords": ["robinhood", "stocks", "investing", "portfolio"],
+      "executor": "urlScheme",
+      "target": "https://robinhood.com",
+      "description": "Open Robinhood"
+    }
+  ]
+}

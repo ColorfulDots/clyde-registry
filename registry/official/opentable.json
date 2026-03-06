@@ -1,0 +1,12 @@
+{
+  "module": "opentable",
+  "commands": [
+    {
+      "name": "Open OpenTable",
+      "keywords": ["opentable", "reservation", "restaurant", "book"],
+      "executor": "urlScheme",
+      "target": "https://opentable.com",
+      "description": "Open OpenTable"
+    }
+  ]
+}

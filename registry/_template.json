@@ -1,19 +1,12 @@
 {
-  "module": "my-module",
-  "displayName": "My Module",
-  "description": "Commands for doing useful things.",
-  "color": "blue",
-  "icon": "star",
-  "author": "your-github-username",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
-  "version": "1.0",
+  "module": "my-service",
   "commands": [
     {
-      "name": "Open Something",
-      "keywords": ["something", "open"],
+      "name": "Open My Service",
+      "keywords": ["my service", "keyword"],
       "executor": "urlScheme",
       "target": "https://example.com",
-      "description": "Opens example.com"
+      "description": "Open My Service"
     }
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "module": "github",
+  "commands": [
+    {
+      "name": "Open GitHub",
+      "keywords": ["github", "git", "repo"],
+      "executor": "urlScheme",
+      "target": "https://github.com",
+      "description": "Open GitHub"
+    }
+  ]
+}

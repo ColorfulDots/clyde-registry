@@ -1,0 +1,12 @@
+{
+  "module": "terminal",
+  "commands": [
+    {
+      "name": "Open Terminal",
+      "keywords": ["terminal", "shell", "bash", "zsh"],
+      "executor": "shell",
+      "target": "open -a Terminal",
+      "description": "Launch Terminal.app"
+    }
+  ]
+}

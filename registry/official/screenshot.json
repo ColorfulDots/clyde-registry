@@ -1,0 +1,12 @@
+{
+  "module": "screenshot",
+  "commands": [
+    {
+      "name": "Screenshot",
+      "keywords": ["screenshot", "capture", "screen"],
+      "executor": "shell",
+      "target": "screencapture -i ~/Desktop/screenshot.png",
+      "description": "Take an interactive screenshot to Desktop"
+    }
+  ]
+}
