@@ -1,6 +1,6 @@
 # Clyde Command Registry
 
-The official command registry for [Clyde](https://clydecommands.com) — a macOS command launcher that acts as an intent dispatcher.
+The official command registry for [Clyde](https://clydecommands.com), a macOS command launcher that acts as an intent dispatcher. It's an app that opens everything.
 
 This repo is the source of truth for all modules available at **clydecommands.com/commands**. Every merged PR automatically appears on the site. No deployment needed.
 
