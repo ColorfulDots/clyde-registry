@@ -1,0 +1,37 @@
+{
+  "module": "food",
+  "displayName": "Food & Delivery",
+  "description": "Order food and find restaurants without leaving your keyboard.",
+  "color": "orange",
+  "icon": "fork.knife",
+  "commands": [
+    {
+      "name": "Open DoorDash",
+      "keywords": ["doordash", "delivery", "food", "order"],
+      "executor": "urlScheme",
+      "target": "https://doordash.com",
+      "description": "Open DoorDash in browser"
+    },
+    {
+      "name": "Open Uber Eats",
+      "keywords": ["uber eats", "ubereats", "delivery", "food"],
+      "executor": "urlScheme",
+      "target": "https://ubereats.com",
+      "description": "Open Uber Eats in browser"
+    },
+    {
+      "name": "Open Yelp",
+      "keywords": ["yelp", "restaurants", "food", "reviews"],
+      "executor": "urlScheme",
+      "target": "https://yelp.com",
+      "description": "Find restaurants on Yelp"
+    },
+    {
+      "name": "Open OpenTable",
+      "keywords": ["opentable", "reservation", "restaurant", "book"],
+      "executor": "urlScheme",
+      "target": "https://opentable.com",
+      "description": "Make a restaurant reservation"
+    }
+  ]
+}

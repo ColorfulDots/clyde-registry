@@ -1,0 +1,44 @@
+{
+  "module": "utilities",
+  "displayName": "Utilities",
+  "description": "System utilities and quick actions for everyday macOS tasks.",
+  "color": "gray",
+  "icon": "wrench",
+  "commands": [
+    {
+      "name": "Empty Trash",
+      "keywords": ["trash", "empty", "delete", "clean"],
+      "executor": "applescript",
+      "target": "tell application \"Finder\" to empty trash",
+      "description": "Empty the macOS Trash"
+    },
+    {
+      "name": "Screenshot",
+      "keywords": ["screenshot", "capture", "screen"],
+      "executor": "shell",
+      "target": "screencapture -i ~/Desktop/screenshot.png",
+      "description": "Take an interactive screenshot to Desktop"
+    },
+    {
+      "name": "Toggle Dark Mode",
+      "keywords": ["dark mode", "light mode", "appearance", "theme"],
+      "executor": "applescript",
+      "target": "tell application \"System Events\" to tell appearance preferences to set dark mode to not dark mode",
+      "description": "Toggle macOS dark/light mode"
+    },
+    {
+      "name": "Lock Screen",
+      "keywords": ["lock", "screen", "sleep display"],
+      "executor": "shell",
+      "target": "pmset displaysleepnow",
+      "description": "Lock the screen immediately"
+    },
+    {
+      "name": "Show Desktop",
+      "keywords": ["desktop", "show", "hide windows"],
+      "executor": "applescript",
+      "target": "tell application \"System Events\" to key code 103 using {command down, mission control key}",
+      "description": "Show the desktop (hide all windows)"
+    }
+  ]
+}
