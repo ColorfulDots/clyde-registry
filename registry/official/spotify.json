@@ -1,0 +1,48 @@
+{
+  "module": "spotify",
+  "displayName": "Spotify",
+  "description": "Control Spotify playback and open content.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "green",
+  "icon": "music.note",
+  "tags": ["music", "productivity", "spotify"],
+  "commands": [
+    {
+      "name": "Open Spotify",
+      "keywords": ["spotify", "music", "open"],
+      "executor": "urlScheme",
+      "target": "spotify:",
+      "description": "Launch the Spotify desktop app"
+    },
+    {
+      "name": "Play / Pause Spotify",
+      "keywords": ["spotify", "play", "pause", "music"],
+      "executor": "applescript",
+      "target": "tell application \"Spotify\" to playpause",
+      "description": "Toggle play/pause in Spotify"
+    },
+    {
+      "name": "Next Track",
+      "keywords": ["spotify", "next", "skip", "track"],
+      "executor": "applescript",
+      "target": "tell application \"Spotify\" to next track",
+      "description": "Skip to the next track in Spotify"
+    },
+    {
+      "name": "Previous Track",
+      "keywords": ["spotify", "previous", "back", "track"],
+      "executor": "applescript",
+      "target": "tell application \"Spotify\" to previous track",
+      "description": "Go back to the previous track in Spotify"
+    },
+    {
+      "name": "Spotify Search",
+      "keywords": ["spotify", "search", "find", "song", "artist"],
+      "executor": "urlScheme",
+      "target": "spotify:search:",
+      "description": "Open Spotify search to find songs, artists, or playlists"
+    }
+  ]
+}

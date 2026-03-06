@@ -1,0 +1,48 @@
+{
+  "module": "npm-scripts",
+  "displayName": "NPM Scripts",
+  "description": "Run common npm commands in your project.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "red",
+  "icon": "shippingbox.fill",
+  "tags": ["developer", "node", "npm"],
+  "commands": [
+    {
+      "name": "NPM Install",
+      "keywords": ["npm", "install", "dependencies", "node modules"],
+      "executor": "shell",
+      "target": "osascript -e 'tell app \"Terminal\" to do script \"npm install\"'",
+      "description": "Install all project dependencies from package.json"
+    },
+    {
+      "name": "NPM Run Build",
+      "keywords": ["npm", "build", "compile", "bundle"],
+      "executor": "shell",
+      "target": "osascript -e 'tell app \"Terminal\" to do script \"npm run build\"'",
+      "description": "Run the build script defined in package.json"
+    },
+    {
+      "name": "NPM Run Test",
+      "keywords": ["npm", "test", "jest", "vitest"],
+      "executor": "shell",
+      "target": "osascript -e 'tell app \"Terminal\" to do script \"npm test\"'",
+      "description": "Run the test suite defined in package.json"
+    },
+    {
+      "name": "NPM Run Dev",
+      "keywords": ["npm", "dev", "start", "development server"],
+      "executor": "shell",
+      "target": "osascript -e 'tell app \"Terminal\" to do script \"npm run dev\"'",
+      "description": "Start the local development server"
+    },
+    {
+      "name": "NPM Outdated",
+      "keywords": ["npm", "outdated", "update", "packages"],
+      "executor": "shell",
+      "target": "osascript -e 'tell app \"Terminal\" to do script \"npm outdated\"'",
+      "description": "List packages that have newer versions available"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "module": "network-tools",
+  "displayName": "Network Tools",
+  "description": "Handy network diagnostics and utilities.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "blue",
+  "icon": "network",
+  "tags": ["network", "system", "developer"],
+  "commands": [
+    {
+      "name": "Flush DNS Cache",
+      "keywords": ["dns", "flush", "cache", "network"],
+      "executor": "shell",
+      "target": "osascript -e 'do shell script \"dscacheutil -flushcache; killall -HUP mDNSResponder\" with administrator privileges'",
+      "description": "Flush the macOS DNS cache to resolve stale lookups"
+    },
+    {
+      "name": "Show My IP",
+      "keywords": ["ip", "address", "public ip", "network"],
+      "executor": "shell",
+      "target": "osascript -e 'tell app \"Terminal\" to do script \"curl -s ifconfig.me && echo\"'",
+      "description": "Display your current public IP address in Terminal"
+    },
+    {
+      "name": "Show Local IP",
+      "keywords": ["local ip", "lan", "ipconfig", "ifconfig"],
+      "executor": "shell",
+      "target": "osascript -e 'tell app \"Terminal\" to do script \"ipconfig getifaddr en0\"'",
+      "description": "Show your local network IP address (en0)"
+    },
+    {
+      "name": "Ping Google",
+      "keywords": ["ping", "google", "connectivity", "network check"],
+      "executor": "shell",
+      "target": "osascript -e 'tell app \"Terminal\" to do script \"ping -c 5 google.com\"'",
+      "description": "Ping google.com 5 times to check internet connectivity"
+    },
+    {
+      "name": "Network Diagnostics",
+      "keywords": ["network", "diagnostics", "wifi", "troubleshoot"],
+      "executor": "shell",
+      "target": "open /System/Library/CoreServices/Network\\ Diagnostics.app",
+      "description": "Open the macOS Network Diagnostics utility"
+    }
+  ]
+}

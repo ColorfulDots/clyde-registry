@@ -1,0 +1,48 @@
+{
+  "module": "zoom",
+  "displayName": "Zoom",
+  "description": "Quick actions for Zoom meetings.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "blue",
+  "icon": "video.fill",
+  "tags": ["productivity", "meetings", "zoom"],
+  "commands": [
+    {
+      "name": "Open Zoom",
+      "keywords": ["zoom", "meeting", "video", "call"],
+      "executor": "shell",
+      "target": "open -a Zoom",
+      "description": "Launch the Zoom application"
+    },
+    {
+      "name": "Join Zoom Meeting",
+      "keywords": ["zoom", "join", "meeting", "link"],
+      "executor": "urlScheme",
+      "target": "zoommtg://zoom.us/join",
+      "description": "Open the Zoom join meeting dialog via URL scheme"
+    },
+    {
+      "name": "New Zoom Meeting",
+      "keywords": ["zoom", "new", "start", "meeting", "instant"],
+      "executor": "urlScheme",
+      "target": "zoommtg://zoom.us/start?confno=",
+      "description": "Start a new instant Zoom meeting"
+    },
+    {
+      "name": "Mute Zoom Audio",
+      "keywords": ["zoom", "mute", "audio", "microphone"],
+      "executor": "applescript",
+      "target": "tell application \"zoom.us\" to activate\ntell application \"System Events\" to keystroke \"a\" using {command down, shift down}",
+      "description": "Toggle mute on your Zoom microphone using the keyboard shortcut"
+    },
+    {
+      "name": "Toggle Zoom Video",
+      "keywords": ["zoom", "video", "camera", "toggle"],
+      "executor": "applescript",
+      "target": "tell application \"zoom.us\" to activate\ntell application \"System Events\" to keystroke \"v\" using {command down, shift down}",
+      "description": "Toggle your Zoom camera on or off using the keyboard shortcut"
+    }
+  ]
+}

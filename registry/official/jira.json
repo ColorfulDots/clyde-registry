@@ -1,0 +1,41 @@
+{
+  "module": "jira",
+  "displayName": "Jira",
+  "description": "Deep link into Jira issues and boards.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "blue",
+  "icon": "square.stack.fill",
+  "tags": ["developer", "productivity", "jira", "issues"],
+  "commands": [
+    {
+      "name": "Open Jira",
+      "keywords": ["jira", "open", "issues", "board"],
+      "executor": "urlScheme",
+      "target": "jira://",
+      "description": "Launch the Jira app"
+    },
+    {
+      "name": "My Jira Issues",
+      "keywords": ["jira", "my issues", "assigned", "tasks"],
+      "executor": "urlScheme",
+      "target": "jira://my-issues",
+      "description": "View issues currently assigned to you in Jira"
+    },
+    {
+      "name": "Jira Board",
+      "keywords": ["jira", "board", "sprint", "kanban"],
+      "executor": "urlScheme",
+      "target": "jira://board",
+      "description": "Open your active Jira sprint board"
+    },
+    {
+      "name": "New Jira Issue",
+      "keywords": ["jira", "new", "issue", "create", "ticket", "bug"],
+      "executor": "urlScheme",
+      "target": "jira://new-issue",
+      "description": "Open the create issue dialog in Jira"
+    }
+  ]
+}

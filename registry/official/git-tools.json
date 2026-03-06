@@ -1,0 +1,48 @@
+{
+  "module": "git-tools",
+  "displayName": "Git Tools",
+  "description": "Common Git operations from the command line.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "orange",
+  "icon": "arrow.triangle.branch",
+  "tags": ["developer", "git"],
+  "commands": [
+    {
+      "name": "Git Stage All",
+      "keywords": ["git", "stage", "add", "all"],
+      "executor": "shell",
+      "target": "cd ~ && git add -A",
+      "description": "Stage all changes in the current repository"
+    },
+    {
+      "name": "Git Status",
+      "keywords": ["git", "status", "changes"],
+      "executor": "shell",
+      "target": "open -a Terminal && osascript -e 'tell app \"Terminal\" to do script \"git status\"'",
+      "description": "Show the working tree status in Terminal"
+    },
+    {
+      "name": "Git Pull",
+      "keywords": ["git", "pull", "fetch", "sync"],
+      "executor": "shell",
+      "target": "osascript -e 'tell app \"Terminal\" to do script \"git pull\"'",
+      "description": "Pull latest changes from the remote branch"
+    },
+    {
+      "name": "Git Push",
+      "keywords": ["git", "push", "upload", "remote"],
+      "executor": "shell",
+      "target": "osascript -e 'tell app \"Terminal\" to do script \"git push\"'",
+      "description": "Push committed changes to the remote repository"
+    },
+    {
+      "name": "Git Log",
+      "keywords": ["git", "log", "history", "commits"],
+      "executor": "shell",
+      "target": "osascript -e 'tell app \"Terminal\" to do script \"git log --oneline -20\"'",
+      "description": "Show the last 20 commits in a compact log"
+    }
+  ]
+}

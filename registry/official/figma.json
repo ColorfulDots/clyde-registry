@@ -1,0 +1,34 @@
+{
+  "module": "figma",
+  "displayName": "Figma",
+  "description": "Deep link into Figma files and projects.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "purple",
+  "icon": "paintbrush.fill",
+  "tags": ["design", "developer", "figma"],
+  "commands": [
+    {
+      "name": "Open Figma",
+      "keywords": ["figma", "open", "design"],
+      "executor": "urlScheme",
+      "target": "figma://",
+      "description": "Launch the Figma desktop app"
+    },
+    {
+      "name": "Figma Recent Files",
+      "keywords": ["figma", "recent", "files", "projects"],
+      "executor": "urlScheme",
+      "target": "figma://recent",
+      "description": "Open Figma and view your recent files"
+    },
+    {
+      "name": "Figma Community",
+      "keywords": ["figma", "community", "plugins", "templates"],
+      "executor": "urlScheme",
+      "target": "https://www.figma.com/community",
+      "description": "Browse the Figma Community for templates and plugins"
+    }
+  ]
+}

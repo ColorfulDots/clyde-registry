@@ -1,0 +1,48 @@
+{
+  "module": "things",
+  "displayName": "Things 3",
+  "description": "Deep link into Things 3 for task management.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "blue",
+  "icon": "checkmark.circle.fill",
+  "tags": ["productivity", "tasks", "things"],
+  "commands": [
+    {
+      "name": "Open Things",
+      "keywords": ["things", "tasks", "todos", "open"],
+      "executor": "urlScheme",
+      "target": "things:///",
+      "description": "Launch Things 3 task manager"
+    },
+    {
+      "name": "Things Today",
+      "keywords": ["things", "today", "tasks", "daily"],
+      "executor": "urlScheme",
+      "target": "things:///show?id=today",
+      "description": "Jump to your Today list in Things 3"
+    },
+    {
+      "name": "Things Inbox",
+      "keywords": ["things", "inbox", "capture", "tasks"],
+      "executor": "urlScheme",
+      "target": "things:///show?id=inbox",
+      "description": "Open your Things 3 Inbox"
+    },
+    {
+      "name": "New Things Task",
+      "keywords": ["things", "new", "task", "add", "create", "todo"],
+      "executor": "urlScheme",
+      "target": "things:///add",
+      "description": "Open the quick entry dialog to add a new task in Things 3"
+    },
+    {
+      "name": "Things Upcoming",
+      "keywords": ["things", "upcoming", "scheduled", "tasks"],
+      "executor": "urlScheme",
+      "target": "things:///show?id=upcoming",
+      "description": "View your upcoming scheduled tasks in Things 3"
+    }
+  ]
+}
