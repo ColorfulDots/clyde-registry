@@ -2,8 +2,12 @@
   "module": "yelp",
   "displayName": "Yelp",
   "description": "Find and review local restaurants.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
   "color": "red",
   "icon": "fork.knife",
+  "tags": ["food", "reviews"],
   "commands": [
     {
       "name": "Open Yelp",

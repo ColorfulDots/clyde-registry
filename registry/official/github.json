@@ -2,8 +2,12 @@
   "module": "github",
   "displayName": "GitHub",
   "description": "Open GitHub to browse repos and code.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
   "color": "gray",
   "icon": "chevron.left.forwardslash.chevron.right",
+  "tags": ["developer", "productivity"],
   "commands": [
     {
       "name": "Open GitHub",

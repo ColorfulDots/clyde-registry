@@ -2,8 +2,12 @@
   "module": "dark-mode",
   "displayName": "Dark Mode",
   "description": "Toggle macOS dark and light mode.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
   "color": "gray",
   "icon": "moon.fill",
+  "tags": ["system", "appearance"],
   "commands": [
     {
       "name": "Toggle Dark Mode",

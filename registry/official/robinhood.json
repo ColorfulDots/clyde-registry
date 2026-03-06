@@ -2,8 +2,12 @@
   "module": "robinhood",
   "displayName": "Robinhood",
   "description": "Check your Robinhood investment portfolio.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
   "color": "green",
   "icon": "chart.line.uptrend.xyaxis",
+  "tags": ["finance", "investing"],
   "commands": [
     {
       "name": "Open Robinhood",

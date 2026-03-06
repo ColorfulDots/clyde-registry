@@ -1,9 +1,13 @@
 {
   "module": "screenshot",
   "displayName": "Screenshot",
-  "description": "Take an interactive screenshot to your Desktop.",
-  "color": "gray",
-  "icon": "camera.fill",
+  "description": "Take a screenshot and save to desktop.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "purple",
+  "icon": "camera",
+  "tags": ["productivity", "system"],
   "commands": [
     {
       "name": "Screenshot",

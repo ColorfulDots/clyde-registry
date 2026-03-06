@@ -2,8 +2,12 @@
   "module": "chase",
   "displayName": "Chase",
   "description": "Access your Chase bank account.",
+  "version": "1.0.0",
+  "author": "colorfulDots",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
   "color": "blue",
   "icon": "building.columns.fill",
+  "tags": ["finance", "banking"],
   "commands": [
     {
       "name": "Open Chase",

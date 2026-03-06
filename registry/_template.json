@@ -2,8 +2,12 @@
   "module": "my-service",
   "displayName": "My Service",
   "description": "A short description of what this module does.",
+  "version": "1.0.0",
+  "author": "your-github-username",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
   "color": "blue",
   "icon": "star",
+  "tags": ["productivity"],
   "commands": [
     {
       "name": "Open My Service",

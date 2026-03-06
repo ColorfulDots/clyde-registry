@@ -15,7 +15,12 @@ A module is a single JSON file. It groups related commands that Clyde loads from
   "module": "obsidian",
   "displayName": "Obsidian",
   "description": "Commands for your Obsidian vaults.",
+  "version": "1.0.0",
+  "author": "your-github-username",
+  "homepage": "https://github.com/ColorfulDots/clyde-registry",
   "color": "purple",
+  "icon": "note.text",
+  "tags": ["productivity", "notes"],
   "commands": [
     {
       "name": "Open Daily Journal",
@@ -83,16 +88,18 @@ The PR template will walk you through the checklist. CI runs validation automati
 
 ### Module fields
 
-| Field         | Required | Type   | Notes                             |
-| ------------- | -------- | ------ | --------------------------------- |
-| `module`      | ✅       | string | Must match filename               |
-| `displayName` | ✅       | string | Shown in Clyde and on the website |
-| `description` | ✅       | string | One sentence                      |
-| `color`       | ✅       | string | See colors below                  |
-| `commands`    | ✅       | array  | At least one                      |
-| `author`      | —        | string | Your GitHub username              |
-| `homepage`    | —        | string | Link to your repo or docs         |
-| `version`     | —        | string | e.g. `"1.0"`                      |
+| Field         | Required | Type     | Notes                             |
+| ------------- | -------- | -------- | --------------------------------- |
+| `module`      | ✅       | string   | Must match filename               |
+| `displayName` | ✅       | string   | Shown in Clyde and on the website |
+| `description` | ✅       | string   | One sentence                      |
+| `color`       | ✅       | string   | See colors below                  |
+| `icon`        | ✅       | string   | SF Symbol name                    |
+| `commands`    | ✅       | array    | At least one                      |
+| `version`     | —        | string   | e.g. `"1.0.0"`                    |
+| `author`      | —        | string   | Your GitHub username              |
+| `homepage`    | —        | string   | Link to your repo or docs         |
+| `tags`        | —        | string[] | Categorization tags               |
 
 ### Command fields
 
