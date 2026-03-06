@@ -2,17 +2,17 @@
 
 The official command registry for [Clyde](https://clydecommands.com), a macOS command launcher that acts as an intent dispatcher. It's an app that opens everything.
 
-This repo is the source of truth for all modules available at **clydecommands.com/commands**. Every merged PR automatically appears on the site. No deployment needed.
+This repo is the source of truth for all User Commands available at **clydecommands.com/commands**. Every merged PR automatically appears on the site. No deployment needed.
 
 ---
 
-## What is a module?
+## What is a user-command?
 
-A module is a single JSON file. It groups related commands that Clyde loads from `~/.clyde/modules/`.
+A user-command is a single JSON file. It contains an array of related commands that Clyde loads from `~/.clyde/user-commands/`.
 
 ```json
 {
-  "module": "obsidian",
+  "id": "obsidian",
   "displayName": "Obsidian",
   "description": "Commands for your Obsidian vaults.",
   "version": "1.0.0",
@@ -42,15 +42,15 @@ That's it. Five fields per command. AI can generate this reliably — try it at 
 ```
 registry/
   official/       ← maintained by the Clyde team
-  community/      ← user-submitted (submit your module here)
+  community/      ← user-submitted (submit your user-command here)
   _template.json  ← copy this to get started
 ```
 
-**Official** modules are maintained by [@ColorfulDots](https://github.com/ColorfulDots). **Community** modules are user-submitted and reviewed before merging.
+**Official** User Commands are maintained by [@ColorfulDots](https://github.com/ColorfulDots). **Community** User Commands are user-submitted and reviewed before merging.
 
 ---
 
-## Submit a module
+## Submit a user-command
 
 ### 1. Fork this repo
 
@@ -61,15 +61,15 @@ https://github.com/ColorfulDots/clyde-registry
 ### 2. Copy the template
 
 ```bash
-cp registry/_template.json registry/community/your-module-name.json
+cp registry/_template.json registry/community/your-user-command-name.json
 ```
 
 ### 3. Fill it in
 
-The `module` field must match the filename exactly:
+The `id` field must match the filename exactly:
 
 ```
-your-module-name.json  →  "module": "your-module-name"
+your-user-command-name.json  →  "id": "your-user-command-name"
 ```
 
 ### 4. Validate locally
@@ -86,11 +86,11 @@ The PR template will walk you through the checklist. CI runs validation automati
 
 ## Schema reference
 
-### Module fields
+### User-command fields
 
 | Field         | Required | Type     | Notes                             |
 | ------------- | -------- | -------- | --------------------------------- |
-| `module`      | ✅       | string   | Must match filename               |
+| `id`          | ✅       | string   | Must match filename               |
 | `displayName` | ✅       | string   | Shown in Clyde and on the website |
 | `description` | ✅       | string   | One sentence                      |
 | `color`       | ✅       | string   | See colors below                  |
@@ -149,7 +149,7 @@ Reference it in your command:
 }
 ```
 
-Users install the script to `~/.clyde/scripts/` alongside the JSON module.
+Users install the script to `~/.clyde/scripts/` alongside the JSON user-command.
 
 ---
 
@@ -184,7 +184,7 @@ CI runs on every PR touching `registry/community/`. It checks:
 
 - Valid JSON
 - All required fields present
-- `module` field matches filename
+- `id` field matches filename
 - Valid `color` and `executor` values
 - No blocked shell patterns
 
@@ -196,21 +196,21 @@ node scripts/validate-registry.mjs
 
 ---
 
-## Generate a module with AI
+## Generate a user-command with AI
 
-Not sure how to write the JSON? Describe what you want at [clydecommands.com/generate](https://clydecommands.com/generate) — AI generates the module for you. Copy, save, submit.
+Not sure how to write the JSON? Describe what you want at [clydecommands.com/generate](https://clydecommands.com/generate) — AI generates it for you. Copy, save, submit.
 
 ---
 
-## Installing a module locally
+## Installing a user-command locally
 
 ```bash
-# Download a module
-curl -o ~/.clyde/modules/finance.json \
+# Download a user-command
+curl -o ~/.clyde/user-commands/finance.json \
   https://raw.githubusercontent.com/ColorfulDots/clyde-registry/main/registry/official/finance.json
 
 # Then in Clyde
-reload modules
+reload user-commands
 ```
 
 Or browse and download at [clydecommands.com/commands](https://clydecommands.com/commands).

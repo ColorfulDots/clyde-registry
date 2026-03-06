@@ -1,16 +1,16 @@
 # Contributing to the Clyde Command Registry
 
-The registry is a collection of JSON files. Each file is a module — a named group of commands that Clyde loads from `~/.clyde/modules/`.
+The registry is a collection of JSON files. Each file is a user-command — a named group of commands that Clyde loads from `~/.clyde/user-commands/`.
 
 Because commands are simple JSON, anyone can contribute one. No coding required.
 
 ---
 
-## How to submit a module
+## How to submit a user-command
 
 1. Fork [github.com/ColorfulDots/clyde-registry](https://github.com/ColorfulDots/clyde-registry)
 2. Copy `public/registry/_template.json` into `public/registry/community/`
-3. Rename it to match your module name (e.g. `my-tools.json`)
+3. Rename it to match your user-command name (e.g. `my-tools.json`)
 4. Fill it in — see the schema below
 5. Open a pull request
 
@@ -23,17 +23,17 @@ That's it. The PR template will walk you through the checklist.
 ```
 public/registry/
   official/     ← maintained by the Clyde team
-  community/    ← user-submitted modules (submit here)
+  community/    ← user-submitted user-commands (submit here)
   _template.json
 ```
 
 ---
 
-## Module schema
+## User-command schema
 
 ```json
 {
-  "module": "my-module",
+  "id": "my-module",
   "displayName": "My Module",
   "description": "Commands for doing useful things.",
   "color": "blue",
@@ -56,9 +56,9 @@ public/registry/
 
 | Field | Type | Notes |
 |---|---|---|
-| `module` | string | Must match the filename (e.g. `finance.json` → `"module": "finance"`) |
+| `id` | string | Must match the filename (e.g. `finance.json` → `"id": "finance"`) |
 | `displayName` | string | Human-readable name shown in Clyde |
-| `description` | string | One sentence describing the module |
+| `description` | string | One sentence describing the user-command |
 | `color` | string | One of: `blue green orange red purple teal yellow gray indigo cyan` |
 | `commands` | array | At least one command |
 
@@ -93,7 +93,7 @@ public/registry/
 
 ## Duplicates and alternatives
 
-Duplicates are allowed. A `finance.json` and a `finance-eu.json` can coexist — users pick what fits them. If your module is a regional or personal variant of an existing one, name it clearly (e.g. `finance-uk.json`, `dev-python.json`).
+Duplicates are allowed. A `finance.json` and a `finance-eu.json` can coexist — users pick what fits them. If your user-command is a regional or personal variant of an existing one, name it clearly (e.g. `finance-uk.json`, `dev-python.json`).
 
 ---
 
