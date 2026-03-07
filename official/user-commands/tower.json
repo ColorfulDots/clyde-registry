@@ -38,6 +38,19 @@
       "executor": "urlScheme",
       "target": "tower://repos",
       "description": "Open the Tower repository browser"
+    },
+    {
+      "name": "Open Project in Tower",
+      "keywords": [
+        "tower",
+        "git",
+        "open",
+        "project",
+        "workspace"
+      ],
+      "executor": "shell",
+      "target": "open -a Tower '{{workspace_path}}'",
+      "description": "Open the current project in Tower"
     }
   ]
 }

@@ -28,6 +28,19 @@
       "description": "Launch the Warp terminal"
     },
     {
+      "name": "Open Project in Warp",
+      "keywords": [
+        "warp",
+        "project",
+        "workspace",
+        "open",
+        "terminal"
+      ],
+      "executor": "shell",
+      "target": "open -a Warp '{{workspace_path}}'",
+      "description": "Open the current project folder in Warp"
+    },
+    {
       "name": "New Warp Window",
       "keywords": [
         "warp",

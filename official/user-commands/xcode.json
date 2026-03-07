@@ -29,6 +29,18 @@
       "description": "Launch Xcode IDE"
     },
     {
+      "name": "Open Project in Xcode",
+      "keywords": [
+        "xcode",
+        "open",
+        "project",
+        "workspace"
+      ],
+      "executor": "shell",
+      "target": "open -a Xcode '{{workspace_path}}'",
+      "description": "Open the current project folder in Xcode"
+    },
+    {
       "name": "Open Simulator",
       "keywords": [
         "simulator",
@@ -49,8 +61,8 @@
         "cache",
         "build"
       ],
-      "executor": "shell",
-      "target": "osascript -e 'tell app \"Terminal\" to do script \"rm -rf ~/Library/Developer/Xcode/DerivedData\"'",
+      "executor": "applescript",
+      "target": "tell application \"Terminal\" to do script \"rm -rf ~/Library/Developer/Xcode/DerivedData\"\ntell application \"Terminal\" to activate",
       "description": "Delete Xcode's DerivedData folder to force a clean build"
     },
     {
@@ -61,8 +73,8 @@
         "compile",
         "xcodebuild"
       ],
-      "executor": "shell",
-      "target": "osascript -e 'tell app \"Terminal\" to do script \"xcodebuild build\"'",
+      "executor": "applescript",
+      "target": "tell application \"Terminal\" to do script \"cd {{workspace_path}} && xcodebuild build\"\ntell application \"Terminal\" to activate",
       "description": "Run xcodebuild to compile the current project"
     }
   ]

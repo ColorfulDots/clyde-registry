@@ -28,6 +28,19 @@
       "description": "Launch the Fork Git client"
     },
     {
+      "name": "Open Project in Fork",
+      "keywords": [
+        "fork",
+        "git",
+        "open",
+        "project",
+        "workspace"
+      ],
+      "executor": "shell",
+      "target": "open -a Fork '{{workspace_path}}'",
+      "description": "Open the current project in Fork"
+    },
+    {
       "name": "Fork New Repository",
       "keywords": [
         "fork",

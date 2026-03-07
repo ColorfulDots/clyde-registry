@@ -50,6 +50,19 @@
       "executor": "applescript",
       "target": "tell application \"iTerm\"\nactivate\ntell current window to create tab with default profile\nend tell",
       "description": "Open a new tab in the current iTerm2 window"
+    },
+    {
+      "name": "Open Project in iTerm2",
+      "keywords": [
+        "iterm",
+        "project",
+        "workspace",
+        "open",
+        "terminal"
+      ],
+      "executor": "applescript",
+      "target": "tell application \"iTerm\"\nactivate\nset newWindow to (create window with default profile)\ntell current session of newWindow to write text \"cd {{workspace_path}}\"\nend tell",
+      "description": "Open a new iTerm2 window in the current project folder"
     }
   ]
 }

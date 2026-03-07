@@ -25,6 +25,19 @@
       "executor": "shell",
       "target": "open -a Terminal",
       "description": "Launch Terminal.app to open a new shell session"
+    },
+    {
+      "name": "Open Project in Terminal",
+      "keywords": [
+        "terminal",
+        "project",
+        "workspace",
+        "open",
+        "shell"
+      ],
+      "executor": "applescript",
+      "target": "tell application \"Terminal\" to do script \"cd {{workspace_path}}\"\ntell application \"Terminal\" to activate",
+      "description": "Open a new Terminal window in the current project folder"
     }
   ]
 }

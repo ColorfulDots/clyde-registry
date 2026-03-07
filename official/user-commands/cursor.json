@@ -29,17 +29,17 @@
       "description": "Launch the Cursor AI code editor"
     },
     {
-      "name": "Open Cursor in Current Directory",
+      "name": "Open Project in Cursor",
       "keywords": [
         "cursor",
         "open",
-        "directory",
-        "folder",
-        "project"
+        "project",
+        "workspace",
+        "folder"
       ],
       "executor": "shell",
-      "target": "osascript -e 'tell app \"Terminal\" to do script \"cursor .\"'",
-      "description": "Open Cursor in the current working directory"
+      "target": "open -a Cursor '{{workspace_path}}'",
+      "description": "Open the current project folder in Cursor"
     }
   ]
 }
