@@ -6,6 +6,7 @@
   "author": "colorfulDots",
   "homepage": "https://www.opentable.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": null,
   "color": "orange",
   "icon": "fork.knife",
   "tags": [

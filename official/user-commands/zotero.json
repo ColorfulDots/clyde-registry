@@ -6,6 +6,7 @@
   "author": "colorfulDots",
   "homepage": "https://www.zotero.org",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": null,
   "color": "red",
   "icon": "books.vertical.fill",
   "tags": [

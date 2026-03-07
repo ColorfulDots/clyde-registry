@@ -6,6 +6,7 @@
   "author": "colorfulDots",
   "homepage": "https://github.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": null,
   "color": "gray",
   "icon": "chevron.left.forwardslash.chevron.right",
   "tags": [

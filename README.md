@@ -19,6 +19,7 @@ A user-command is a single JSON file containing an array of related commands tha
   "author": "your-github-username",
   "homepage": "https://obsidian.md",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": null,
   "color": "purple",
   "icon": "note.text",
   "tags": ["productivity", "notes"],
@@ -119,6 +120,7 @@ Fill in the header block and your script logic, then open a pull request.
 | `author`      | —        | string   | Your GitHub username                           |
 | `homepage`    | —        | string   | The service or tool's own website              |
 | `registry`    | —        | string   | Link back to this registry repo                |
+| `appStore`    | —        | string   | Mac App Store URL, or `null` if not available  |
 
 ### Command fields
 

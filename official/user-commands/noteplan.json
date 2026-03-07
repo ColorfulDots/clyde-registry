@@ -6,6 +6,7 @@
   "author": "colorfulDots",
   "homepage": "https://noteplan.co",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": "https://apps.apple.com/app/noteplan-3-markdown-planner/id1505432629",
   "color": "blue",
   "icon": "calendar.badge.plus",
   "tags": [

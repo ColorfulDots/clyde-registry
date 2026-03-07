@@ -6,6 +6,7 @@
   "author": "colorfulDots",
   "homepage": "https://slack.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": "https://apps.apple.com/app/slack-for-desktop/id803453959",
   "color": "purple",
   "icon": "message.fill",
   "tags": [

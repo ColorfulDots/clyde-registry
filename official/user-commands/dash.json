@@ -6,6 +6,7 @@
   "author": "colorfulDots",
   "homepage": "https://kapeli.com/dash",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": "https://apps.apple.com/app/dash-api-docs-snippets/id458034879",
   "color": "blue",
   "icon": "book.fill",
   "tags": [

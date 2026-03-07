@@ -6,6 +6,7 @@
   "author": "colorfulDots",
   "homepage": "https://overcast.fm",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": "https://apps.apple.com/app/overcast/id888422857",
   "color": "orange",
   "icon": "headphones",
   "tags": [

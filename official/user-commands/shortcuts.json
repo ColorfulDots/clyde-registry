@@ -6,6 +6,7 @@
   "author": "colorfulDots",
   "homepage": "https://apps.apple.com/app/shortcuts/id915249334",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": null,
   "color": "purple",
   "icon": "square.stack.3d.up.fill",
   "tags": [

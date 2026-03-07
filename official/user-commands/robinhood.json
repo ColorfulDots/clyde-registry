@@ -6,6 +6,7 @@
   "author": "colorfulDots",
   "homepage": "https://robinhood.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": null,
   "color": "green",
   "icon": "chart.line.uptrend.xyaxis",
   "tags": [

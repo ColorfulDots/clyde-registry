@@ -6,6 +6,7 @@
   "author": "your-github-username",
   "homepage": "https://example.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": "https://apps.apple.com/app/my-app/id000000000",
   "color": "blue",
   "icon": "star",
   "tags": ["productivity"],

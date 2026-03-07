@@ -52,6 +52,7 @@ PRs are reviewed by the Clyde team. Once approved and merged, your contribution 
   "author": "your-github-username",
   "homepage": "https://example.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": "https://apps.apple.com/app/my-app/id000000000",
   "color": "blue",
   "icon": "star",
   "tags": ["productivity"],
@@ -86,6 +87,7 @@ PRs are reviewed by the Clyde team. Once approved and merged, your contribution 
 | `author` | string | Your GitHub username |
 | `homepage` | string | The service or tool's own website |
 | `registry` | string | Link back to this registry repo |
+| `appStore` | string | Mac App Store URL, or `null` if not available |
 | `version` | string | Semver string, e.g. `"1.0.0"` |
 
 ### Command fields

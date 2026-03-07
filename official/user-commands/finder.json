@@ -6,6 +6,7 @@
   "author": "colorfulDots",
   "homepage": "https://support.apple.com/en-us/100414",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": null,
   "color": "blue",
   "icon": "folder.fill",
   "tags": [

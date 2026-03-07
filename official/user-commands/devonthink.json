@@ -6,6 +6,7 @@
   "author": "colorfulDots",
   "homepage": "https://www.devontechnologies.com/apps/devonthink",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": "https://apps.apple.com/app/devonthink-3/id1541740496",
   "color": "blue",
   "icon": "archivebox.fill",
   "tags": [

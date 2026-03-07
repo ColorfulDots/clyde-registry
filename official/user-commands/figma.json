@@ -6,6 +6,7 @@
   "author": "colorfulDots",
   "homepage": "https://www.figma.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": "https://apps.apple.com/app/figma/id1152002983",
   "color": "purple",
   "icon": "paintbrush.fill",
   "tags": [

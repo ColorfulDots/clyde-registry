@@ -6,6 +6,7 @@
   "author": "colorfulDots",
   "homepage": "https://agenda.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": "https://apps.apple.com/app/agenda/id1287445660",
   "color": "red",
   "icon": "calendar.badge.clock",
   "tags": [

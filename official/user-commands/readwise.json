@@ -6,6 +6,7 @@
   "author": "colorfulDots",
   "homepage": "https://readwise.io",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": "https://apps.apple.com/app/readwise-reader/id1567599761",
   "color": "orange",
   "icon": "text.book.closed.fill",
   "tags": [

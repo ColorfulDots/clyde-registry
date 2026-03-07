@@ -6,6 +6,7 @@
   "author": "colorfulDots",
   "homepage": "https://obsidian.md",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": null,
   "color": "purple",
   "icon": "diamond.fill",
   "tags": [

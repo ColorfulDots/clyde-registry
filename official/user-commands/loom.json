@@ -6,6 +6,7 @@
   "author": "colorfulDots",
   "homepage": "https://www.loom.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": "https://apps.apple.com/app/loom-screen-recorder/id1474480829",
   "color": "purple",
   "icon": "record.circle.fill",
   "tags": [

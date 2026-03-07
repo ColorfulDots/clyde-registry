@@ -6,6 +6,7 @@
   "author": "colorfulDots",
   "homepage": "https://music.apple.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": null,
   "color": "red",
   "icon": "music.note",
   "tags": [

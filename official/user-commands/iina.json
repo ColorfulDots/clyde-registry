@@ -6,6 +6,7 @@
   "author": "colorfulDots",
   "homepage": "https://iina.io",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": null,
   "color": "gray",
   "icon": "play.fill",
   "tags": [

@@ -6,6 +6,7 @@
   "author": "colorfulDots",
   "homepage": "https://support.apple.com/guide/mac-help/system-settings-mh15217",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": null,
   "color": "gray",
   "icon": "gearshape.fill",
   "tags": [

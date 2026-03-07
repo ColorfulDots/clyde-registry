@@ -6,6 +6,7 @@
   "author": "colorfulDots",
   "homepage": "https://www.videolan.org/vlc",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": "https://apps.apple.com/app/vlc-media-player/id650377962",
   "color": "orange",
   "icon": "play.fill",
   "tags": [

@@ -6,6 +6,7 @@
   "author": "colorfulDots",
   "homepage": "https://www.postman.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "appStore": null,
   "color": "orange",
   "icon": "arrow.left.arrow.right",
   "tags": [
