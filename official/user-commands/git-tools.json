@@ -22,8 +22,8 @@
         "add",
         "all"
       ],
-      "executor": "shell",
-      "target": "osascript -e 'tell application \"Terminal\" to do script \"cd {{workspace_path}} && git add -A\"' -e 'tell application \"Terminal\" to activate'",
+      "executor": "applescript",
+      "target": "tell application \"Terminal\" to do script \"cd {{workspace_path}} && git add -A\"\ntell application \"Terminal\" to activate",
       "description": "Stage all changes in the current repository"
     },
     {
@@ -33,8 +33,8 @@
         "status",
         "changes"
       ],
-      "executor": "shell",
-      "target": "osascript -e 'tell application \"Terminal\" to do script \"cd {{workspace_path}} && git status\"' -e 'tell application \"Terminal\" to activate'",
+      "executor": "applescript",
+      "target": "tell application \"Terminal\" to do script \"cd {{workspace_path}} && git status\"\ntell application \"Terminal\" to activate",
       "description": "Show the working tree status in Terminal"
     },
     {
@@ -45,8 +45,8 @@
         "fetch",
         "sync"
       ],
-      "executor": "shell",
-      "target": "osascript -e 'tell application \"Terminal\" to do script \"cd {{workspace_path}} && git pull\"' -e 'tell application \"Terminal\" to activate'",
+      "executor": "applescript",
+      "target": "tell application \"Terminal\" to do script \"cd {{workspace_path}} && git pull\"\ntell application \"Terminal\" to activate",
       "description": "Pull latest changes from the remote branch"
     },
     {
@@ -57,8 +57,8 @@
         "upload",
         "remote"
       ],
-      "executor": "shell",
-      "target": "osascript -e 'tell application \"Terminal\" to do script \"cd {{workspace_path}} && git push\"' -e 'tell application \"Terminal\" to activate'",
+      "executor": "applescript",
+      "target": "tell application \"Terminal\" to do script \"cd {{workspace_path}} && git push\"\ntell application \"Terminal\" to activate",
       "description": "Push committed changes to the remote repository"
     },
     {
@@ -69,8 +69,8 @@
         "history",
         "commits"
       ],
-      "executor": "shell",
-      "target": "osascript -e 'tell application \"Terminal\" to do script \"cd {{workspace_path}} && git log --oneline -20\"' -e 'tell application \"Terminal\" to activate'",
+      "executor": "applescript",
+      "target": "tell application \"Terminal\" to do script \"cd {{workspace_path}} && git log --oneline -20\"\ntell application \"Terminal\" to activate",
       "description": "Show the last 20 commits in a compact log"
     }
   ]
