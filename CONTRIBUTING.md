@@ -48,11 +48,13 @@ PRs are reviewed by the Clyde team. Once approved and merged, your contribution 
   "id": "my-module",
   "displayName": "My Module",
   "description": "Commands for doing useful things.",
-  "color": "blue",
+  "version": "1.0.0",
   "author": "your-github-username",
   "homepage": "https://example.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
-  "version": "1.0.0",
+  "color": "blue",
+  "icon": "star",
+  "tags": ["productivity"],
   "commands": [
     {
       "name": "Open Something",
@@ -73,6 +75,8 @@ PRs are reviewed by the Clyde team. Once approved and merged, your contribution 
 | `displayName` | string | Human-readable name shown in Clyde |
 | `description` | string | One sentence describing the module |
 | `color` | string | One of: `blue green orange red purple teal yellow gray indigo cyan` |
+| `icon` | string | SF Symbol name (e.g. `star`, `globe`, `terminal.fill`) |
+| `tags` | string[] | Array of category tags (e.g. `["developer", "productivity"]`) |
 | `commands` | array | At least one command |
 
 ### Optional fields
@@ -132,7 +136,7 @@ Commands that download and execute arbitrary code will be rejected regardless of
 CI runs automatically on every PR. You can run it locally:
 
 ```bash
-node scripts/validate-registry.mjs
+node validate.mjs
 ```
 
 ---

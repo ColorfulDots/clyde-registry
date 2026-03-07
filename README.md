@@ -1,14 +1,14 @@
-# Clyde User Command Registry
+# Clyde Registry
 
-The official user command registry for [Clyde](https://clydecommands.com), a macOS command launcher that acts as an intent dispatcher. It's an app that opens everything.
+The official registry for [Clyde](https://clydecommands.com), a macOS command launcher that acts as an intent dispatcher. It's an app that opens everything.
 
-This repo is the source of truth for all User Commands available at **clydecommands.com/user-commands**. Every merged PR automatically appears on the site. No deployment needed.
+This repo is the source of truth for all user-commands and user-scripts available at **clydecommands.com/registry**. Every merged PR automatically appears on the site.
 
 ---
 
 ## What is a user-command?
 
-A user-command is a single JSON file. It contains an array of related commands that Clyde loads from `~/.clyde/user-commands/`.
+A user-command is a single JSON file containing an array of related commands that Clyde loads from `~/.clyde/user-commands/`.
 
 ```json
 {
@@ -17,7 +17,8 @@ A user-command is a single JSON file. It contains an array of related commands t
   "description": "Commands for your Obsidian vaults.",
   "version": "1.0.0",
   "author": "your-github-username",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
+  "homepage": "https://obsidian.md",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
   "color": "purple",
   "icon": "note.text",
   "tags": ["productivity", "notes"],
@@ -33,20 +34,27 @@ A user-command is a single JSON file. It contains an array of related commands t
 }
 ```
 
-That's it. Five fields per command. AI can generate this reliably — try it at [clydecommands.com/generate](https://clydecommands.com/generate).
+AI can generate this reliably — try it at [clydecommands.com/generate](https://clydecommands.com/generate).
+
+---
+
+## What is a user-script?
+
+A user-script is a shell script installed at `~/.clyde/user-scripts/`. Use scripts for interactive commands, multi-step flows, or anything that needs more than a single shell one-liner.
 
 ---
 
 ## Registry structure
 
 ```
-registry/
-  official/       ← maintained by the Clyde team
-  community/      ← user-submitted (submit your user-command here)
-  _template.json  ← copy this to get started
+official/
+  user-commands/    ← JSON command modules
+  user-scripts/     ← shell scripts
+_template.json
+_template.sh
 ```
 
-**Official** User Commands are maintained by [@ColorfulDots](https://github.com/ColorfulDots). **Community** User Commands are user-submitted and reviewed before merging.
+All contributions go through a PR. Once approved and merged by the Clyde team, they appear in the registry.
 
 ---
 
@@ -61,7 +69,7 @@ https://github.com/ColorfulDots/clyde-registry
 ### 2. Copy the template
 
 ```bash
-cp registry/_template.json registry/community/your-user-command-name.json
+cp _template.json official/user-commands/your-module-name.json
 ```
 
 ### 3. Fill it in
@@ -69,18 +77,28 @@ cp registry/_template.json registry/community/your-user-command-name.json
 The `id` field must match the filename exactly:
 
 ```
-your-user-command-name.json  →  "id": "your-user-command-name"
+your-module-name.json  →  "id": "your-module-name"
 ```
 
 ### 4. Validate locally
 
 ```bash
-node scripts/validate-registry.mjs
+node validate.mjs
 ```
 
 ### 5. Open a pull request
 
-The PR template will walk you through the checklist. CI runs validation automatically.
+CI runs validation automatically. The PR template will walk you through the checklist.
+
+---
+
+## Submit a user-script
+
+```bash
+cp _template.sh official/user-scripts/your-script-name.sh
+```
+
+Fill in the header block and your script logic, then open a pull request.
 
 ---
 
@@ -88,18 +106,19 @@ The PR template will walk you through the checklist. CI runs validation automati
 
 ### User-command fields
 
-| Field         | Required | Type     | Notes                             |
-| ------------- | -------- | -------- | --------------------------------- |
-| `id`          | ✅       | string   | Must match filename               |
-| `displayName` | ✅       | string   | Shown in Clyde and on the website |
-| `description` | ✅       | string   | One sentence                      |
-| `color`       | ✅       | string   | See colors below                  |
-| `icon`        | ✅       | string   | SF Symbol name                    |
-| `commands`    | ✅       | array    | At least one                      |
-| `version`     | —        | string   | e.g. `"1.0.0"`                    |
-| `author`      | —        | string   | Your GitHub username              |
-| `homepage`    | —        | string   | Link to your repo or docs         |
-| `tags`        | —        | string[] | Categorization tags               |
+| Field         | Required | Type     | Notes                                          |
+| ------------- | -------- | -------- | ---------------------------------------------- |
+| `id`          | ✅       | string   | Must match filename                            |
+| `displayName` | ✅       | string   | Shown in Clyde and on the website              |
+| `description` | ✅       | string   | One sentence                                   |
+| `color`       | ✅       | string   | See colors below                               |
+| `icon`        | ✅       | string   | SF Symbol name (e.g. `star`, `globe`)          |
+| `tags`        | ✅       | string[] | Category tags (e.g. `["developer", "productivity"]`) |
+| `commands`    | ✅       | array    | At least one                                   |
+| `version`     | —        | string   | e.g. `"1.0.0"`                                 |
+| `author`      | —        | string   | Your GitHub username                           |
+| `homepage`    | —        | string   | The service or tool's own website              |
+| `registry`    | —        | string   | Link back to this registry repo                |
 
 ### Command fields
 
@@ -126,94 +145,33 @@ The PR template will walk you through the checklist. CI runs validation automati
 
 ---
 
-## Shell scripts
-
-For interactive commands — dialogs, file pickers, multi-step flows — use a `.sh` script alongside your JSON:
-
-```
-registry/community/
-  my-module.json
-  scripts/
-    my-script.sh
-```
-
-Reference it in your command:
-
-```json
-{
-  "name": "Search Google",
-  "keywords": ["search", "google"],
-  "executor": "shell",
-  "target": "bash ~/.clyde/scripts/my-script.sh",
-  "description": "Ask for a query, open in Google"
-}
-```
-
-Users install the script to `~/.clyde/scripts/` alongside the JSON user-command.
-
----
-
-## Duplicates and alternatives
-
-Duplicates are allowed and encouraged. A `finance.json` and a `finance-eu.json` can coexist — users pick what fits them. Name variants clearly:
-
-```
-finance-uk.json
-dev-python.json
-productivity-notion.json
-```
-
----
-
 ## Security
 
-The following patterns are **automatically blocked** by CI and will fail validation:
+The following patterns are **automatically blocked** by CI:
 
 - `curl ... | bash` / `wget ... | bash`
 - `rm -rf /`
 - `dd if=` (disk writes)
 - Fork bombs
 
-Shell commands are reviewed manually before merge. Keep targets focused and minimal. Commands that download and execute arbitrary code will be rejected regardless of intent.
-
----
-
-## Validation
-
-CI runs on every PR touching `registry/community/`. It checks:
-
-- Valid JSON
-- All required fields present
-- `id` field matches filename
-- Valid `color` and `executor` values
-- No blocked shell patterns
-
-Run it locally before opening a PR:
-
-```bash
-node scripts/validate-registry.mjs
-```
-
----
-
-## Generate a user-command with AI
-
-Not sure how to write the JSON? Describe what you want at [clydecommands.com/generate](https://clydecommands.com/generate) — AI generates it for you. Copy, save, submit.
+Commands that download and execute arbitrary code will be rejected regardless of intent.
 
 ---
 
 ## Installing a user-command locally
 
 ```bash
-# Download a user-command
 curl -o ~/.clyde/user-commands/spotify.json \
-  https://raw.githubusercontent.com/ColorfulDots/clyde-registry/main/registry/official/spotify.json
-
-# Then in Clyde
-reload user-commands
+  https://raw.githubusercontent.com/ColorfulDots/clyde-registry/main/official/user-commands/spotify.json
 ```
 
-Or browse and download at [clydecommands.com/user-commands](https://clydecommands.com/user-commands).
+Or browse and install at [clydecommands.com/registry](https://clydecommands.com/registry).
+
+---
+
+## Generate with AI
+
+Describe what you want at [clydecommands.com/generate](https://clydecommands.com/generate) — AI generates the JSON for you. Copy, save, submit.
 
 ---
 
