@@ -7,8 +7,8 @@
   "homepage": "https://www.omnigroup.com/omnifocus",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/omnifocus-4/id1542143627",
-  "color": "purple",
-  "icon": "checkmark.circle.fill",
+  "color": "#7A2FF7",
+  "icon": "check-circle",
   "tags": [
     "productivity",
     "tasks",

@@ -7,8 +7,8 @@
   "homepage": "https://getdrafts.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/drafts/id1435957248",
-  "color": "gray",
-  "icon": "pencil.and.outline",
+  "color": "#2B2B2B",
+  "icon": "pencil-line",
   "tags": [
     "productivity",
     "notes",

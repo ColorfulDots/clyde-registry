@@ -112,8 +112,8 @@ Fill in the header block and your script logic, then open a pull request.
 | `id`          | ✅       | string   | Must match filename                            |
 | `displayName` | ✅       | string   | Shown in Clyde and on the website              |
 | `description` | ✅       | string   | One sentence                                   |
-| `color`       | ✅       | string   | See colors below                               |
-| `icon`        | ✅       | string   | SF Symbol name (e.g. `star`, `globe`)          |
+| `color`       | ✅       | string   | Brand primary color — named (e.g. `green`) or hex with or without `#` (e.g. `#1DB954` or `1DB954`) |
+| `icon`        | ✅       | string   | Phosphor icon name (e.g. `music-note`, `globe`, `terminal-window`) — see [phosphoricons.com](https://phosphoricons.com) |
 | `tags`        | ✅       | string[] | Category tags (e.g. `["developer", "productivity"]`) |
 | `commands`    | ✅       | array    | At least one                                   |
 | `version`     | —        | string   | e.g. `"1.0.0"`                                 |
@@ -143,7 +143,7 @@ Fill in the header block and your script logic, then open a pull request.
 
 ### Colors
 
-`blue` `green` `orange` `red` `purple` `teal` `yellow` `gray` `indigo` `cyan`
+Use the brand's primary color — either a named color (e.g. `green`) or a hex value with or without `#` (e.g. `#1DB954` or `1DB954`). This is used as the icon background in Clyde's UI.
 
 ---
 

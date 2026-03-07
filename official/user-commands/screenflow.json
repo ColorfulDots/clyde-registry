@@ -7,8 +7,8 @@
   "homepage": "https://www.telestream.net/screenflow",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/screenflow/id1475796261",
-  "color": "blue",
-  "icon": "record.circle",
+  "color": "#2B5CE6",
+  "icon": "record",
   "tags": [
     "productivity",
     "screen recording",

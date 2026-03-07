@@ -7,7 +7,7 @@
   "homepage": "https://arc.net",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/arc-browser/id1643971956",
-  "color": "purple",
+  "color": "#5A2FD6",
   "icon": "globe",
   "tags": [
     "browser",

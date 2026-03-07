@@ -7,8 +7,8 @@
   "homepage": "https://support.apple.com/guide/keychain-access/welcome/mac",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "gray",
-  "icon": "key.fill",
+  "color": "#6E6E73",
+  "icon": "key",
   "tags": [
     "system",
     "security",

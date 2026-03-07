@@ -7,8 +7,8 @@
   "homepage": "https://www.microsoft.com/microsoft-teams",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/microsoft-teams/id1113153706",
-  "color": "purple",
-  "icon": "person.3.fill",
+  "color": "#6264A7",
+  "icon": "microsoft-teams-logo",
   "tags": [
     "communication",
     "productivity",

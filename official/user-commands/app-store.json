@@ -7,8 +7,8 @@
   "homepage": "https://www.apple.com/app-store",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "blue",
-  "icon": "app.badge.fill",
+  "color": "#0D84FF",
+  "icon": "app-store-logo",
   "tags": [
     "system",
     "apps",

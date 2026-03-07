@@ -7,8 +7,8 @@
   "homepage": "https://todoist.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/todoist-to-do-list-tasks/id585829637",
-  "color": "red",
-  "icon": "checkmark.circle.fill",
+  "color": "#DB4035",
+  "icon": "check-circle",
   "tags": [
     "productivity",
     "tasks",

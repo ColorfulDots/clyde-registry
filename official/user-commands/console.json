@@ -7,8 +7,8 @@
   "homepage": "https://support.apple.com/guide/console/welcome/mac",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "gray",
-  "icon": "doc.text.magnifyingglass",
+  "color": "#3A3A3C",
+  "icon": "terminal-window",
   "tags": [
     "system",
     "logs",

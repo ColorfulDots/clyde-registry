@@ -7,8 +7,8 @@
   "homepage": "https://www.chase.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "blue",
-  "icon": "building.columns.fill",
+  "color": "#117ACA",
+  "icon": "bank",
   "tags": [
     "finance",
     "banking"

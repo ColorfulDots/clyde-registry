@@ -7,8 +7,8 @@
   "homepage": "https://www.cursor.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "blue",
-  "icon": "chevron.left.forwardslash.chevron.right",
+  "color": "#000000",
+  "icon": "cursor",
   "tags": [
     "developer",
     "editor",

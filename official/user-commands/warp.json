@@ -7,8 +7,8 @@
   "homepage": "https://www.warp.dev",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "blue",
-  "icon": "terminal.fill",
+  "color": "#01A4FF",
+  "icon": "terminal-window",
   "tags": [
     "developer",
     "terminal",

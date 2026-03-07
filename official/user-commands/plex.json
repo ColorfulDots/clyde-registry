@@ -7,8 +7,8 @@
   "homepage": "https://www.plex.tv",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/plex-movies-tv-music-more/id383457673",
-  "color": "yellow",
-  "icon": "play.tv.fill",
+  "color": "#E5A00D",
+  "icon": "television",
   "tags": [
     "media",
     "movies",

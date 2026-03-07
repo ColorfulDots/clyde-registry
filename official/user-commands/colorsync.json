@@ -7,8 +7,8 @@
   "homepage": "https://support.apple.com/guide/colorsync-utility/welcome/mac",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "purple",
-  "icon": "eyedropper.halffull",
+  "color": "#6E6E73",
+  "icon": "eyedropper",
   "tags": [
     "system",
     "design",

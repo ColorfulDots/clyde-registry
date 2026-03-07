@@ -7,8 +7,8 @@
   "homepage": "https://maps.apple.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "green",
-  "icon": "map.fill",
+  "color": "#34C759",
+  "icon": "map-pin",
   "tags": [
     "navigation",
     "maps",

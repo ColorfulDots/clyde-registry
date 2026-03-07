@@ -7,8 +7,8 @@
   "homepage": "https://apps.apple.com/app/reminders/id1108187841",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "red",
-  "icon": "checklist",
+  "color": "#FF3B30",
+  "icon": "bell",
   "tags": [
     "productivity",
     "tasks",

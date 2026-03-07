@@ -7,8 +7,8 @@
   "homepage": "https://linear.app",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/linear/id1451544545",
-  "color": "purple",
-  "icon": "checklist",
+  "color": "#5E6AD2",
+  "icon": "circles-three",
   "tags": [
     "productivity",
     "developer",

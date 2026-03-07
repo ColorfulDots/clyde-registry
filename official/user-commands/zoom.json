@@ -7,8 +7,8 @@
   "homepage": "https://zoom.us",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "blue",
-  "icon": "video.fill",
+  "color": "#2D8CFF",
+  "icon": "video-camera",
   "tags": [
     "productivity",
     "meetings",

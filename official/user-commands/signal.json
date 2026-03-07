@@ -7,8 +7,8 @@
   "homepage": "https://signal.org",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/signal-private-messenger/id874139669",
-  "color": "blue",
-  "icon": "lock.message.fill",
+  "color": "#3A76F0",
+  "icon": "chat-lock",
   "tags": [
     "communication",
     "messaging",

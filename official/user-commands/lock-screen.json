@@ -7,8 +7,8 @@
   "homepage": "https://github.com/ColorfulDots/clyde-registry",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "gray",
-  "icon": "lock.fill",
+  "color": "#6E6E73",
+  "icon": "lock",
   "tags": [
     "system",
     "security"

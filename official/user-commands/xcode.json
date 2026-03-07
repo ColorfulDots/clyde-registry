@@ -7,8 +7,8 @@
   "homepage": "https://developer.apple.com/xcode",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/xcode/id497799835",
-  "color": "blue",
-  "icon": "hammer.fill",
+  "color": "#147EFB",
+  "icon": "hammer",
   "tags": [
     "developer",
     "xcode",

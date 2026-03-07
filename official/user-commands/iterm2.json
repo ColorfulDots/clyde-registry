@@ -7,8 +7,8 @@
   "homepage": "https://iterm2.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "green",
-  "icon": "terminal.fill",
+  "color": "#00D26A",
+  "icon": "terminal-window",
   "tags": [
     "developer",
     "terminal",

@@ -7,8 +7,8 @@
   "homepage": "https://logseq.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "purple",
-  "icon": "point.3.connected.trianglepath.dotted",
+  "color": "#085B9F",
+  "icon": "graph",
   "tags": [
     "productivity",
     "notes",

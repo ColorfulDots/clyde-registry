@@ -7,8 +7,8 @@
   "homepage": "https://apps.apple.com/app/messages/id1146560473",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "green",
-  "icon": "message.fill",
+  "color": "#34C759",
+  "icon": "chat-circle",
   "tags": [
     "communication",
     "messaging",

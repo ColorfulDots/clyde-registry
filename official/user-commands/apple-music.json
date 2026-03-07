@@ -7,8 +7,8 @@
   "homepage": "https://music.apple.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "red",
-  "icon": "music.note",
+  "color": "#FC3C44",
+  "icon": "music-note",
   "tags": [
     "music",
     "productivity",

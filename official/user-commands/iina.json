@@ -7,8 +7,8 @@
   "homepage": "https://iina.io",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "gray",
-  "icon": "play.fill",
+  "color": "#00B5CC",
+  "icon": "play-circle",
   "tags": [
     "media",
     "video",

@@ -7,8 +7,8 @@
   "homepage": "https://github.com/ColorfulDots/clyde-registry",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "blue",
-  "icon": "network",
+  "color": "#2997FF",
+  "icon": "wifi-high",
   "tags": [
     "network",
     "system",

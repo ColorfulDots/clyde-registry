@@ -7,8 +7,8 @@
   "homepage": "https://support.apple.com/guide/mac-help/system-settings-mh15217",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "gray",
-  "icon": "gearshape.fill",
+  "color": "#6E6E73",
+  "icon": "gear",
   "tags": [
     "system",
     "settings",

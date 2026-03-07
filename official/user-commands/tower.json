@@ -7,8 +7,8 @@
   "homepage": "https://www.git-tower.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/tower-git-client/id1449505718",
-  "color": "blue",
-  "icon": "arrow.triangle.branch",
+  "color": "#6494C2",
+  "icon": "git-branch",
   "tags": [
     "developer",
     "git",

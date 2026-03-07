@@ -7,8 +7,8 @@
   "homepage": "https://www.coinbase.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "blue",
-  "icon": "bitcoinsign.circle.fill",
+  "color": "#0052FF",
+  "icon": "currency-btc",
   "tags": [
     "finance",
     "crypto"

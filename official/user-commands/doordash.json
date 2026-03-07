@@ -7,8 +7,8 @@
   "homepage": "https://www.doordash.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "red",
-  "icon": "bag.fill",
+  "color": "#FF3008",
+  "icon": "storefront",
   "tags": [
     "food",
     "delivery"

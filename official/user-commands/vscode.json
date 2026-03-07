@@ -7,8 +7,8 @@
   "homepage": "https://code.visualstudio.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "blue",
-  "icon": "chevron.left.forwardslash.chevron.right",
+  "color": "#007ACC",
+  "icon": "code",
   "tags": [
     "developer",
     "editor"

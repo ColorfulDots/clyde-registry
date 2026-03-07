@@ -7,8 +7,8 @@
   "homepage": "https://git-fork.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "blue",
-  "icon": "arrow.triangle.branch",
+  "color": "#4078C8",
+  "icon": "git-branch",
   "tags": [
     "developer",
     "git",

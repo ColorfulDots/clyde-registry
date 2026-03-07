@@ -7,8 +7,8 @@
   "homepage": "https://telegram.org",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/telegram/id747648890",
-  "color": "blue",
-  "icon": "paperplane.fill",
+  "color": "#2AABEE",
+  "icon": "telegram-logo",
   "tags": [
     "communication",
     "messaging",

@@ -7,8 +7,8 @@
   "homepage": "https://support.apple.com/en-us/100414",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "blue",
-  "icon": "folder.fill",
+  "color": "#2997FF",
+  "icon": "folder-open",
   "tags": [
     "system",
     "productivity",

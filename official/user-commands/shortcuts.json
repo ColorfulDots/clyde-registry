@@ -7,8 +7,8 @@
   "homepage": "https://apps.apple.com/app/shortcuts/id915249334",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "purple",
-  "icon": "square.stack.3d.up.fill",
+  "color": "#F2A20C",
+  "icon": "lightning",
   "tags": [
     "automation",
     "productivity",

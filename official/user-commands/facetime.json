@@ -7,8 +7,8 @@
   "homepage": "https://apps.apple.com/app/facetime/id1110145091",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "green",
-  "icon": "video.fill",
+  "color": "#34C759",
+  "icon": "video-camera",
   "tags": [
     "communication",
     "calls",

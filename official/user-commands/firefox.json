@@ -7,7 +7,7 @@
   "homepage": "https://www.mozilla.org/firefox",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "orange",
+  "color": "#FF7139",
   "icon": "globe",
   "tags": [
     "browser",

@@ -7,7 +7,7 @@
   "homepage": "https://www.google.com/chrome",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "blue",
+  "color": "#4285F4",
   "icon": "globe",
   "tags": [
     "browser",

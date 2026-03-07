@@ -7,8 +7,8 @@
   "homepage": "https://support.apple.com/guide/disk-utility/welcome/mac",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "gray",
-  "icon": "externaldrive.fill",
+  "color": "#6E6E73",
+  "icon": "hard-drive",
   "tags": [
     "system",
     "disk",

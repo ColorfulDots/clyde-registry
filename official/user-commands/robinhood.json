@@ -7,8 +7,8 @@
   "homepage": "https://robinhood.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "green",
-  "icon": "chart.line.uptrend.xyaxis",
+  "color": "#00C805",
+  "icon": "trend-up",
   "tags": [
     "finance",
     "investing"

@@ -7,8 +7,8 @@
   "homepage": "https://tableplus.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/tableplus/id1436813057",
-  "color": "orange",
-  "icon": "tablecells.fill",
+  "color": "#F5A623",
+  "icon": "table",
   "tags": [
     "developer",
     "database",

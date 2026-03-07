@@ -7,8 +7,8 @@
   "homepage": "https://obsidian.md",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "purple",
-  "icon": "diamond.fill",
+  "color": "#7C3AED",
+  "icon": "diamond",
   "tags": [
     "productivity",
     "notes",

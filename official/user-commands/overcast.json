@@ -7,7 +7,7 @@
   "homepage": "https://overcast.fm",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/overcast/id888422857",
-  "color": "orange",
+  "color": "#FC7E0F",
   "icon": "headphones",
   "tags": [
     "media",

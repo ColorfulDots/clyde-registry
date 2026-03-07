@@ -7,8 +7,8 @@
   "homepage": "https://github.com/ColorfulDots/clyde-registry",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "yellow",
-  "icon": "doc.on.clipboard.fill",
+  "color": "#F5A623",
+  "icon": "clipboard-text",
   "tags": [
     "productivity",
     "clipboard"

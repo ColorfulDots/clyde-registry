@@ -7,8 +7,8 @@
   "homepage": "https://www.docker.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "blue",
-  "icon": "shippingbox",
+  "color": "#2496ED",
+  "icon": "cube",
   "tags": [
     "developer",
     "docker",

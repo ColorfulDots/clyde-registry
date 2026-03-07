@@ -7,8 +7,8 @@
   "homepage": "https://www.atlassian.com/software/jira",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/jira-cloud-by-atlassian/id1475897096",
-  "color": "blue",
-  "icon": "square.stack.fill",
+  "color": "#0052CC",
+  "icon": "kanban",
   "tags": [
     "developer",
     "productivity",

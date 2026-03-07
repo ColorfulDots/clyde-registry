@@ -7,8 +7,8 @@
   "homepage": "https://www.jetbrains.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "orange",
-  "icon": "hammer.fill",
+  "color": "#FE315D",
+  "icon": "hammer",
   "tags": [
     "developer",
     "ide",

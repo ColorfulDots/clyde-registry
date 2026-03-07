@@ -7,8 +7,8 @@
   "homepage": "https://www.whatsapp.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/whatsapp-desktop/id1147396723",
-  "color": "green",
-  "icon": "message.fill",
+  "color": "#25D366",
+  "icon": "whatsapp-logo",
   "tags": [
     "communication",
     "messaging",

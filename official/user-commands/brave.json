@@ -7,8 +7,8 @@
   "homepage": "https://brave.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "orange",
-  "icon": "globe",
+  "color": "#FB542B",
+  "icon": "shield",
   "tags": [
     "browser",
     "privacy",

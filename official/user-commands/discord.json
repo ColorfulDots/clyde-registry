@@ -7,8 +7,8 @@
   "homepage": "https://discord.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/discord/id985746746",
-  "color": "purple",
-  "icon": "bubble.left.and.bubble.right.fill",
+  "color": "#5865F2",
+  "icon": "discord-logo",
   "tags": [
     "communication",
     "community",

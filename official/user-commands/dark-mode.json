@@ -7,8 +7,8 @@
   "homepage": "https://support.apple.com/en-us/102191",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "gray",
-  "icon": "moon.fill",
+  "color": "#1C1C1E",
+  "icon": "moon",
   "tags": [
     "system",
     "appearance"

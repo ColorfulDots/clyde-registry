@@ -7,8 +7,8 @@
   "homepage": "https://www.apple.com/safari",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "blue",
-  "icon": "safari.fill",
+  "color": "#006CFF",
+  "icon": "compass",
   "tags": [
     "browser",
     "apple",

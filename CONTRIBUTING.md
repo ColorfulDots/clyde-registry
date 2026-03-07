@@ -75,8 +75,8 @@ PRs are reviewed by the Clyde team. Once approved and merged, your contribution 
 | `id` | string | Must match the filename (e.g. `finance.json` → `"id": "finance"`) |
 | `displayName` | string | Human-readable name shown in Clyde |
 | `description` | string | One sentence describing the module |
-| `color` | string | One of: `blue green orange red purple teal yellow gray indigo cyan` |
-| `icon` | string | SF Symbol name (e.g. `star`, `globe`, `terminal.fill`) |
+| `color` | string | Brand primary color — named (e.g. `green`) or hex with or without `#` (e.g. `#1DB954` or `1DB954`) |
+| `icon` | string | Phosphor icon name (e.g. `music-note`, `globe`, `terminal-window`) — see [phosphoricons.com](https://phosphoricons.com) |
 | `tags` | string[] | Array of category tags (e.g. `["developer", "productivity"]`) |
 | `commands` | array | At least one command |
 

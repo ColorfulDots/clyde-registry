@@ -7,8 +7,8 @@
   "homepage": "https://bear.app",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/bear/id1091189122",
-  "color": "red",
-  "icon": "note.text",
+  "color": "#E6392B",
+  "icon": "note-pencil",
   "tags": [
     "productivity",
     "notes",

@@ -7,8 +7,8 @@
   "homepage": "https://www.ubereats.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "green",
-  "icon": "bag.fill",
+  "color": "#06C167",
+  "icon": "hamburger",
   "tags": [
     "food",
     "delivery"

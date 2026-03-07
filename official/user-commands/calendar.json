@@ -7,7 +7,7 @@
   "homepage": "https://apps.apple.com/app/calendar/id1108185179",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "red",
+  "color": "#FF3B30",
   "icon": "calendar",
   "tags": [
     "productivity",

@@ -7,8 +7,8 @@
   "homepage": "https://insomnia.rest",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
-  "color": "purple",
-  "icon": "arrow.left.arrow.right",
+  "color": "#4000BF",
+  "icon": "arrows-left-right",
   "tags": [
     "developer",
     "api",

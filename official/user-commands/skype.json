@@ -7,8 +7,8 @@
   "homepage": "https://www.skype.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/skype/id304878510",
-  "color": "blue",
-  "icon": "video.fill",
+  "color": "#00AFF0",
+  "icon": "video-camera",
   "tags": [
     "communication",
     "calls",
