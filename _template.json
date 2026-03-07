@@ -1,0 +1,21 @@
+{
+  "id": "my-module",
+  "displayName": "My Module",
+  "description": "A short description of what this module does.",
+  "version": "1.0.0",
+  "author": "your-github-username",
+  "homepage": "https://example.com",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "color": "blue",
+  "icon": "star",
+  "tags": ["productivity"],
+  "commands": [
+    {
+      "name": "Open My Module",
+      "keywords": ["my module", "keyword"],
+      "executor": "urlScheme",
+      "target": "https://example.com",
+      "description": "Open My Module"
+    }
+  ]
+}

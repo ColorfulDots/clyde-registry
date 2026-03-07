@@ -1,31 +1,43 @@
-# Contributing to the Clyde Command Registry
+# Contributing to the Clyde Registry
 
-The registry is a collection of JSON files. Each file is a user-command — a named group of commands that Clyde loads from `~/.clyde/user-commands/`.
+The registry contains two types of contributions: **user-commands** (JSON) and **user-scripts** (shell scripts).
 
-Because commands are simple JSON, anyone can contribute one. No coding required.
+User-commands are loaded by Clyde from `~/.clyde/user-commands/`.
+User-scripts are installed at `~/.clyde/user-scripts/`.
 
----
-
-## How to submit a user-command
-
-1. Fork [github.com/ColorfulDots/clyde-registry](https://github.com/ColorfulDots/clyde-registry)
-2. Copy `public/registry/_template.json` into `public/registry/community/`
-3. Rename it to match your user-command name (e.g. `my-tools.json`)
-4. Fill it in — see the schema below
-5. Open a pull request
-
-That's it. The PR template will walk you through the checklist.
+Because commands are simple JSON, anyone can contribute one. No coding required. Scripts require basic shell knowledge.
 
 ---
 
 ## Folder structure
 
 ```
-public/registry/
-  official/     ← maintained by the Clyde team
-  community/    ← user-submitted user-commands (submit here)
-  _template.json
+official/
+  user-commands/    ← JSON command modules
+  user-scripts/     ← shell scripts
+_template.json
+_template.sh
 ```
+
+---
+
+## How to submit a user-command
+
+1. Fork [github.com/ColorfulDots/clyde-registry](https://github.com/ColorfulDots/clyde-registry)
+2. Copy `_template.json` into `official/user-commands/`
+3. Rename it to match your module (e.g. `my-tools.json`)
+4. Fill it in — see the schema below
+5. Open a pull request
+
+## How to submit a user-script
+
+1. Fork [github.com/ColorfulDots/clyde-registry](https://github.com/ColorfulDots/clyde-registry)
+2. Copy `_template.sh` into `official/user-scripts/`
+3. Rename it to match your script (e.g. `my-script.sh`)
+4. Fill it in — keep it focused and safe
+5. Open a pull request
+
+PRs are reviewed by the Clyde team. Once approved and merged, your contribution appears in the registry.
 
 ---
 
@@ -38,8 +50,9 @@ public/registry/
   "description": "Commands for doing useful things.",
   "color": "blue",
   "author": "your-github-username",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
-  "version": "1.0",
+  "homepage": "https://example.com",
+  "registry": "https://github.com/ColorfulDots/clyde-registry",
+  "version": "1.0.0",
   "commands": [
     {
       "name": "Open Something",
@@ -58,7 +71,7 @@ public/registry/
 |---|---|---|
 | `id` | string | Must match the filename (e.g. `finance.json` → `"id": "finance"`) |
 | `displayName` | string | Human-readable name shown in Clyde |
-| `description` | string | One sentence describing the user-command |
+| `description` | string | One sentence describing the module |
 | `color` | string | One of: `blue green orange red purple teal yellow gray indigo cyan` |
 | `commands` | array | At least one command |
 
@@ -67,8 +80,9 @@ public/registry/
 | Field | Type | Notes |
 |---|---|---|
 | `author` | string | Your GitHub username |
-| `homepage` | string | Link to your repo or docs |
-| `version` | string | Semver string, e.g. `"1.0"` |
+| `homepage` | string | The service or tool's own website |
+| `registry` | string | Link back to this registry repo |
+| `version` | string | Semver string, e.g. `"1.0.0"` |
 
 ### Command fields
 
@@ -77,7 +91,7 @@ public/registry/
 | `name` | string | Shown in Clyde's results list |
 | `keywords` | string[] | Words that trigger this command |
 | `executor` | string | See executor types below |
-| `target` | string | What to run — URL, shell command, script, or shortcut name |
+| `target` | string | What to run — URL, shell command, AppleScript, or shortcut name |
 | `description` | string | One sentence shown as a subtitle |
 
 ### Executor types
@@ -91,9 +105,12 @@ public/registry/
 
 ---
 
-## Duplicates and alternatives
+## User-script guidelines
 
-Duplicates are allowed. A `finance.json` and a `finance-eu.json` can coexist — users pick what fits them. If your user-command is a regional or personal variant of an existing one, name it clearly (e.g. `finance-uk.json`, `dev-python.json`).
+- Use `#!/bin/bash` as the shebang
+- Include the header block from `_template.sh`
+- Accept arguments where it makes sense — document usage in the header
+- Keep scripts focused on a single task
 
 ---
 
@@ -106,19 +123,17 @@ Shell and AppleScript commands are powerful. The following patterns are **automa
 - `dd if=` (disk writes)
 - Fork bombs
 
-Commands that download and execute arbitrary code will be rejected regardless of intent. Keep targets focused and minimal.
+Commands that download and execute arbitrary code will be rejected regardless of intent.
 
 ---
 
 ## Validation
 
-CI runs automatically on every PR touching `public/registry/community/`. You can run it locally:
+CI runs automatically on every PR. You can run it locally:
 
 ```bash
 node scripts/validate-registry.mjs
 ```
-
-Fix any errors before opening your PR.
 
 ---
 
