@@ -1,31 +1,5 @@
 {
   "id": "chase",
-  "displayName": "Chase",
-  "description": "Access your Chase bank account.",
-  "version": "1.0.0",
-  "author": "colorfulDots",
-  "homepage": "https://www.chase.com",
-  "registry": "https://github.com/ColorfulDots/clyde-registry",
-  "appStore": null,
-  "color": "#117ACA",
-  "icon": "bank",
-  "tags": [
-    "finance",
-    "banking"
-  ],
-  "commands": [
-    {
-      "name": "Open Chase",
-      "keywords": [
-        "chase",
-        "bank",
-        "banking",
-        "checking",
-        "savings"
-      ],
-      "executor": "urlScheme",
-      "target": "https://www.chase.com",
-      "description": "Open Chase in your browser to manage your bank account"
-    }
-  ]
+  "redirect": "/user-commands",
+  "reason": "Deprecated: URL commands are now handled by the built-in URL parser."
 }

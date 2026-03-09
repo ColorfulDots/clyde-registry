@@ -1,29 +1,5 @@
 {
   "id": "github",
-  "displayName": "GitHub",
-  "description": "Open GitHub to browse repos and code.",
-  "version": "1.0.0",
-  "author": "colorfulDots",
-  "homepage": "https://github.com",
-  "registry": "https://github.com/ColorfulDots/clyde-registry",
-  "appStore": null,
-  "color": "#181717",
-  "icon": "github-logo",
-  "tags": [
-    "developer",
-    "productivity"
-  ],
-  "commands": [
-    {
-      "name": "Open GitHub",
-      "keywords": [
-        "github",
-        "git",
-        "repo"
-      ],
-      "executor": "urlScheme",
-      "target": "https://github.com",
-      "description": "Open GitHub in your browser to browse repos and code"
-    }
-  ]
+  "redirect": "/user-commands",
+  "reason": "Deprecated: URL commands are now handled by the built-in URL parser."
 }

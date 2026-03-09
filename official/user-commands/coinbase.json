@@ -1,30 +1,5 @@
 {
   "id": "coinbase",
-  "displayName": "Coinbase",
-  "description": "Buy, sell, and manage crypto on Coinbase.",
-  "version": "1.0.0",
-  "author": "colorfulDots",
-  "homepage": "https://www.coinbase.com",
-  "registry": "https://github.com/ColorfulDots/clyde-registry",
-  "appStore": null,
-  "color": "#0052FF",
-  "icon": "currency-btc",
-  "tags": [
-    "finance",
-    "crypto"
-  ],
-  "commands": [
-    {
-      "name": "Open Coinbase",
-      "keywords": [
-        "coinbase",
-        "crypto",
-        "bitcoin",
-        "ethereum"
-      ],
-      "executor": "urlScheme",
-      "target": "https://coinbase.com",
-      "description": "Open Coinbase in your browser to buy, sell, and manage crypto"
-    }
-  ]
+  "redirect": "/user-commands",
+  "reason": "Deprecated: URL commands are now handled by the built-in URL parser."
 }

@@ -1,29 +1,5 @@
 {
   "id": "localhost-8080",
-  "displayName": "Localhost 8080",
-  "description": "Open your local dev server on port 8080.",
-  "version": "1.0.0",
-  "author": "colorfulDots",
-  "homepage": "https://github.com/ColorfulDots/clyde-registry",
-  "registry": "https://github.com/ColorfulDots/clyde-registry",
-  "appStore": null,
-  "color": "#2997FF",
-  "icon": "broadcast",
-  "tags": [
-    "developer",
-    "localhost"
-  ],
-  "commands": [
-    {
-      "name": "Localhost 8080",
-      "keywords": [
-        "localhost",
-        "local",
-        "8080"
-      ],
-      "executor": "urlScheme",
-      "target": "http://localhost:8080",
-      "description": "Open localhost:8080 in your browser to preview your dev server"
-    }
-  ]
+  "redirect": "/user-commands",
+  "reason": "Deprecated: URL commands are now handled by the built-in URL parser."
 }

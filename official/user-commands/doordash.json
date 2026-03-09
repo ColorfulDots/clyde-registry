@@ -1,30 +1,5 @@
 {
   "id": "doordash",
-  "displayName": "DoorDash",
-  "description": "Order food delivery from DoorDash.",
-  "version": "1.0.0",
-  "author": "colorfulDots",
-  "homepage": "https://www.doordash.com",
-  "registry": "https://github.com/ColorfulDots/clyde-registry",
-  "appStore": null,
-  "color": "#FF3008",
-  "icon": "storefront",
-  "tags": [
-    "food",
-    "delivery"
-  ],
-  "commands": [
-    {
-      "name": "Open DoorDash",
-      "keywords": [
-        "doordash",
-        "food",
-        "delivery",
-        "order"
-      ],
-      "executor": "urlScheme",
-      "target": "https://doordash.com",
-      "description": "Open DoorDash in your browser to order food delivery"
-    }
-  ]
+  "redirect": "/user-commands",
+  "reason": "Deprecated: URL commands are now handled by the built-in URL parser."
 }

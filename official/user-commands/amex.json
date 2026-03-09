@@ -1,31 +1,5 @@
 {
   "id": "amex",
-  "displayName": "American Express",
-  "description": "Manage your American Express credit card.",
-  "version": "1.0.0",
-  "author": "colorfulDots",
-  "homepage": "https://www.americanexpress.com",
-  "registry": "https://github.com/ColorfulDots/clyde-registry",
-  "appStore": null,
-  "color": "#016FD0",
-  "icon": "credit-card",
-  "tags": [
-    "finance",
-    "banking"
-  ],
-  "commands": [
-    {
-      "name": "Open American Express",
-      "keywords": [
-        "amex",
-        "american express",
-        "credit card",
-        "visa",
-        "mastercard"
-      ],
-      "executor": "urlScheme",
-      "target": "https://www.americanexpress.com",
-      "description": "Open American Express in your browser to manage your credit card"
-    }
-  ]
+  "redirect": "/user-commands",
+  "reason": "Deprecated: URL commands are now handled by the built-in URL parser."
 }

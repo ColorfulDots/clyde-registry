@@ -1,30 +1,5 @@
 {
   "id": "robinhood",
-  "displayName": "Robinhood",
-  "description": "Check your Robinhood investment portfolio.",
-  "version": "1.0.0",
-  "author": "colorfulDots",
-  "homepage": "https://robinhood.com",
-  "registry": "https://github.com/ColorfulDots/clyde-registry",
-  "appStore": null,
-  "color": "#00C805",
-  "icon": "trend-up",
-  "tags": [
-    "finance",
-    "investing"
-  ],
-  "commands": [
-    {
-      "name": "Open Robinhood",
-      "keywords": [
-        "robinhood",
-        "stocks",
-        "investing",
-        "portfolio"
-      ],
-      "executor": "urlScheme",
-      "target": "https://robinhood.com",
-      "description": "Open Robinhood in your browser to check your investment portfolio"
-    }
-  ]
+  "redirect": "/user-commands",
+  "reason": "Deprecated: URL commands are now handled by the built-in URL parser."
 }
