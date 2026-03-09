@@ -17,18 +17,6 @@
   ],
   "commands": [
     {
-      "name": "Open TickTick",
-      "keywords": [
-        "ticktick",
-        "tasks",
-        "todos",
-        "open"
-      ],
-      "executor": "urlScheme",
-      "target": "ticktick://",
-      "description": "Launch TickTick"
-    },
-    {
       "name": "TickTick Today",
       "keywords": [
         "ticktick",
@@ -37,7 +25,7 @@
         "daily"
       ],
       "executor": "urlScheme",
-      "target": "ticktick://today",
+      "target": "ticktick://v1/show?smartlist=today",
       "description": "Open your Today view in TickTick"
     },
     {
@@ -50,8 +38,20 @@
         "quick"
       ],
       "executor": "urlScheme",
-      "target": "ticktick://addtask",
+      "target": "ticktick://x-callback-url/v1/add_task?title=",
       "description": "Open the quick add dialog in TickTick"
+    },
+    {
+      "name": "TickTick Search",
+      "keywords": [
+        "ticktick",
+        "search",
+        "find",
+        "task"
+      ],
+      "executor": "urlScheme",
+      "target": "ticktick://v1/search?keyword=",
+      "description": "Open TickTick search"
     }
   ]
 }

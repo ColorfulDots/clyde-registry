@@ -1,7 +1,7 @@
 {
   "id": "tableplus",
   "displayName": "TablePlus",
-  "description": "Deep link into TablePlus database connections.",
+  "description": "Launch TablePlus database manager.",
   "version": "1.0.0",
   "author": "ColorfulDots",
   "homepage": "https://tableplus.com",
@@ -26,18 +26,6 @@
       "executor": "shell",
       "target": "open -a TablePlus",
       "description": "Launch TablePlus database manager"
-    },
-    {
-      "name": "New TablePlus Connection",
-      "keywords": [
-        "tableplus",
-        "new",
-        "connection",
-        "database"
-      ],
-      "executor": "urlScheme",
-      "target": "tableplus://new",
-      "description": "Open the new connection dialog in TablePlus"
     }
   ]
 }

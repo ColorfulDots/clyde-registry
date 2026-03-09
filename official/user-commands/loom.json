@@ -26,30 +26,6 @@
       "executor": "shell",
       "target": "open -a Loom",
       "description": "Launch the Loom screen recorder"
-    },
-    {
-      "name": "Start Loom Recording",
-      "keywords": [
-        "loom",
-        "record",
-        "start",
-        "screen capture"
-      ],
-      "executor": "urlScheme",
-      "target": "loom://record",
-      "description": "Start a new Loom screen recording immediately"
-    },
-    {
-      "name": "My Loom Videos",
-      "keywords": [
-        "loom",
-        "videos",
-        "library",
-        "recordings"
-      ],
-      "executor": "urlScheme",
-      "target": "https://www.loom.com/my-videos",
-      "description": "Open your Loom video library in the browser"
     }
   ]
 }

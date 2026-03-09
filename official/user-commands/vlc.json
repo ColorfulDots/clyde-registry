@@ -27,19 +27,6 @@
       "executor": "shell",
       "target": "open -a VLC",
       "description": "Launch VLC media player"
-    },
-    {
-      "name": "VLC Open Network Stream",
-      "keywords": [
-        "vlc",
-        "stream",
-        "network",
-        "url",
-        "play"
-      ],
-      "executor": "urlScheme",
-      "target": "vlc://",
-      "description": "Open a network stream in VLC"
     }
   ]
 }

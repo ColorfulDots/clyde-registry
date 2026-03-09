@@ -24,8 +24,8 @@
         "docs",
         "open"
       ],
-      "executor": "urlScheme",
-      "target": "craftdocs://",
+      "executor": "shell",
+      "target": "open -a Craft",
       "description": "Launch the Craft docs app"
     },
     {
@@ -40,18 +40,6 @@
       "executor": "urlScheme",
       "target": "craftdocs://createdocument",
       "description": "Create a new document in Craft"
-    },
-    {
-      "name": "Craft Search",
-      "keywords": [
-        "craft",
-        "search",
-        "find",
-        "document"
-      ],
-      "executor": "urlScheme",
-      "target": "craftdocs://search",
-      "description": "Open Craft with the search panel focused"
     }
   ]
 }

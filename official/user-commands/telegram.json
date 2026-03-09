@@ -23,8 +23,8 @@
         "chat",
         "messages"
       ],
-      "executor": "urlScheme",
-      "target": "tg://",
+      "executor": "shell",
+      "target": "open -a Telegram",
       "description": "Launch the Telegram app"
     },
     {
@@ -37,18 +37,6 @@
       "executor": "urlScheme",
       "target": "tg://settings",
       "description": "Open Telegram settings"
-    },
-    {
-      "name": "New Telegram Message",
-      "keywords": [
-        "telegram",
-        "new",
-        "message",
-        "compose"
-      ],
-      "executor": "urlScheme",
-      "target": "tg://msg",
-      "description": "Start a new message in Telegram"
     }
   ]
 }

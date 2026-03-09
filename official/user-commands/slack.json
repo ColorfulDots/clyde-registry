@@ -1,7 +1,7 @@
 {
   "id": "slack",
   "displayName": "Slack",
-  "description": "Deep link into Slack channels, DMs, and search.",
+  "description": "Launch Slack for team communication.",
   "version": "1.0.0",
   "author": "ColorfulDots",
   "homepage": "https://slack.com",
@@ -20,34 +20,12 @@
       "keywords": [
         "slack",
         "open",
-        "chat"
-      ],
-      "executor": "urlScheme",
-      "target": "slack://open",
-      "description": "Launch Slack and open your workspace"
-    },
-    {
-      "name": "Slack Search",
-      "keywords": [
-        "slack",
-        "search",
-        "find",
+        "chat",
         "messages"
       ],
       "executor": "urlScheme",
-      "target": "slack://search",
-      "description": "Open Slack with the search bar focused"
-    },
-    {
-      "name": "Slack Direct Messages",
-      "keywords": [
-        "slack",
-        "dm",
-        "direct message"
-      ],
-      "executor": "urlScheme",
-      "target": "slack://dm",
-      "description": "Jump to your Slack direct messages"
+      "target": "slack://open",
+      "description": "Launch Slack and open your default workspace"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "hookmark",
   "displayName": "Hookmark",
-  "description": "Deep link into Hookmark for contextual linking.",
+  "description": "Launch Hookmark for contextual linking.",
   "version": "1.0.0",
   "author": "ColorfulDots",
   "homepage": "https://hookproductivity.com",
@@ -23,33 +23,9 @@
         "links",
         "open"
       ],
-      "executor": "urlScheme",
-      "target": "hook://",
+      "executor": "shell",
+      "target": "open -a Hookmark",
       "description": "Launch Hookmark"
-    },
-    {
-      "name": "Hookmark Search",
-      "keywords": [
-        "hookmark",
-        "search",
-        "find",
-        "link"
-      ],
-      "executor": "urlScheme",
-      "target": "hook://search",
-      "description": "Open Hookmark search to find linked items"
-    },
-    {
-      "name": "Copy Hookmark Link",
-      "keywords": [
-        "hookmark",
-        "copy",
-        "link",
-        "url"
-      ],
-      "executor": "urlScheme",
-      "target": "hook://copy-link",
-      "description": "Copy a Hookmark deep link for the current item"
     }
   ]
 }

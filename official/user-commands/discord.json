@@ -1,7 +1,7 @@
 {
   "id": "discord",
   "displayName": "Discord",
-  "description": "Deep link into Discord servers and channels.",
+  "description": "Launch Discord for chat and community.",
   "version": "1.0.0",
   "author": "ColorfulDots",
   "homepage": "https://discord.com",
@@ -23,33 +23,9 @@
         "chat",
         "server"
       ],
-      "executor": "urlScheme",
-      "target": "discord://",
+      "executor": "shell",
+      "target": "open -a Discord",
       "description": "Launch the Discord desktop app"
-    },
-    {
-      "name": "Discord Friends",
-      "keywords": [
-        "discord",
-        "friends",
-        "dm",
-        "direct message"
-      ],
-      "executor": "urlScheme",
-      "target": "discord://friends",
-      "description": "Open your Discord friends list"
-    },
-    {
-      "name": "Discord Settings",
-      "keywords": [
-        "discord",
-        "settings",
-        "preferences",
-        "account"
-      ],
-      "executor": "urlScheme",
-      "target": "discord://settings",
-      "description": "Open Discord user settings"
     }
   ]
 }

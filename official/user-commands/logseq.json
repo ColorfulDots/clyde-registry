@@ -1,7 +1,7 @@
 {
   "id": "logseq",
   "displayName": "Logseq",
-  "description": "Deep link into Logseq for knowledge graphs and daily notes.",
+  "description": "Launch Logseq for knowledge graphs and daily notes.",
   "version": "1.0.0",
   "author": "ColorfulDots",
   "homepage": "https://logseq.com",
@@ -24,34 +24,9 @@
         "graph",
         "open"
       ],
-      "executor": "urlScheme",
-      "target": "logseq://",
+      "executor": "shell",
+      "target": "open -a Logseq",
       "description": "Launch Logseq"
-    },
-    {
-      "name": "Logseq Daily Note",
-      "keywords": [
-        "logseq",
-        "daily",
-        "note",
-        "journal",
-        "today"
-      ],
-      "executor": "urlScheme",
-      "target": "logseq://today",
-      "description": "Open today's daily note in Logseq"
-    },
-    {
-      "name": "Logseq Search",
-      "keywords": [
-        "logseq",
-        "search",
-        "find",
-        "page"
-      ],
-      "executor": "urlScheme",
-      "target": "logseq://search",
-      "description": "Open Logseq with search focused"
     }
   ]
 }

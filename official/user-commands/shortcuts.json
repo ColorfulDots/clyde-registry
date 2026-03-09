@@ -16,18 +16,6 @@
   ],
   "commands": [
     {
-      "name": "Open Shortcuts",
-      "keywords": [
-        "shortcuts",
-        "automation",
-        "apple",
-        "open"
-      ],
-      "executor": "urlScheme",
-      "target": "shortcuts://",
-      "description": "Launch the Apple Shortcuts app"
-    },
-    {
       "name": "New Shortcut",
       "keywords": [
         "shortcuts",
@@ -48,7 +36,7 @@
         "automation"
       ],
       "executor": "urlScheme",
-      "target": "shortcuts://run-shortcut",
+      "target": "shortcuts://run-shortcut?name=",
       "description": "Run a shortcut by name via Shortcuts"
     },
     {

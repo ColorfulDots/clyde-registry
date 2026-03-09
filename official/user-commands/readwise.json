@@ -1,7 +1,7 @@
 {
   "id": "readwise",
   "displayName": "Readwise Reader",
-  "description": "Deep link into Readwise Reader for highlights and articles.",
+  "description": "Launch Readwise Reader for highlights and articles.",
   "version": "1.0.0",
   "author": "ColorfulDots",
   "homepage": "https://readwise.io",
@@ -24,33 +24,9 @@
         "highlights",
         "open"
       ],
-      "executor": "urlScheme",
-      "target": "readwise://",
+      "executor": "shell",
+      "target": "open -a 'Readwise Reader'",
       "description": "Launch Readwise Reader"
-    },
-    {
-      "name": "Readwise Highlights",
-      "keywords": [
-        "readwise",
-        "highlights",
-        "review",
-        "notes"
-      ],
-      "executor": "urlScheme",
-      "target": "readwise://highlights",
-      "description": "Open your Readwise highlights for review"
-    },
-    {
-      "name": "Readwise Inbox",
-      "keywords": [
-        "readwise",
-        "inbox",
-        "articles",
-        "queue"
-      ],
-      "executor": "urlScheme",
-      "target": "readwise://inbox",
-      "description": "Open your Readwise Reader inbox"
     }
   ]
 }

@@ -26,31 +26,6 @@
       "executor": "shell",
       "target": "open -a Postman",
       "description": "Launch the Postman API client"
-    },
-    {
-      "name": "New Postman Request",
-      "keywords": [
-        "postman",
-        "new",
-        "request",
-        "api",
-        "http"
-      ],
-      "executor": "urlScheme",
-      "target": "postman://new/request",
-      "description": "Open a new API request tab in Postman"
-    },
-    {
-      "name": "Postman Collections",
-      "keywords": [
-        "postman",
-        "collections",
-        "api",
-        "browse"
-      ],
-      "executor": "urlScheme",
-      "target": "postman://collections",
-      "description": "Open your Postman collections"
     }
   ]
 }

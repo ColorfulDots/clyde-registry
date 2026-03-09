@@ -39,19 +39,6 @@
       "executor": "shell",
       "target": "open -a Fork '{{workspace_path}}'",
       "description": "Open the current project in Fork"
-    },
-    {
-      "name": "Fork New Repository",
-      "keywords": [
-        "fork",
-        "git",
-        "new",
-        "repo",
-        "clone"
-      ],
-      "executor": "urlScheme",
-      "target": "fork://clone",
-      "description": "Open the clone/new repository dialog in Fork"
     }
   ]
 }

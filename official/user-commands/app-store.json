@@ -16,18 +16,6 @@
   ],
   "commands": [
     {
-      "name": "Open App Store",
-      "keywords": [
-        "app store",
-        "apps",
-        "download",
-        "open"
-      ],
-      "executor": "urlScheme",
-      "target": "macappstore://",
-      "description": "Launch the macOS App Store"
-    },
-    {
       "name": "App Store Updates",
       "keywords": [
         "app store",
@@ -36,20 +24,20 @@
         "apps"
       ],
       "executor": "urlScheme",
-      "target": "macappstore://updates",
-      "description": "Open the Updates tab in the App Store"
+      "target": "macappstore://showUpdatesPage",
+      "description": "Open the Updates page in the App Store"
     },
     {
-      "name": "App Store Featured",
+      "name": "App Store Purchased",
       "keywords": [
         "app store",
-        "featured",
-        "discover",
+        "purchased",
+        "bought",
         "apps"
       ],
       "executor": "urlScheme",
-      "target": "macappstore://featured",
-      "description": "Browse featured apps in the App Store"
+      "target": "macappstore://showPurchasesPage",
+      "description": "Open the Purchased page in the App Store"
     }
   ]
 }

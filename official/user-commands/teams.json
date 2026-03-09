@@ -25,34 +25,9 @@
         "meetings",
         "open"
       ],
-      "executor": "urlScheme",
-      "target": "msteams://",
+      "executor": "shell",
+      "target": "open -a 'Microsoft Teams'",
       "description": "Launch Microsoft Teams"
-    },
-    {
-      "name": "New Teams Meeting",
-      "keywords": [
-        "teams",
-        "new",
-        "meeting",
-        "call",
-        "video"
-      ],
-      "executor": "urlScheme",
-      "target": "msteams://teams.microsoft.com/l/meeting/new",
-      "description": "Start a new meeting in Microsoft Teams"
-    },
-    {
-      "name": "Teams Chat",
-      "keywords": [
-        "teams",
-        "chat",
-        "message",
-        "dm"
-      ],
-      "executor": "urlScheme",
-      "target": "msteams://teams.microsoft.com/l/chat/new",
-      "description": "Open a new chat in Microsoft Teams"
     }
   ]
 }

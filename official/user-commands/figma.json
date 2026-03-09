@@ -1,7 +1,7 @@
 {
   "id": "figma",
   "displayName": "Figma",
-  "description": "Deep link into Figma files and projects.",
+  "description": "Launch Figma for design.",
   "version": "1.0.0",
   "author": "ColorfulDots",
   "homepage": "https://www.figma.com",
@@ -22,21 +22,9 @@
         "open",
         "design"
       ],
-      "executor": "urlScheme",
-      "target": "figma://",
+      "executor": "shell",
+      "target": "open -a Figma",
       "description": "Launch the Figma desktop app"
-    },
-    {
-      "name": "Figma Recent Files",
-      "keywords": [
-        "figma",
-        "recent",
-        "files",
-        "projects"
-      ],
-      "executor": "urlScheme",
-      "target": "figma://recent",
-      "description": "Open Figma and view your recent files"
     },
     {
       "name": "Figma Community",

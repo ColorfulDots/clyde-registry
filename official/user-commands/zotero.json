@@ -1,7 +1,7 @@
 {
   "id": "zotero",
   "displayName": "Zotero",
-  "description": "Deep link into Zotero for research and citations.",
+  "description": "Launch Zotero for research and citations.",
   "version": "1.0.0",
   "author": "ColorfulDots",
   "homepage": "https://www.zotero.org",
@@ -24,35 +24,9 @@
         "citations",
         "open"
       ],
-      "executor": "urlScheme",
-      "target": "zotero://",
+      "executor": "shell",
+      "target": "open -a Zotero",
       "description": "Launch Zotero reference manager"
-    },
-    {
-      "name": "Zotero Search",
-      "keywords": [
-        "zotero",
-        "search",
-        "find",
-        "reference",
-        "paper"
-      ],
-      "executor": "urlScheme",
-      "target": "zotero://search",
-      "description": "Open Zotero with search focused"
-    },
-    {
-      "name": "New Zotero Item",
-      "keywords": [
-        "zotero",
-        "new",
-        "item",
-        "add",
-        "reference"
-      ],
-      "executor": "urlScheme",
-      "target": "zotero://new",
-      "description": "Add a new item to your Zotero library"
     }
   ]
 }

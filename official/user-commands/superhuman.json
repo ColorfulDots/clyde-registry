@@ -1,7 +1,7 @@
 {
   "id": "superhuman",
   "displayName": "Superhuman",
-  "description": "Deep link into Superhuman email.",
+  "description": "Launch Superhuman email client.",
   "version": "1.0.0",
   "author": "ColorfulDots",
   "homepage": "https://superhuman.com",
@@ -23,22 +23,9 @@
         "inbox",
         "open"
       ],
-      "executor": "urlScheme",
-      "target": "superhuman://",
+      "executor": "shell",
+      "target": "open -a Superhuman",
       "description": "Launch Superhuman email client"
-    },
-    {
-      "name": "Compose Superhuman Email",
-      "keywords": [
-        "superhuman",
-        "compose",
-        "new",
-        "email",
-        "write"
-      ],
-      "executor": "urlScheme",
-      "target": "superhuman://compose",
-      "description": "Open a new compose window in Superhuman"
     }
   ]
 }

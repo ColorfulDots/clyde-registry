@@ -1,7 +1,7 @@
 {
   "id": "mimestream",
   "displayName": "Mimestream",
-  "description": "Deep link into Mimestream Gmail client.",
+  "description": "Launch Mimestream Gmail client.",
   "version": "1.0.0",
   "author": "ColorfulDots",
   "homepage": "https://mimestream.com",
@@ -26,19 +26,6 @@
       "executor": "shell",
       "target": "open -a Mimestream",
       "description": "Launch Mimestream Gmail client"
-    },
-    {
-      "name": "Compose Mimestream Email",
-      "keywords": [
-        "mimestream",
-        "compose",
-        "new",
-        "email",
-        "write"
-      ],
-      "executor": "urlScheme",
-      "target": "mimestream://compose",
-      "description": "Open a new compose window in Mimestream"
     }
   ]
 }

@@ -28,19 +28,6 @@
       "executor": "shell",
       "target": "open -a Insomnia",
       "description": "Launch the Insomnia API client"
-    },
-    {
-      "name": "New Insomnia Request",
-      "keywords": [
-        "insomnia",
-        "new",
-        "request",
-        "api",
-        "http"
-      ],
-      "executor": "urlScheme",
-      "target": "insomnia://new/request",
-      "description": "Open a new request in Insomnia"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "plex",
   "displayName": "Plex",
-  "description": "Deep link into Plex media server.",
+  "description": "Launch Plex media server.",
   "version": "1.0.0",
   "author": "ColorfulDots",
   "homepage": "https://www.plex.tv",
@@ -25,34 +25,9 @@
         "tv",
         "open"
       ],
-      "executor": "urlScheme",
-      "target": "plex://",
+      "executor": "shell",
+      "target": "open -a Plex",
       "description": "Launch the Plex media player"
-    },
-    {
-      "name": "Plex Now Playing",
-      "keywords": [
-        "plex",
-        "now playing",
-        "watch",
-        "media"
-      ],
-      "executor": "urlScheme",
-      "target": "plex://now-playing",
-      "description": "Open the Plex now playing screen"
-    },
-    {
-      "name": "Plex Library",
-      "keywords": [
-        "plex",
-        "library",
-        "browse",
-        "movies",
-        "tv"
-      ],
-      "executor": "urlScheme",
-      "target": "plex://library",
-      "description": "Browse your Plex media library"
     }
   ]
 }

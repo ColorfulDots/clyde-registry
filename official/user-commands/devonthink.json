@@ -1,7 +1,7 @@
 {
   "id": "devonthink",
   "displayName": "DEVONthink",
-  "description": "Deep link into DEVONthink for knowledge management.",
+  "description": "Launch DEVONthink for knowledge management.",
   "version": "1.0.0",
   "author": "ColorfulDots",
   "homepage": "https://www.devontechnologies.com/apps/devonthink",
@@ -27,18 +27,6 @@
       "executor": "shell",
       "target": "open -a DEVONthink",
       "description": "Launch DEVONthink"
-    },
-    {
-      "name": "DEVONthink Search",
-      "keywords": [
-        "devonthink",
-        "search",
-        "find",
-        "document"
-      ],
-      "executor": "urlScheme",
-      "target": "x-devonthink-item://search",
-      "description": "Open DEVONthink with search focused"
     },
     {
       "name": "New DEVONthink Document",

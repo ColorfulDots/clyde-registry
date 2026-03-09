@@ -23,8 +23,8 @@
         "chat",
         "messages"
       ],
-      "executor": "urlScheme",
-      "target": "whatsapp://",
+      "executor": "shell",
+      "target": "open -a WhatsApp",
       "description": "Launch the WhatsApp desktop app"
     },
     {
@@ -37,7 +37,7 @@
         "send"
       ],
       "executor": "urlScheme",
-      "target": "whatsapp://send",
+      "target": "whatsapp://send?text=",
       "description": "Open a new message dialog in WhatsApp"
     }
   ]

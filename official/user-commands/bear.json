@@ -16,18 +16,6 @@
   ],
   "commands": [
     {
-      "name": "Open Bear",
-      "keywords": [
-        "bear",
-        "notes",
-        "open",
-        "writing"
-      ],
-      "executor": "urlScheme",
-      "target": "bear://",
-      "description": "Launch the Bear notes app"
-    },
-    {
       "name": "New Bear Note",
       "keywords": [
         "bear",
@@ -37,8 +25,8 @@
         "write"
       ],
       "executor": "urlScheme",
-      "target": "bear://x-callback-url/create",
-      "description": "Create a new blank note in Bear"
+      "target": "bear://x-callback-url/create?title=New%20Note",
+      "description": "Create a new note in Bear"
     },
     {
       "name": "Bear Search",
@@ -62,7 +50,19 @@
       ],
       "executor": "urlScheme",
       "target": "bear://x-callback-url/today",
-      "description": "Open or create today's daily note in Bear"
+      "description": "Open today's notes in Bear"
+    },
+    {
+      "name": "Bear Tags",
+      "keywords": [
+        "bear",
+        "tags",
+        "browse",
+        "organize"
+      ],
+      "executor": "urlScheme",
+      "target": "bear://x-callback-url/tags",
+      "description": "View all tags in Bear"
     }
   ]
 }

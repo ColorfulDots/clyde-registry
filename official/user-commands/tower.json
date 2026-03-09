@@ -1,7 +1,7 @@
 {
   "id": "tower",
   "displayName": "Tower",
-  "description": "Deep link into Tower Git client.",
+  "description": "Launch Tower Git client.",
   "version": "1.0.0",
   "author": "ColorfulDots",
   "homepage": "https://www.git-tower.com",
@@ -23,21 +23,9 @@
         "open",
         "repos"
       ],
-      "executor": "urlScheme",
-      "target": "tower://",
+      "executor": "shell",
+      "target": "open -a Tower",
       "description": "Launch the Tower Git client"
-    },
-    {
-      "name": "Tower Repository Browser",
-      "keywords": [
-        "tower",
-        "git",
-        "repos",
-        "browse"
-      ],
-      "executor": "urlScheme",
-      "target": "tower://repos",
-      "description": "Open the Tower repository browser"
     },
     {
       "name": "Open Project in Tower",

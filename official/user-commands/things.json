@@ -16,18 +16,6 @@
   ],
   "commands": [
     {
-      "name": "Open Things",
-      "keywords": [
-        "things",
-        "tasks",
-        "todos",
-        "open"
-      ],
-      "executor": "urlScheme",
-      "target": "things:///",
-      "description": "Launch Things 3 task manager"
-    },
-    {
       "name": "Things Today",
       "keywords": [
         "things",
@@ -76,6 +64,18 @@
       "executor": "urlScheme",
       "target": "things:///show?id=upcoming",
       "description": "View your upcoming scheduled tasks in Things 3"
+    },
+    {
+      "name": "Things Search",
+      "keywords": [
+        "things",
+        "search",
+        "find",
+        "task"
+      ],
+      "executor": "urlScheme",
+      "target": "things:///search",
+      "description": "Open the search dialog in Things 3"
     }
   ]
 }

@@ -26,19 +26,6 @@
       "executor": "shell",
       "target": "open -a IINA",
       "description": "Launch the IINA video player"
-    },
-    {
-      "name": "IINA Open URL",
-      "keywords": [
-        "iina",
-        "url",
-        "stream",
-        "video",
-        "play"
-      ],
-      "executor": "urlScheme",
-      "target": "iina://open",
-      "description": "Open a URL or stream in IINA"
     }
   ]
 }

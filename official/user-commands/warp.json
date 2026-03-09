@@ -39,18 +39,6 @@
       "executor": "shell",
       "target": "open -a Warp '{{workspace_path}}'",
       "description": "Open the current project folder in Warp"
-    },
-    {
-      "name": "New Warp Window",
-      "keywords": [
-        "warp",
-        "new",
-        "window",
-        "terminal"
-      ],
-      "executor": "urlScheme",
-      "target": "warp://new-window",
-      "description": "Open a new Warp terminal window"
     }
   ]
 }

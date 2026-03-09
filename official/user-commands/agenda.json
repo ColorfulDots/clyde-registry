@@ -1,7 +1,7 @@
 {
   "id": "agenda",
   "displayName": "Agenda",
-  "description": "Deep link into Agenda notes and projects.",
+  "description": "Launch Agenda notes and projects.",
   "version": "1.0.0",
   "author": "ColorfulDots",
   "homepage": "https://agenda.com",
@@ -22,33 +22,9 @@
         "notes",
         "open"
       ],
-      "executor": "urlScheme",
-      "target": "agenda://",
+      "executor": "shell",
+      "target": "open -a Agenda",
       "description": "Launch the Agenda app"
-    },
-    {
-      "name": "Agenda Today",
-      "keywords": [
-        "agenda",
-        "today",
-        "daily",
-        "notes"
-      ],
-      "executor": "urlScheme",
-      "target": "agenda://today",
-      "description": "Open today's notes in Agenda"
-    },
-    {
-      "name": "New Agenda Note",
-      "keywords": [
-        "agenda",
-        "new",
-        "note",
-        "create"
-      ],
-      "executor": "urlScheme",
-      "target": "agenda://new",
-      "description": "Create a new note in Agenda"
     }
   ]
 }

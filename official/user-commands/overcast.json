@@ -1,7 +1,7 @@
 {
   "id": "overcast",
   "displayName": "Overcast",
-  "description": "Deep link into Overcast podcast player.",
+  "description": "Launch Overcast podcast player.",
   "version": "1.0.0",
   "author": "ColorfulDots",
   "homepage": "https://overcast.fm",
@@ -23,21 +23,9 @@
         "audio",
         "open"
       ],
-      "executor": "urlScheme",
-      "target": "overcast://",
+      "executor": "shell",
+      "target": "open -a Overcast",
       "description": "Launch Overcast podcast player"
-    },
-    {
-      "name": "Overcast Now Playing",
-      "keywords": [
-        "overcast",
-        "now playing",
-        "podcast",
-        "listen"
-      ],
-      "executor": "urlScheme",
-      "target": "overcast://now-playing",
-      "description": "Jump to the now playing episode in Overcast"
     }
   ]
 }

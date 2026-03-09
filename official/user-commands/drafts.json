@@ -17,18 +17,6 @@
   ],
   "commands": [
     {
-      "name": "Open Drafts",
-      "keywords": [
-        "drafts",
-        "notes",
-        "open",
-        "capture"
-      ],
-      "executor": "urlScheme",
-      "target": "drafts://",
-      "description": "Launch the Drafts app"
-    },
-    {
       "name": "New Draft",
       "keywords": [
         "drafts",
@@ -38,11 +26,11 @@
         "write"
       ],
       "executor": "urlScheme",
-      "target": "drafts://create",
+      "target": "drafts://x-callback-url/create?text=",
       "description": "Open a new blank draft in Drafts"
     },
     {
-      "name": "Drafts Search",
+      "name": "Drafts Quick Search",
       "keywords": [
         "drafts",
         "search",
@@ -50,20 +38,32 @@
         "note"
       ],
       "executor": "urlScheme",
-      "target": "drafts://search",
-      "description": "Open Drafts with the search bar focused"
+      "target": "drafts://x-callback-url/quickSearch",
+      "description": "Open Drafts with the quick search bar focused"
     },
     {
-      "name": "Drafts Inbox",
+      "name": "Drafts Capture from Clipboard",
       "keywords": [
         "drafts",
-        "inbox",
-        "list",
-        "all"
+        "clipboard",
+        "capture",
+        "paste"
       ],
       "executor": "urlScheme",
-      "target": "drafts://inbox",
-      "description": "Open the Drafts inbox"
+      "target": "drafts://x-callback-url/create?text=%7C%7Cclipboard%7C%7C",
+      "description": "Create a new draft from your clipboard contents"
+    },
+    {
+      "name": "Drafts Dictation",
+      "keywords": [
+        "drafts",
+        "dictate",
+        "voice",
+        "speech"
+      ],
+      "executor": "urlScheme",
+      "target": "drafts://x-callback-url/dictate",
+      "description": "Open Drafts in dictation mode"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "skype",
   "displayName": "Skype",
-  "description": "Deep link into Skype for calls and messaging.",
+  "description": "Launch Skype for calls and messaging.",
   "version": "1.0.0",
   "author": "ColorfulDots",
   "homepage": "https://www.skype.com",
@@ -24,21 +24,9 @@
         "video",
         "open"
       ],
-      "executor": "urlScheme",
-      "target": "skype://",
+      "executor": "shell",
+      "target": "open -a Skype",
       "description": "Launch Skype"
-    },
-    {
-      "name": "Skype Call",
-      "keywords": [
-        "skype",
-        "call",
-        "video",
-        "audio"
-      ],
-      "executor": "urlScheme",
-      "target": "skype://call",
-      "description": "Start a new Skype call"
     }
   ]
 }

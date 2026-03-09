@@ -1,7 +1,7 @@
 {
   "id": "jira",
   "displayName": "Jira",
-  "description": "Deep link into Jira issues and boards.",
+  "description": "Launch Jira for issue tracking.",
   "version": "1.0.0",
   "author": "ColorfulDots",
   "homepage": "https://www.atlassian.com/software/jira",
@@ -24,47 +24,9 @@
         "issues",
         "board"
       ],
-      "executor": "urlScheme",
-      "target": "jira://",
+      "executor": "shell",
+      "target": "open -a Jira",
       "description": "Launch the Jira app"
-    },
-    {
-      "name": "My Jira Issues",
-      "keywords": [
-        "jira",
-        "my issues",
-        "assigned",
-        "tasks"
-      ],
-      "executor": "urlScheme",
-      "target": "jira://my-issues",
-      "description": "View issues currently assigned to you in Jira"
-    },
-    {
-      "name": "Jira Board",
-      "keywords": [
-        "jira",
-        "board",
-        "sprint",
-        "kanban"
-      ],
-      "executor": "urlScheme",
-      "target": "jira://board",
-      "description": "Open your active Jira sprint board"
-    },
-    {
-      "name": "New Jira Issue",
-      "keywords": [
-        "jira",
-        "new",
-        "issue",
-        "create",
-        "ticket",
-        "bug"
-      ],
-      "executor": "urlScheme",
-      "target": "jira://new-issue",
-      "description": "Open the create issue dialog in Jira"
     }
   ]
 }

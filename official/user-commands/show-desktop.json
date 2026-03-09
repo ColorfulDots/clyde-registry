@@ -22,7 +22,7 @@
         "hide windows"
       ],
       "executor": "applescript",
-      "target": "tell application \"System Events\" to key code 103 using {command down, mission control key}",
+      "target": "tell application \"Finder\"\nset visible of every process of application \"System Events\" whose visible is true and name is not \"Finder\" to false\nactivate\nend tell",
       "description": "Hide all open windows to reveal the desktop"
     }
   ]

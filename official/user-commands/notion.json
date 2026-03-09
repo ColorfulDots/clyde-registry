@@ -1,7 +1,7 @@
 {
   "id": "notion",
   "displayName": "Notion",
-  "description": "Deep link into Notion pages and workspaces.",
+  "description": "Launch Notion for notes and workspace.",
   "version": "1.0.0",
   "author": "ColorfulDots",
   "homepage": "https://www.notion.so",
@@ -23,33 +23,9 @@
         "notes",
         "workspace"
       ],
-      "executor": "urlScheme",
-      "target": "notion://",
+      "executor": "shell",
+      "target": "open -a Notion",
       "description": "Launch Notion and open your workspace"
-    },
-    {
-      "name": "New Notion Page",
-      "keywords": [
-        "notion",
-        "new",
-        "page",
-        "create"
-      ],
-      "executor": "urlScheme",
-      "target": "notion://new",
-      "description": "Create a new page in Notion"
-    },
-    {
-      "name": "Notion Search",
-      "keywords": [
-        "notion",
-        "search",
-        "find",
-        "page"
-      ],
-      "executor": "urlScheme",
-      "target": "notion://search",
-      "description": "Open Notion with quick search focused"
     }
   ]
 }

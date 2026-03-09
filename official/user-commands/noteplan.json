@@ -1,7 +1,7 @@
 {
   "id": "noteplan",
   "displayName": "NotePlan",
-  "description": "Deep link into NotePlan for daily planning and notes.",
+  "description": "Launch NotePlan for daily planning and notes.",
   "version": "1.0.0",
   "author": "ColorfulDots",
   "homepage": "https://noteplan.co",
@@ -24,33 +24,9 @@
         "planning",
         "open"
       ],
-      "executor": "urlScheme",
-      "target": "noteplan://",
+      "executor": "shell",
+      "target": "open -a NotePlan",
       "description": "Launch NotePlan"
-    },
-    {
-      "name": "NotePlan Today",
-      "keywords": [
-        "noteplan",
-        "today",
-        "daily",
-        "note"
-      ],
-      "executor": "urlScheme",
-      "target": "noteplan://today",
-      "description": "Open today's daily note in NotePlan"
-    },
-    {
-      "name": "New NotePlan Note",
-      "keywords": [
-        "noteplan",
-        "new",
-        "note",
-        "create"
-      ],
-      "executor": "urlScheme",
-      "target": "noteplan://new",
-      "description": "Create a new note in NotePlan"
     }
   ]
 }

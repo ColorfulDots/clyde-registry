@@ -1,7 +1,7 @@
 {
   "id": "signal",
   "displayName": "Signal",
-  "description": "Deep link into Signal for private messaging.",
+  "description": "Launch Signal for private messaging.",
   "version": "1.0.0",
   "author": "ColorfulDots",
   "homepage": "https://signal.org",
@@ -24,21 +24,9 @@
         "private",
         "open"
       ],
-      "executor": "urlScheme",
-      "target": "sgnl://",
+      "executor": "shell",
+      "target": "open -a Signal",
       "description": "Launch Signal private messenger"
-    },
-    {
-      "name": "New Signal Message",
-      "keywords": [
-        "signal",
-        "new",
-        "message",
-        "compose"
-      ],
-      "executor": "urlScheme",
-      "target": "sgnl://compose",
-      "description": "Start a new message in Signal"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "arc",
   "displayName": "Arc Browser",
-  "description": "Deep link into Arc browser features.",
+  "description": "Launch Arc browser.",
   "version": "1.0.0",
   "author": "ColorfulDots",
   "homepage": "https://arc.net",
@@ -24,30 +24,6 @@
       "executor": "shell",
       "target": "open -a Arc",
       "description": "Launch the Arc browser"
-    },
-    {
-      "name": "New Arc Window",
-      "keywords": [
-        "arc",
-        "new",
-        "window",
-        "browser"
-      ],
-      "executor": "urlScheme",
-      "target": "arc://new-window",
-      "description": "Open a new Arc browser window"
-    },
-    {
-      "name": "Arc Command Bar",
-      "keywords": [
-        "arc",
-        "command",
-        "search",
-        "bar"
-      ],
-      "executor": "urlScheme",
-      "target": "arc://command-bar",
-      "description": "Open the Arc command bar"
     }
   ]
 }
