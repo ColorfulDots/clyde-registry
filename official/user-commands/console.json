@@ -3,7 +3,7 @@
   "displayName": "Console",
   "description": "Launch macOS Console to view system logs.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://support.apple.com/guide/console/welcome/mac",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

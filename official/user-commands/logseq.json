@@ -3,7 +3,7 @@
   "displayName": "Logseq",
   "description": "Deep link into Logseq for knowledge graphs and daily notes.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://logseq.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

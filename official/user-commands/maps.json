@@ -3,7 +3,7 @@
   "displayName": "Apple Maps",
   "description": "Deep link into Apple Maps for navigation.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://maps.apple.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

@@ -3,7 +3,7 @@
   "displayName": "Apple Mail",
   "description": "Deep link into Apple Mail.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://apps.apple.com/app/mail/id1108187098",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

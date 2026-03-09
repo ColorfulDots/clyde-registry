@@ -3,7 +3,7 @@
   "displayName": "Arc Browser",
   "description": "Deep link into Arc browser features.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://arc.net",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/arc-browser/id1643971956",

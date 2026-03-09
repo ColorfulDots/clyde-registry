@@ -3,7 +3,7 @@
   "displayName": "Docker",
   "description": "Manage Docker containers and images.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://www.docker.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

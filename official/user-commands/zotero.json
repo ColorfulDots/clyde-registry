@@ -3,7 +3,7 @@
   "displayName": "Zotero",
   "description": "Deep link into Zotero for research and citations.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://www.zotero.org",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

@@ -3,7 +3,7 @@
   "displayName": "App Store",
   "description": "Deep link into the macOS App Store.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://www.apple.com/app-store",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

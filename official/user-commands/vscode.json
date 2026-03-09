@@ -3,7 +3,7 @@
   "displayName": "VS Code",
   "description": "Launch Visual Studio Code.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://code.visualstudio.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

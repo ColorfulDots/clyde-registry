@@ -3,7 +3,7 @@
   "displayName": "Apple Music",
   "description": "Control Apple Music playback via AppleScript.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://music.apple.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

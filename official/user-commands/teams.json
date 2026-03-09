@@ -3,7 +3,7 @@
   "displayName": "Microsoft Teams",
   "description": "Deep link into Microsoft Teams.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://www.microsoft.com/microsoft-teams",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/microsoft-teams/id1113153706",

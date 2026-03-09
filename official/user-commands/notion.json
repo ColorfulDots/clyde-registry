@@ -3,7 +3,7 @@
   "displayName": "Notion",
   "description": "Deep link into Notion pages and workspaces.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://www.notion.so",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/notion-notes-docs-tasks/id1559269364",

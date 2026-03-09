@@ -3,7 +3,7 @@
   "displayName": "Terminal",
   "description": "Launch the macOS Terminal app.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://support.apple.com/guide/terminal/welcome/mac",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

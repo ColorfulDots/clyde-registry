@@ -3,7 +3,7 @@
   "displayName": "Dash",
   "description": "Deep link into Dash for instant documentation lookup.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://kapeli.com/dash",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/dash-api-docs-snippets/id458034879",

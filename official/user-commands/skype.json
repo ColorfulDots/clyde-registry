@@ -3,7 +3,7 @@
   "displayName": "Skype",
   "description": "Deep link into Skype for calls and messaging.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://www.skype.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/skype/id304878510",

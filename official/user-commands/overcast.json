@@ -3,7 +3,7 @@
   "displayName": "Overcast",
   "description": "Deep link into Overcast podcast player.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://overcast.fm",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/overcast/id888422857",

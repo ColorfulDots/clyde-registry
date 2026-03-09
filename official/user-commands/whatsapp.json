@@ -3,7 +3,7 @@
   "displayName": "WhatsApp",
   "description": "Deep link into WhatsApp chats.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://www.whatsapp.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/whatsapp-desktop/id1147396723",

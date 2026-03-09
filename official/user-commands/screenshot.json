@@ -3,7 +3,7 @@
   "displayName": "Screenshot",
   "description": "Take a screenshot and save to desktop.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://support.apple.com/en-us/102646",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

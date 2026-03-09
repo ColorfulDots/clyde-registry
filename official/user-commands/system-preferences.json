@@ -3,7 +3,7 @@
   "displayName": "System Settings",
   "description": "Deep link into macOS System Settings panels.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://support.apple.com/guide/mac-help/system-settings-mh15217",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

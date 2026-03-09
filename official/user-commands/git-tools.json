@@ -3,7 +3,7 @@
   "displayName": "Git Tools",
   "description": "Common Git operations from the command line.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://git-scm.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

@@ -3,7 +3,7 @@
   "displayName": "Readwise Reader",
   "description": "Deep link into Readwise Reader for highlights and articles.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://readwise.io",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/readwise-reader/id1567599761",

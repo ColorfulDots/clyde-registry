@@ -3,7 +3,7 @@
   "displayName": "Tower",
   "description": "Deep link into Tower Git client.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://www.git-tower.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/tower-git-client/id1449505718",

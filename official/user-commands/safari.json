@@ -3,7 +3,7 @@
   "displayName": "Safari",
   "description": "Launch Safari and open browser features.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://www.apple.com/safari",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

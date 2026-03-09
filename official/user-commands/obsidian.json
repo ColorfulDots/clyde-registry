@@ -3,7 +3,7 @@
   "displayName": "Obsidian",
   "description": "Deep link into Obsidian vaults and notes.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://obsidian.md",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

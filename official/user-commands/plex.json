@@ -3,7 +3,7 @@
   "displayName": "Plex",
   "description": "Deep link into Plex media server.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://www.plex.tv",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/plex-movies-tv-music-more/id383457673",

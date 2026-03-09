@@ -3,7 +3,7 @@
   "displayName": "Calendar",
   "description": "Deep link into Apple Calendar.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://apps.apple.com/app/calendar/id1108185179",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

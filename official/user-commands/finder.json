@@ -3,7 +3,7 @@
   "displayName": "Finder",
   "description": "Navigate the macOS Finder quickly.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://support.apple.com/en-us/100414",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

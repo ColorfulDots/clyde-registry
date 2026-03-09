@@ -3,7 +3,7 @@
   "displayName": "ScreenFlow",
   "description": "Launch ScreenFlow for screen recording and video editing.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://www.telestream.net/screenflow",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/screenflow/id1475796261",

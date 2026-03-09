@@ -3,7 +3,7 @@
   "displayName": "Signal",
   "description": "Deep link into Signal for private messaging.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://signal.org",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/signal-private-messenger/id874139669",

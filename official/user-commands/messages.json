@@ -3,7 +3,7 @@
   "displayName": "Messages",
   "description": "Deep link into Apple Messages.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://apps.apple.com/app/messages/id1146560473",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

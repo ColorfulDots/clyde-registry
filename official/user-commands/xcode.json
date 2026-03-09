@@ -3,7 +3,7 @@
   "displayName": "Xcode",
   "description": "Launch Xcode and open developer tools.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://developer.apple.com/xcode",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/xcode/id497799835",

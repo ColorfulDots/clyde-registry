@@ -3,7 +3,7 @@
   "displayName": "VLC",
   "description": "Launch VLC media player.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://www.videolan.org/vlc",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/vlc-media-player/id650377962",

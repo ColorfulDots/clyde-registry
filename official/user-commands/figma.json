@@ -3,7 +3,7 @@
   "displayName": "Figma",
   "description": "Deep link into Figma files and projects.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://www.figma.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/figma/id1152002983",

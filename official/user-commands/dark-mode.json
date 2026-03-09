@@ -3,7 +3,7 @@
   "displayName": "Dark Mode",
   "description": "Toggle macOS dark and light mode.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://support.apple.com/en-us/102191",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

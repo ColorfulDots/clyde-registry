@@ -3,7 +3,7 @@
   "displayName": "NPM Scripts",
   "description": "Run common npm commands in your project.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://www.npmjs.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

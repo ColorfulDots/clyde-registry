@@ -3,7 +3,7 @@
   "displayName": "Disk Utility",
   "description": "Launch macOS Disk Utility for disk management.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://support.apple.com/guide/disk-utility/welcome/mac",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

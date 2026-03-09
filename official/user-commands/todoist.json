@@ -3,7 +3,7 @@
   "displayName": "Todoist",
   "description": "Deep link into Todoist for task management.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://todoist.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/todoist-to-do-list-tasks/id585829637",

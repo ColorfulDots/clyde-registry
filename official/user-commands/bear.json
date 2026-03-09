@@ -3,7 +3,7 @@
   "displayName": "Bear",
   "description": "Deep link into Bear notes app.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://bear.app",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/bear/id1091189122",

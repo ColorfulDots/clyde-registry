@@ -3,7 +3,7 @@
   "displayName": "OmniFocus",
   "description": "Deep link into OmniFocus for advanced task management.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://www.omnigroup.com/omnifocus",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/omnifocus-4/id1542143627",

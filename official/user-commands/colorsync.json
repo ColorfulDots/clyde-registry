@@ -3,7 +3,7 @@
   "displayName": "ColorSync Utility",
   "description": "Launch macOS ColorSync Utility for color profile management.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://support.apple.com/guide/colorsync-utility/welcome/mac",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

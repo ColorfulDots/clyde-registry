@@ -3,7 +3,7 @@
   "displayName": "Shortcuts",
   "description": "Deep link into Apple Shortcuts to run automations.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://apps.apple.com/app/shortcuts/id915249334",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

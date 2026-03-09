@@ -3,7 +3,7 @@
   "displayName": "Reminders",
   "description": "Deep link into Apple Reminders.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://apps.apple.com/app/reminders/id1108187841",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

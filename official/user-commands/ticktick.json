@@ -3,7 +3,7 @@
   "displayName": "TickTick",
   "description": "Deep link into TickTick for task and habit management.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://ticktick.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/ticktick-to-do-list-planner/id966085870",

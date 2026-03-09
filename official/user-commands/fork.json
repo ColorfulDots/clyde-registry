@@ -3,7 +3,7 @@
   "displayName": "Fork",
   "description": "Launch Fork Git client.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://git-fork.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

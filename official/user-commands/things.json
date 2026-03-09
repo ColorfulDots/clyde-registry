@@ -3,7 +3,7 @@
   "displayName": "Things 3",
   "description": "Deep link into Things 3 for task management.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://culturedcode.com/things",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/things-3/id904280696",

@@ -3,7 +3,7 @@
   "displayName": "Keychain Access",
   "description": "Launch macOS Keychain Access for credential management.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://support.apple.com/guide/keychain-access/welcome/mac",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,

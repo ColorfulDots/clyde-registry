@@ -3,7 +3,7 @@
   "displayName": "Slack",
   "description": "Deep link into Slack channels, DMs, and search.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://slack.com",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": "https://apps.apple.com/app/slack-for-desktop/id803453959",

@@ -3,7 +3,7 @@
   "displayName": "Firefox",
   "description": "Launch Firefox and open browser features.",
   "version": "1.0.0",
-  "author": "colorfulDots",
+  "author": "ColorfulDots",
   "homepage": "https://www.mozilla.org/firefox",
   "registry": "https://github.com/ColorfulDots/clyde-registry",
   "appStore": null,
